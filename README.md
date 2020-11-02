@@ -5,7 +5,7 @@
 
 1. 分流引用 https://raw.githubusercontent.com/kkAtGithub/rule_integration/main/result/Filter_integrated.list
 2. 重写引用 https://raw.githubusercontent.com/kkAtGithub/rule_integration/main/result/Rewrite_integrated.list
-3. 然后配置好证书📄（如已配置可忽略）
+3. 然后配置好证书（如已配置可忽略）
 4. 如仍有广告请清除浏览器缓存后重试
 
 
