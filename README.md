@@ -1,5 +1,5 @@
 # rule_integration
-去广告规则整合计划 For QuantumultX，本计划会长期更新
+规则整合 For Quantumult X
 
 ## 使用方法
 
