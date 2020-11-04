@@ -1,6 +1,4 @@
 import os
-import requests
-import sys
 from urllib.request import Request, urlopen
 
 
