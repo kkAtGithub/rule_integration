@@ -6,7 +6,7 @@ from urllib.request import Request, urlopen
 
 
 RESULT = ''
-HC_PING_URL = 'https://hc-ping.com/$TOKEN$'
+# HC_PING_URL = 'https://hc-ping.com/$TOKEN$'
 
 
 def read_list(file_name_2b):
@@ -47,7 +47,7 @@ def read_list(file_name_2b):
                     result = f'{result}\n'
                 except Exception as e:
                     log_fail = f'Error: Fail to get rule from {list_url} \n {e} '
-                    requests.post(f'{HC_PING_URL}/fail', data=log_fail)
+#                    requests.post(f'{HC_PING_URL}/fail', data=log_fail)
     if len(hostname) > 0:
         result_hostname = 'hostname = '
         for entry_hostname in hostname.keys():
@@ -59,11 +59,11 @@ def read_list(file_name_2b):
 
 if __name__ == '__main__':
     log = ''
-    HC_PING_URL.replace('$TOKEN$', sys.argv[1])
+#    HC_PING_URL.replace('$TOKEN$', sys.argv[1])
     list_2b_dir_input = os.walk(f'list_2B')
     if not os.path.exists(f'result'):
         os.mkdir(f'result')
-    requests.get(f'{HC_PING_URL}/start', timeout=10)
+#    requests.get(f'{HC_PING_URL}/start', timeout=10)
     for path, dir_list, file_list in list_2b_dir_input:
         for file_name in file_list:
             os.system(f'echo {file_name}')
@@ -74,6 +74,6 @@ if __name__ == '__main__':
                     results.write(RESULT)
                     results.flush()
                 log = f'{log}{file_name_new} : {count} \n'
-    requests.post(f'{HC_PING_URL}', data=log)
+#    requests.post(f'{HC_PING_URL}', data=log)
 
 
