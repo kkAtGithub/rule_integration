@@ -13,8 +13,8 @@ on:
 env:
   USER_EMAIL: ${{ secrets.USER_EMAIL }}
   USER_NAME: ${{ secrets.USER_NAME }}
-  HC_PING_TOKEN: ${{ secrets.HC_PING_TOKEN }}
-  REPO_BRANCH: ${{ secrets.REPO_BRANCH }}
+#  HC_PING_TOKEN: ${{ secrets.HC_PING_TOKEN }}
+#  REPO_BRANCH: ${{ secrets.REPO_BRANCH }}
   REPO_TOKEN: ${{ secrets.REPO_TOKEN }}
 jobs:
   build:
@@ -40,7 +40,7 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Run rule integration
       run: |
-        python3 rule_integrator.py ${HC_PING_TOKEN}
+        python3 rule_integrator.py
         
     - name: Commit and Merge
       run: |
@@ -60,7 +60,7 @@ jobs:
         # Repository name to push. Default or empty value represents current github repository (${GITHUB_REPOSITORY})
         # repository: # optional, default is 
         # Destination branch to push changes
-        branch: ${REPO_BRANCH}
+        branch: main
         # Determines if force push is used
         force: true
         # Determines if --tags is used
