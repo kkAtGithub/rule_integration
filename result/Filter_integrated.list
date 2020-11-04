@@ -8,6 +8,7 @@ DOMAIN-SUFFIX,ads.exosrv.com,REJECT
 DOMAIN-KEYWORD,exosrv,REJECT
 DOMAIN-KEYWORD,asewlfjqwlflkew,REJECT
 DOMAIN-SUFFIX,tyrantdb.com,REJECT
+DOMAIN-SUFFIX,adserve.work,REJECT
 DOMAIN-SUFFIX,s96.cnzz.com,REJECT
 DOMAIN-SUFFIX,xn--3bs795g.zone,REJECT
 DOMAIN-SUFFIX,xn--2qux23c9ziyrq.plus,REJECT
@@ -32,6 +33,10 @@ DOMAIN-SUFFIX,51daeka.com,REJECT
 DOMAIN-SUFFIX,trafficjunky.com,REJECT
 DOMAIN-SUFFIX,adserver.juicyads.com,REJECT
 DOMAIN-SUFFIX,poweredby.jads.co,REJECT
+DOMAIN-SUFFIX,exdynsrv.com,REJECT
+DOMAIN-SUFFIX,cloudfront.net,REJECT
+DOMAIN-SUFFIX,d227cncaprzd7y.cloudfront.net,REJECT
+DOMAIN-SUFFIX,new.xiongzhangad.com,REJECT
 
 # https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Guard/Advertising.list
 DOMAIN-KEYWORD,adservice,REJECT
@@ -170,7 +175,6 @@ DOMAIN-SUFFIX,ctrmi.com,REJECT
 DOMAIN-SUFFIX,domob.cn,REJECT
 DOMAIN-SUFFIX,eroadvertising.com,REJECT
 DOMAIN-SUFFIX,ero-advertising.com,REJECT
-DOMAIN-SUFFIX,exdynsrv.com,REJECT
 DOMAIN-SUFFIX,go2cloud.org,REJECT
 DOMAIN-SUFFIX,growingio.com,REJECT
 DOMAIN-SUFFIX,haloapps.com,REJECT
