@@ -14,7 +14,7 @@ def read_list(file_name_2b):
     count = 0
     hostname = {}
 
-    with open(f'rule_integration/list_2B/{file_name_2b}', mode='r', encoding='UTF-8') as list_2b:
+    with open(f'list_2B/{file_name_2b}', mode='r', encoding='UTF-8') as list_2b:
         for list_url in list_2b.readlines():
             list_url = list_url.strip()
             if not list_url.startswith('#'):
@@ -60,9 +60,9 @@ def read_list(file_name_2b):
 if __name__ == '__main__':
     log = ''
     HC_PING_URL.replace('$TOKEN$', sys.argv[1])
-    list_2b_dir_input = os.walk(f'rule_integration/list_2B')
-    if not os.path.exists(f'rule_integration/result'):
-        os.mkdir(f'rule_integration/result')
+    list_2b_dir_input = os.walk(f'list_2B')
+    if not os.path.exists(f'result'):
+        os.mkdir(f'result')
     requests.get(f'{HC_PING_URL}/start', timeout=10)
     for path, dir_list, file_list in list_2b_dir_input:
         for file_name in file_list:
@@ -70,7 +70,7 @@ if __name__ == '__main__':
             if file_name.endswith('.url'):
                 RESULT, count = read_list(file_name)
                 file_name_new = file_name[0:file_name.index('_')] + '_integrated.list'
-                with open(f'rule_integration/result/{file_name_new}', mode='w', encoding='UTF-8') as results:
+                with open(f'result/{file_name_new}', mode='w', encoding='UTF-8') as results:
                     results.write(RESULT)
                     results.flush()
                 log = f'{log}{file_name_new} : {count} \n'
