@@ -4,7 +4,6 @@
 name: rule-integration
 
 on:
-  gollum:
   workflow_dispatch:
   schedule:
       - cron: '* */6 * * *'
