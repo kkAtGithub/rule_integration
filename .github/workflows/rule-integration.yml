@@ -6,7 +6,7 @@ name: rule-integration
 on:
   workflow_dispatch:
   schedule:
-      - cron: '* */6 * * *'
+      - cron: '0 */6 * * *'
 
 env:
   USER_EMAIL: ${{ secrets.USER_EMAIL }}
