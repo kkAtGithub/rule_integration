@@ -29,6 +29,7 @@ def read_list(file_name_2b):
                         line_list = line_list.strip().encode('ascii', errors='ignore').decode('ascii')
                         if not line_list.startswith('#'):
                             if file_name_2b.startswith('Filter_2B'):
+                                line_list = line_list.replace('AdBlock', 'REJECT').replace(' ', '')
                                 line_list = line_list.replace('reject', 'REJECT').replace(' ', '')
                             if file_name_2b.startswith('Rewrite_2B'):
                                 if line_list.startswith('hostname = '):
