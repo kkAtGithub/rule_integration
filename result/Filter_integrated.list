@@ -34,9 +34,11 @@ DOMAIN-SUFFIX,trafficjunky.com,REJECT
 DOMAIN-SUFFIX,adserver.juicyads.com,REJECT
 DOMAIN-SUFFIX,poweredby.jads.co,REJECT
 DOMAIN-SUFFIX,exdynsrv.com,REJECT
-DOMAIN-SUFFIX,cloudfront.net,REJECT
 DOMAIN-SUFFIX,d227cncaprzd7y.cloudfront.net,REJECT
+DOMAIN-SUFFIX,d10lumateci472.cloudfront.net,REJECT
 DOMAIN-SUFFIX,new.xiongzhangad.com,REJECT
+DOMAIN-SUFFIX,dvzk66.cn,REJECT
+DOMAIN-SUFFIX,pu0glv.cn,REJECT
 
 # https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Guard/Advertising.list
 DOMAIN-KEYWORD,adservice,REJECT
