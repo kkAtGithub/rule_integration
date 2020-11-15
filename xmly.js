@@ -8,7 +8,7 @@ let time = new Date().getTime()
 
 ;(exec = async () => {
   await getinfo()
-  if ($.signinfo.info.isTickedToday == 0) await signapp()
+  await signapp()
   // await browseapp()
   await getacc()
   showmsg()
