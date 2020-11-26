@@ -1,4 +1,4 @@
-hostname = www.52pojie.cn, *.bilibili.com, h5.ele.me, trade-acs.m.taobao.com, www.52pojie.cn, zt.wps.cn, 110.43.90.61, mobwsa.ximalaya.com
+hostname = *.smzdm.com, www.52pojie.cn, *.bilibili.com, h5.ele.me, trade-acs.m.taobao.com, www.52pojie.cn, zt.wps.cn, 110.43.90.61, mobwsa.ximalaya.com
 
 # 吾爱破解 cookie
 https:\/\/www\.52pojie\.cn\/home\.php\?mod=space url script-request-header https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js
@@ -14,3 +14,6 @@ https:\/\/www\.52pojie\.cn\/home\.php\?mod=space url script-request-header https
 
 # 喜马拉雅 cookie
 ^https?:\/\/.*\/mobile\-user\/homePage\/.* url script-request-header https://github.com/chavyleung/scripts/raw/master/ximalaya/ximalaya.cookie.js
+
+# 什么值得买 cookie
+^https:\/\/www\.smzdm\.com\/?.? url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/smzdm/quanx/smzdm.cookie.js
