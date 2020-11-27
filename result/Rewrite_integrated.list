@@ -932,3 +932,5 @@ https:\/\/api\.gamer\.com\.tw\/mobile_app\/anime\/v3\/token\.php url script-resp
 ^https?:\/\/api\.bilibili\.com\/x\/v2\/dm\/ad url reject-dict
 ^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.comic\/flash url reject-dict
 
+# https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/bilibili/bilibili_plus.qxrewrite
+
