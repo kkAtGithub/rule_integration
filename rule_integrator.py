@@ -3,6 +3,8 @@ from urllib.request import Request, urlopen
 
 RESULT = ''
 
+SPECIAL_RULE = ('bilibili', 'zhihu', 'smzdm')
+
 
 def read_list(file_name_2b):
     result = ''
@@ -22,12 +24,17 @@ def read_list(file_name_2b):
                     response_list = str(response_list, encoding='UTF-8').split('\n')
                     result = f'{result}\n# {list_url}'
                     for line_list in response_list:
+                        useless = False
                         line_list = line_list.strip().encode('ascii', errors='ignore').decode('ascii')
                         if not line_list.startswith('#'):
                             if file_name_2b.startswith('Filter_2B'):
                                 line_list = line_list.replace('AdBlock', 'REJECT').replace(' ', '')
                                 line_list = line_list.replace('reject', 'REJECT').replace(' ', '')
-                                if not (line_list.startswith('DOMAIN') or line_list.startswith('DOMAIN-SUFFIX') or line_list.startswith('DOMAIN-KEYWORD') or line_list.startswith('USER-AGENT') or line_list.startswith('IP-CIDR') or line_list.startswith('HOST') or line_list.startswith('HOST-SUFFIX') or line_list.startswith('HOST-KEYWORD')):
+                                if not (line_list.startswith('DOMAIN') or line_list.startswith(
+                                        'DOMAIN-SUFFIX') or line_list.startswith(
+                                    'DOMAIN-KEYWORD') or line_list.startswith('USER-AGENT') or line_list.startswith(
+                                    'IP-CIDR') or line_list.startswith('HOST') or line_list.startswith(
+                                    'HOST-SUFFIX') or line_list.startswith('HOST-KEYWORD')):
                                     continue
                             if file_name_2b.startswith('Rewrite_2B'):
                                 if line_list.startswith('hostname = '):
@@ -36,7 +43,13 @@ def read_list(file_name_2b):
                                     for entry_hostname in line_hostname_list:
                                         hostname[entry_hostname.strip()] = ','
                                     continue
-                            if line_list in result:
+                                for special_rule in SPECIAL_RULE:
+                                    if (not (special_rule in list_url)) and (special_rule in line_list):
+                                        print(list_url)
+                                        print(special_rule)
+                                        useless = True
+                                        break
+                            if line_list in result or useless:
                                 continue
                             else:
                                 result = f'{result}\n{str(line_list)}'
