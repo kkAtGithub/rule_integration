@@ -1,12 +1,14 @@
 import os
 from urllib.request import Request, urlopen
 
-RESULT = ''
+FILTER_RESULT = ''
+REWRITE_RESULT = ''
 
 SPECIAL_RULE = []
 
 
 def read_list(file_name_2b, url_list_2b):
+    global FILTER_RESULT, REWRITE_RESULT
     result = ''
     hostname = {}
     for list_url in url_list_2b:
@@ -25,7 +27,7 @@ def read_list(file_name_2b, url_list_2b):
                     useless = False
                     line_list = line_list.strip().encode('ascii', errors='ignore').decode('ascii')
                     if not line_list.startswith('#'):
-                        if file_name_2b.startswith('Filter_2B'):
+                        if file_name_2b.endswith('Filter_2B.url'):
                             line_list = line_list.replace('AdBlock', 'REJECT').replace(' ', '')
                             line_list = line_list.replace('reject', 'REJECT').replace(' ', '')
                             if not (line_list.startswith('DOMAIN')
@@ -36,7 +38,11 @@ def read_list(file_name_2b, url_list_2b):
                                     or line_list.startswith('HOST-SUFFIX')
                                     or line_list.startswith('HOST-KEYWORD')):
                                 continue
-                        if file_name_2b.startswith('Rewrite_2B'):
+                            if line_list in FILTER_RESULT:
+                                continue
+                            else:
+                                FILTER_RESULT = f'{FILTER_RESULT}\n{str(line_list)}'
+                        if file_name_2b.endswith('Rewrite_2B.url'):
                             if line_list.startswith('hostname = '):
                                 line_hostname = line_list[10:line_list.__len__()].strip()
                                 line_hostname_list = line_hostname.split(',')
@@ -47,7 +53,11 @@ def read_list(file_name_2b, url_list_2b):
                                 if (not (special_rule in list_url)) and (special_rule in line_list):
                                     useless = True
                                     break
-                        if line_list in result or useless:
+                            if line_list in REWRITE_RESULT:
+                                continue
+                            else:
+                                REWRITE_RESULT = f'{REWRITE_RESULT}\n{str(line_list)}'
+                        if useless:
                             continue
                         else:
                             result = f'{result}\n{str(line_list)}'
@@ -76,7 +86,7 @@ def read_sr_list(path, sr_dir):
                         sr_url_list.append(sr_url_list_entry)
         sr_file_name_new = f'{sr_dir}_integrated.list'
         with open(f'result/{sr_file_name_new}', mode='w', encoding='UTF-8') as sr_results:
-            sr_results.write(read_list('Rewrite_2B', sr_url_list))
+            sr_results.write(read_list('Rewrite_2B.url', sr_url_list))
             sr_results.flush()
 
 
@@ -94,7 +104,7 @@ if __name__ == '__main__':
                 with open(f'{path}/{file_name}', mode='r', encoding='UTF-8') as file_content:
                     for url_list_entry in file_content.readlines():
                         url_list.append(url_list_entry)
-                    file_name_new = file_name[0:file_name.index('_')] + '_integrated.list'
+                    file_name_new = file_name[0:file_name.index('_2B.url')] + '_integrated.list'
                     with open(f'result/{file_name_new}', mode='w', encoding='UTF-8') as results:
                         results.write(read_list(file_name, url_list))
                         results.flush()
