@@ -3,10 +3,11 @@
 
 ## 使用方法
 
-1. 分流引用 https://raw.githubusercontent.com/kkAtGithub/rule_integration/main/result/Filter_integrated.list
-2. 重写引用 https://raw.githubusercontent.com/kkAtGithub/rule_integration/main/result/Rewrite_integrated.list
-3. 然后配置好证书（如已配置可忽略）
-4. 如仍有广告请清除浏览器缓存后重试
+1. 去广告 https://raw.githubusercontent.com/kkAtGithub/rule_integration/main/result/Anti_AD_Filter_integrated.list
+2. 去广告增强版 https://raw.githubusercontent.com/kkAtGithub/rule_integration/main/result/Anti_AD_Plus_Filter_integrated.list
+3. 重写引用 https://raw.githubusercontent.com/kkAtGithub/rule_integration/main/result/Rewrite_integrated.list
+4. 然后配置好证书（如已配置可忽略）
+5. 如仍有广告请清除浏览器缓存后重试
 
 
 ## 包含以下大佬的分流&重写
