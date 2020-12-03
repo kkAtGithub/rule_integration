@@ -1,0 +1,2 @@
+hostname=*.mi-img.com
+.*\.mi-img\.com\/plato-product\/p.* url reject
