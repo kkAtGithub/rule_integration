@@ -7,7 +7,7 @@ REWRITE_RESULT = {}
 SPECIAL_RULE = []
 
 
-def read_list(file_name_2b, url_list_2b):
+def read_list(url_list_2b, file_name_2b=''):
     global FILTER_RESULT, REWRITE_RESULT
     result = {}
     hostname = {}
@@ -91,11 +91,37 @@ def read_sr_list(sr_dir_path, sr_dir):
                         sr_url_list.append(sr_url_list_entry)
         sr_file_name_new = f'{sr_dir}_integrated.list'
         with open(f'result/{sr_file_name_new}', mode='w', encoding='UTF-8') as sr_results:
-            sr_dic_results = read_list('Rewrite_2B.url', sr_url_list)
+            sr_dic_results = read_list(sr_url_list, 'Rewrite_2B.url')
             for sr_key in sr_dic_results.keys():
                 sr_results.write(f'{sr_key}\n')
             sr_results.flush()
 
+
+def read_sc_list(sc_dir_path, sc_dir):
+    sc_2b_dir_input = os.walk(f'{sc_dir_path}/{sc_dir}')
+    for sc_path, sc_dir_list, sc_file_list in sc_2b_dir_input:
+        for sc_file_name in sc_file_list:
+            os.system(f'echo {sc_file_name}')
+            if not sc_file_name.endswith('_2B.url'):
+                sc_url_list = []
+                with open(f'{sc_dir_path}/{sc_dir}/{sc_file_name}', mode='r', encoding='UTF-8') as sc_file_content:
+                    for sc_url_list_entry in sc_file_content.readlines():
+                        sc_url_list.append(sc_url_list_entry)
+                    with open(f'result/{sc_file_name}_integrated.list', mode='w', encoding='UTF-8') as sc_results:
+                        with open(f'result/{sc_file_name}_converted.yaml', mode='w', encoding='UTF-8') as scd_results:
+                            scd_results.write(f'payload:\n  # > {sc_file_name}')
+                            sc_dic_results = read_list(sc_url_list)
+                            for sc_key in sc_dic_results.keys():
+                                sc_results.write(f'{sc_key}\n')
+                                scd_results.write(f'  - {sc_key}\n')
+                            scd_results.flush()
+                        sc_results.flush()
+
+
+special_dir_switch = {
+    'SPECIAL_RULE': read_sr_list,
+    'SCRIPT_CONVERSION': read_sc_list,
+}
 
 if __name__ == '__main__':
     list_2b_dir_input = os.walk('list_2B')
@@ -103,7 +129,7 @@ if __name__ == '__main__':
         os.mkdir('result')
     for path, dir_list, file_list in list_2b_dir_input:
         for special_dir in dir_list:
-            read_sr_list(path, special_dir)
+            special_dir_switch[special_dir](path, special_dir)
         for file_name in file_list:
             os.system(f'echo {file_name}')
             if file_name.endswith('_2B.url'):
@@ -113,7 +139,7 @@ if __name__ == '__main__':
                         url_list.append(url_list_entry)
                     file_name_new = file_name[0:file_name.index('_2B.url')] + '_integrated.list'
                     with open(f'result/{file_name_new}', mode='w', encoding='UTF-8') as results:
-                        dic_results = read_list(file_name, url_list)
+                        dic_results = read_list(url_list, file_name)
                         for key in dic_results.keys():
                             results.write(f'{key}\n')
                         results.flush()
