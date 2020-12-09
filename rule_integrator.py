@@ -38,13 +38,7 @@ def read_list(url_list_2b, file_name_2b='', src_mark_flag=True):
                                     or line_list.startswith('IP-CIDR')
                                     or line_list.startswith('HOST')
                                     or line_list.startswith('HOST-SUFFIX')
-                                    or line_list.startswith('HOST-KEYWORD')
-                                    or line_list.startswith('SRC-IP-CIDR')
-                                    or line_list.startswith('GEOIP')
-                                    or line_list.startswith('PROCESS-NAME')
-                                    or line_list.startswith('DST-PORT')
-                                    or line_list.startswith('SRC-PORT')
-                                    or line_list.startswith('MATCH')):
+                                    or line_list.startswith('HOST-KEYWORD')):
                                 continue
                             if line_list in FILTER_RESULT:
                                 continue
@@ -126,18 +120,31 @@ def read_sc_list(sc_dir_path, sc_dir):
                             scd_results.write(f'payload:\n  # > {sc_file_name}\n')
                             sc_dic_results = read_list(sc_url_list, src_mark_flag=False)
                             for sc_key in sc_dic_results.keys():
-                                sc_results.write(f'{sc_key}\n')
-                                if (sc_key.startswith('DOMAIN')
+                                if not (sc_key.startswith('DOMAIN')
                                         or sc_key.startswith('DOMAIN-KEYWORD')
-                                        or sc_key.startswith('DOMAIN-SUFFIX')
+                                        or sc_key.startswith('USER-AGENT')
                                         or sc_key.startswith('IP-CIDR')
+                                        or sc_key.startswith('HOST')
+                                        or sc_key.startswith('HOST-SUFFIX')
+                                        or sc_key.startswith('HOST-KEYWORD')
                                         or sc_key.startswith('SRC-IP-CIDR')
                                         or sc_key.startswith('GEOIP')
                                         or sc_key.startswith('PROCESS-NAME')
                                         or sc_key.startswith('DST-PORT')
                                         or sc_key.startswith('SRC-PORT')
                                         or sc_key.startswith('MATCH')):
-                                    scd_results.write(f'  - {sc_key}\n')
+                                    sc_results.write(f'{sc_key}\n')
+                                    if (sc_key.startswith('DOMAIN')
+                                            or sc_key.startswith('DOMAIN-KEYWORD')
+                                            or sc_key.startswith('DOMAIN-SUFFIX')
+                                            or sc_key.startswith('IP-CIDR')
+                                            or sc_key.startswith('SRC-IP-CIDR')
+                                            or sc_key.startswith('GEOIP')
+                                            or sc_key.startswith('PROCESS-NAME')
+                                            or sc_key.startswith('DST-PORT')
+                                            or sc_key.startswith('SRC-PORT')
+                                            or sc_key.startswith('MATCH')):
+                                        scd_results.write(f'  - {sc_key}\n')
                             scd_results.flush()
                         sc_results.flush()
 
