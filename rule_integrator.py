@@ -1,5 +1,4 @@
 import os
-import shutil
 from urllib.request import Request, urlopen
 
 FILTER_RESULT = {}
@@ -120,7 +119,7 @@ def read_sc_list(sc_dir_path, sc_dir):
                             scd_results.write(f'payload:\n  # > {sc_file_name}\n')
                             sc_dic_results = read_list(sc_url_list, src_mark_flag=False)
                             for sc_key in sc_dic_results.keys():
-                                if not (sc_key.startswith('DOMAIN')
+                                if (sc_key.startswith('DOMAIN')
                                         or sc_key.startswith('DOMAIN-KEYWORD')
                                         or sc_key.startswith('USER-AGENT')
                                         or sc_key.startswith('IP-CIDR')
