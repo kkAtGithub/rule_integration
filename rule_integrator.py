@@ -79,23 +79,25 @@ def read_list(url_list_2b, file_name_2b='', src_mark_flag=True):
     return result
 
 
-def read_sr_list(sr_dir_path, sr_dir):
-    sr_2b_dir_input = os.walk(f'{sr_dir_path}/{sr_dir}')
-    sr_url_list = []
-    for sr_path, sr_dir_list, sr_file_list in sr_2b_dir_input:
-        for sr_file_name in sr_file_list:
-            os.system(f'echo {sr_file_name}')
-            if not sr_file_name.endswith('_2B.url'):
-                SPECIAL_RULE.append(sr_file_name)
-                with open(f'{sr_dir_path}/{sr_dir}/{sr_file_name}', mode='r', encoding='UTF-8') as sr_file_content:
-                    for sr_url_list_entry in sr_file_content.readlines():
-                        sr_url_list.append(sr_url_list_entry)
-        sr_file_name_new = f'{sr_dir}_integrated.list'
-        with open(f'result/{sr_file_name_new}', mode='w', encoding='UTF-8') as sr_results:
-            sr_dic_results = read_list(sr_url_list, 'Rewrite_2B.url')
-            for sr_key in sr_dic_results.keys():
-                sr_results.write(f'{sr_key}\n')
-            sr_results.flush()
+def read_qx_sr_list(qx_sr_dir_path, qx_sr_dir):
+    qx_sr_2b_dir_input = os.walk(f'{qx_sr_dir_path}/{qx_sr_dir}')
+    qx_sr_url_list = []
+    for qx_sr_path, qx_sr_dir_list, qx_sr_file_list in qx_sr_2b_dir_input:
+        for qx_sr_file_name in qx_sr_file_list:
+            os.system(f'echo {qx_sr_file_name}')
+            if not qx_sr_file_name.endswith('_2B.url'):
+                SPECIAL_RULE.append(qx_sr_file_name)
+                with open(f'{qx_sr_dir_path}/{qx_sr_dir}/{qx_sr_file_name}', mode='r', encoding='UTF-8') as qx_sr_file_content:
+                    for qx_sr_url_list_entry in qx_sr_file_content.readlines():
+                        qx_sr_url_list.append(qx_sr_url_list_entry)
+        qx_sr_file_name_new = f'{qx_sr_dir}_integrated.list'
+        if not os.path.exists('result/qx'):
+            os.mkdir('result/qx')
+        with open(f'result/qx/{qx_sr_file_name_new}', mode='w', encoding='UTF-8') as qx_sr_results:
+            qx_sr_dic_results = read_list(qx_sr_url_list, 'Rewrite_2B.url')
+            for qx_sr_key in qx_sr_dic_results.keys():
+                qx_sr_results.write(f'{qx_sr_key}\n')
+            qx_sr_results.flush()
 
 
 def read_sc_list(sc_dir_path, sc_dir):
@@ -108,19 +110,30 @@ def read_sc_list(sc_dir_path, sc_dir):
                 with open(f'{sc_dir_path}/{sc_dir}/{sc_file_name}', mode='r', encoding='UTF-8') as sc_file_content:
                     for sc_url_list_entry in sc_file_content.readlines():
                         sc_url_list.append(sc_url_list_entry)
-                    with open(f'result/{sc_file_name}_integrated.list', mode='w', encoding='UTF-8') as sc_results:
-                        with open(f'result/{sc_file_name}_converted.yaml', mode='w', encoding='UTF-8') as scd_results:
+                    if not os.path.exists('result/rules'):
+                        os.mkdir('result/rules')
+                    if not os.path.exists('result/clash'):
+                        os.mkdir('result/clash')
+                    with open(f'result/rules/{sc_file_name}_integrated.list', mode='w', encoding='UTF-8') as sc_results:
+                        with open(f'result/clash/{sc_file_name}_converted.yaml', mode='w', encoding='UTF-8') as scd_results:
                             scd_results.write(f'payload:\n  # > {sc_file_name}\n')
                             sc_dic_results = read_list(sc_url_list, src_mark_flag=False)
                             for sc_key in sc_dic_results.keys():
                                 sc_results.write(f'{sc_key}\n')
+                                # if not (sc_key.startswith('DOMAIN')
+                                #         or sc_key.startswith('DOMAIN-KEYWORD')
+                                #         or sc_key.startswith('USER-AGENT')
+                                #         or sc_key.startswith('IP-CIDR')
+                                #         or sc_key.startswith('HOST')
+                                #         or sc_key.startswith('HOST-SUFFIX')
+                                #         or sc_key.startswith('HOST-KEYWORD')):
                                 scd_results.write(f'  - {sc_key}\n')
                             scd_results.flush()
                         sc_results.flush()
 
 
 special_dir_switch = {
-    'SPECIAL_RULE': read_sr_list,
+    'QX_SPECIAL_RULE': read_qx_sr_list,
     'SCRIPT_CONVERSION': read_sc_list,
 }
 
@@ -139,7 +152,9 @@ if __name__ == '__main__':
                     for url_list_entry in file_content.readlines():
                         url_list.append(url_list_entry)
                     file_name_new = file_name[0:file_name.index('_2B.url')] + '_integrated.list'
-                    with open(f'result/{file_name_new}', mode='w', encoding='UTF-8') as results:
+                    if not os.path.exists('result/qx'):
+                        os.mkdir('result/qx')
+                    with open(f'result/qx/{file_name_new}', mode='w', encoding='UTF-8') as results:
                         dic_results = read_list(url_list, file_name)
                         for key in dic_results.keys():
                             results.write(f'{key}\n')
