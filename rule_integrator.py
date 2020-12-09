@@ -7,7 +7,7 @@ REWRITE_RESULT = {}
 SPECIAL_RULE = []
 
 
-def read_list(url_list_2b, file_name_2b=''):
+def read_list(url_list_2b, file_name_2b='', src_mark_flag=True):
     global FILTER_RESULT, REWRITE_RESULT
     result = {}
     hostname = {}
@@ -22,7 +22,8 @@ def read_list(url_list_2b, file_name_2b=''):
                 req = Request(list_url, headers=headers)
                 response_list = urlopen(req).read()
                 response_list = str(response_list, encoding='UTF-8').split('\n')
-                result[f'# {list_url}'] = None
+                if src_mark_flag:
+                    result[f'# {list_url}'] = None
                 for line_list in response_list:
                     useless = False
                     line_list = line_list.encode('ascii', errors='ignore').decode('ascii').strip()
@@ -109,8 +110,8 @@ def read_sc_list(sc_dir_path, sc_dir):
                         sc_url_list.append(sc_url_list_entry)
                     with open(f'result/{sc_file_name}_integrated.list', mode='w', encoding='UTF-8') as sc_results:
                         with open(f'result/{sc_file_name}_converted.yaml', mode='w', encoding='UTF-8') as scd_results:
-                            scd_results.write(f'payload:\n  # > {sc_file_name}')
-                            sc_dic_results = read_list(sc_url_list)
+                            scd_results.write(f'payload:\n  # > {sc_file_name}\n')
+                            sc_dic_results = read_list(sc_url_list, src_mark_flag=False)
                             for sc_key in sc_dic_results.keys():
                                 sc_results.write(f'{sc_key}\n')
                                 scd_results.write(f'  - {sc_key}\n')
