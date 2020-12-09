@@ -1,4 +1,5 @@
 import os
+import shutil
 from urllib.request import Request, urlopen
 
 FILTER_RESULT = {}
@@ -120,14 +121,17 @@ def read_sc_list(sc_dir_path, sc_dir):
                             sc_dic_results = read_list(sc_url_list, src_mark_flag=False)
                             for sc_key in sc_dic_results.keys():
                                 sc_results.write(f'{sc_key}\n')
-                                # if not (sc_key.startswith('DOMAIN')
-                                #         or sc_key.startswith('DOMAIN-KEYWORD')
-                                #         or sc_key.startswith('USER-AGENT')
-                                #         or sc_key.startswith('IP-CIDR')
-                                #         or sc_key.startswith('HOST')
-                                #         or sc_key.startswith('HOST-SUFFIX')
-                                #         or sc_key.startswith('HOST-KEYWORD')):
-                                scd_results.write(f'  - {sc_key}\n')
+                                if (sc_key.startswith('DOMAIN')
+                                        or sc_key.startswith('DOMAIN-KEYWORD')
+                                        or sc_key.startswith('DOMAIN-SUFFIX')
+                                        or sc_key.startswith('IP-CIDR')
+                                        or sc_key.startswith('SRC-IP-CIDR')
+                                        or sc_key.startswith('GEOIP')
+                                        or sc_key.startswith('PROCESS-NAME')
+                                        or sc_key.startswith('DST-PORT')
+                                        or sc_key.startswith('SRC-PORT')
+                                        or sc_key.startswith('MATCH')):
+                                    scd_results.write(f'  - {sc_key}\n')
                             scd_results.flush()
                         sc_results.flush()
 
