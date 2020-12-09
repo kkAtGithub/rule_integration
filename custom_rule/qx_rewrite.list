@@ -1,0 +1,3 @@
+hostname = *.mi-img.com, home.mi.com
+.*\.mi-img\.com\/plato-product\/p.* url reject
+^https?:\/\/home\.mi\.com\/cgi-op\/api\/v1\/recommendation\/banner.* url reject
