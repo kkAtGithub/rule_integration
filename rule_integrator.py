@@ -38,7 +38,13 @@ def read_list(url_list_2b, file_name_2b='', src_mark_flag=True):
                                     or line_list.startswith('IP-CIDR')
                                     or line_list.startswith('HOST')
                                     or line_list.startswith('HOST-SUFFIX')
-                                    or line_list.startswith('HOST-KEYWORD')):
+                                    or line_list.startswith('HOST-KEYWORD')                                        or sc_key.startswith('IP-CIDR')
+                                    or line_list.startswith('SRC-IP-CIDR')
+                                    or line_list.startswith('GEOIP')
+                                    or line_list.startswith('PROCESS-NAME')
+                                    or line_list.startswith('DST-PORT')
+                                    or line_list.startswith('SRC-PORT')
+                                    or line_list.startswith('MATCH')):
                                 continue
                             if line_list in FILTER_RESULT:
                                 continue
