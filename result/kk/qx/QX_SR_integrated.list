@@ -1,4 +1,0 @@
-# https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.qxrewrite
-# https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/bilibili/bilibili_plus.qxrewrite
-# https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.qxrewrite
-hostname = www.zhihu.com,api.zhihu.com,appcloud2.zhihu.com,zhuanlan.zhihu.com,app.bilibili.com,api.bilibili.com,api.live.bilibili.com,api.vc.bilibili.com,homepage-api.smzdm.com,haojia-api.smzdm.com,article-api.smzdm.com,haojia.m.smzdm.com,app-api.smzdm.com,s-api.smzdm.com
