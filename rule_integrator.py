@@ -164,7 +164,6 @@ def read_rs_list(rs_dir_path, rs_dir):
 special_dir_switch = {
     'QX_SR': read_qx_sr_list,
     'RULE_SET': read_rs_list,
-
 }
 
 
@@ -179,7 +178,6 @@ def path_processor(src_path):
 
 if __name__ == '__main__':
     list_2b_dir_input = os.walk('list_2B')
-    print(list_2b_dir_input)
     if not os.path.exists('result'):
         os.makedirs('result')
     for path, dir_list, file_list in list_2b_dir_input:
