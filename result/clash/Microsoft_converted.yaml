@@ -1,6 +1,5 @@
 payload:
   # > Microsoft
-  - USER-AGENT,OneDrive*
   - DOMAIN-KEYWORD,onedrive
   - DOMAIN-SUFFIX,azure.com
   - DOMAIN-SUFFIX,fabric.io

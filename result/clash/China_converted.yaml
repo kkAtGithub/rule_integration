@@ -1,8 +1,6 @@
 payload:
   # > China
   - DOMAIN-KEYWORD,beplay
-  - 
-  - USER-AGENT,hearthstone*
   - DOMAIN,cdp.cloud.unity3d.com
   - DOMAIN-SUFFIX,battle.net
   - DOMAIN-SUFFIX,battlenet.com
@@ -13,7 +11,6 @@ payload:
   - DOMAIN-SUFFIX,edu.cn
   - DOMAIN-SUFFIX,p4pfile.com
   - DOMAIN-SUFFIX,zmzfile.com
-  - USER-AGENT,RemotePlay*
   - IP-CIDR,185.188.32.0/24,no-resolve
   - IP-CIDR,185.188.33.0/24,no-resolve
   - IP-CIDR,185.188.34.0/24,no-resolve
