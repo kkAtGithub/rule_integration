@@ -257,6 +257,7 @@ DOMAIN,adserver.pandora.com,REJECT
 DOMAIN,adshow.58.com,REJECT
 DOMAIN,adui.tg.meitu.com,REJECT
 DOMAIN,adv.bandi.so,REJECT
+DOMAIN,adv.ettoday.net,REJECT
 DOMAIN,api.adnet.mob.com,REJECT
 DOMAIN,api-ad.kajicam.com,REJECT
 DOMAIN,app-ad.variflight.com,REJECT
@@ -323,7 +324,9 @@ DOMAIN,admarket.21cn.com,REJECT
 DOMAIN,adshows.21cn.com,REJECT
 DOMAIN,atrace.chelaile.net.cn,REJECT
 DOMAIN,logs.chelaile.net.cn,REJECT
+DOMAIN,dispatcher.360in.com,REJECT
 DOMAIN,ad.360in.com,REJECT
+DOMAIN,exp.360in.com,REJECT
 DOMAIN-SUFFIX,doubleclick.net,REJECT
 DOMAIN-SUFFIX,googleadservices.com,REJECT
 DOMAIN-SUFFIX,googleadsserving.cn,REJECT
@@ -461,6 +464,8 @@ DOMAIN-SUFFIX,adserver.yahoo.com,REJECT
 DOMAIN-SUFFIX,adspecs.yahoo.com,REJECT
 DOMAIN-SUFFIX,advertising.yahoo.com,REJECT
 DOMAIN-SUFFIX,gemini.yahoo.com,REJECT
+DOMAIN,admarketing.yahoo.net,REJECT
+DOMAIN,ads.auctions.yahoo.com,REJECT
 DOMAIN,ads.finance.yahoo.com,REJECT
 DOMAIN,ads.yahoo.com,REJECT
 DOMAIN,ads.yahoo.de,REJECT
@@ -704,6 +709,8 @@ DOMAIN,track.58.com,REJECT
 DOMAIN,tracklog.58.com,REJECT
 DOMAIN,hm.baidu.com,REJECT
 DOMAIN,hmma.baidu.com,REJECT
+DOMAIN,log.byteoversea.com,REJECT
+DOMAIN,log.tiktokv.com,REJECT
 DOMAIN,log-hl-ipv6.snssdk.com,REJECT
 DOMAIN,log-lq.snssdk.com,REJECT
 DOMAIN,log-va.tiktokv.com,REJECT

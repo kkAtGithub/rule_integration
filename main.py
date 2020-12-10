@@ -68,8 +68,8 @@ def read_list(url_list_2b, file_name_2b='', src_mark_flag=True):
                             continue
                         else:
                             result[line_list] = None
-            except Exception as e:
-                print(f'Error: Fail to get rule from {list_url} \n {e} ')
+            except Exception as get_fail:
+                print(f'Error: Fail to get rule from {list_url} \n {get_fail} ')
     if len(hostname) > 0:
         result_hostname = 'hostname = '
         for entry_hostname in hostname.keys():
@@ -80,8 +80,9 @@ def read_list(url_list_2b, file_name_2b='', src_mark_flag=True):
 
 
 def read_qx_sr_list(qx_sr_dir_path, qx_sr_dir):
-    qx_sr_2b_dir_input = os.walk(f'{qx_sr_dir_path}/{qx_sr_dir}')
     qx_sr_url_list = []
+    qx_sr_results_path = path_processor(qx_sr_dir_path)
+    qx_sr_2b_dir_input = os.walk(f'{qx_sr_dir_path}/{qx_sr_dir}')
     for qx_sr_path, qx_sr_dir_list, qx_sr_file_list in qx_sr_2b_dir_input:
         for qx_sr_file_name in qx_sr_file_list:
             os.system(f'echo {qx_sr_file_name}')
@@ -91,75 +92,104 @@ def read_qx_sr_list(qx_sr_dir_path, qx_sr_dir):
                     for qx_sr_url_list_entry in qx_sr_file_content.readlines():
                         qx_sr_url_list.append(qx_sr_url_list_entry)
         qx_sr_file_name_new = f'{qx_sr_dir}_integrated.list'
-        if not os.path.exists('result/qx'):
-            os.mkdir('result/qx')
-        with open(f'result/qx/{qx_sr_file_name_new}', mode='w', encoding='UTF-8') as qx_sr_results:
+        if not os.path.exists(f'result{qx_sr_results_path}/qx'):
+            os.makedirs(f'result{qx_sr_results_path}/qx')
+        with open(f'result{qx_sr_results_path}/qx/{qx_sr_file_name_new}', mode='w', encoding='UTF-8') as qx_sr_results:
             qx_sr_dic_results = read_list(qx_sr_url_list, 'Rewrite_2B.url')
             for qx_sr_key in qx_sr_dic_results.keys():
                 qx_sr_results.write(f'{qx_sr_key}\n')
             qx_sr_results.flush()
 
 
-def read_sc_list(sc_dir_path, sc_dir):
-    sc_2b_dir_input = os.walk(f'{sc_dir_path}/{sc_dir}')
-    for sc_path, sc_dir_list, sc_file_list in sc_2b_dir_input:
-        for sc_file_name in sc_file_list:
-            os.system(f'echo {sc_file_name}')
-            if not sc_file_name.endswith('_2B.url'):
-                sc_url_list = []
-                with open(f'{sc_dir_path}/{sc_dir}/{sc_file_name}', mode='r', encoding='UTF-8') as sc_file_content:
-                    for sc_url_list_entry in sc_file_content.readlines():
-                        sc_url_list.append(sc_url_list_entry)
-                    if not os.path.exists('result/rules'):
-                        os.mkdir('result/rules')
-                    if not os.path.exists('result/clash'):
-                        os.mkdir('result/clash')
-                    with open(f'result/rules/{sc_file_name}_integrated.list', mode='w', encoding='UTF-8') as sc_results:
-                        with open(f'result/clash/{sc_file_name}_converted.yaml', mode='w', encoding='UTF-8') as scd_results:
-                            scd_results.write(f'payload:\n  # > {sc_file_name}\n')
-                            sc_dic_results = read_list(sc_url_list, src_mark_flag=False)
-                            for sc_key in sc_dic_results.keys():
-                                if (sc_key.startswith('DOMAIN')
-                                        or sc_key.startswith('DOMAIN-KEYWORD')
-                                        or sc_key.startswith('USER-AGENT')
-                                        or sc_key.startswith('IP-CIDR')
-                                        or sc_key.startswith('HOST')
-                                        or sc_key.startswith('HOST-SUFFIX')
-                                        or sc_key.startswith('HOST-KEYWORD')
-                                        or sc_key.startswith('SRC-IP-CIDR')
-                                        or sc_key.startswith('GEOIP')
-                                        or sc_key.startswith('PROCESS-NAME')
-                                        or sc_key.startswith('DST-PORT')
-                                        or sc_key.startswith('SRC-PORT')
-                                        or sc_key.startswith('MATCH')):
-                                    sc_results.write(f'{sc_key}\n')
-                                    if (sc_key.startswith('DOMAIN')
-                                            or sc_key.startswith('DOMAIN-KEYWORD')
-                                            or sc_key.startswith('DOMAIN-SUFFIX')
-                                            or sc_key.startswith('IP-CIDR')
-                                            or sc_key.startswith('SRC-IP-CIDR')
-                                            or sc_key.startswith('GEOIP')
-                                            or sc_key.startswith('PROCESS-NAME')
-                                            or sc_key.startswith('DST-PORT')
-                                            or sc_key.startswith('SRC-PORT')
-                                            or sc_key.startswith('MATCH')):
-                                        scd_results.write(f'  - {sc_key}\n')
+def read_rs_list(rs_dir_path, rs_dir):
+    ex_list = []
+    rs_results_path = path_processor(rs_dir_path)
+    if not os.path.exists(f'result{rs_results_path}/rules'):
+        os.makedirs(f'result{rs_results_path}/rules')
+    if not os.path.exists(f'result{rs_results_path}/clash'):
+        os.makedirs(f'result{rs_results_path}/clash')
+    if os.path.exists(f'{rs_dir_path}/{rs_dir}/EXCLUDE'):
+        with open(f'{rs_dir_path}/{rs_dir}/EXCLUDE', mode='r', encoding='UTF-8') as ex_file_content:
+            for ex_url_list_entry in ex_file_content.readlines():
+                ex_list.append(ex_url_list_entry)
+    rs_2b_dir_input = os.walk(f'{rs_dir_path}/{rs_dir}')
+    for rs_path, rs_dir_list, rs_file_list in rs_2b_dir_input:
+        for rs_file_name in rs_file_list:
+            os.system(f'echo {rs_file_name}')
+            if not (rs_file_name.endswith('_2B.url') or rs_file_name == 'EXCLUDE'):
+                rs_url_list = []
+                with open(f'{rs_dir_path}/{rs_dir}/{rs_file_name}', mode='r', encoding='UTF-8') as rs_file_content:
+                    for rs_url_list_entry in rs_file_content.readlines():
+                        rs_url_list.append(rs_url_list_entry)
+                    with open(f'result{rs_results_path}/rules/{rs_file_name}_integrated.list', mode='w', encoding='UTF-8') as rs_results:
+                        with open(f'result{rs_results_path}/clash/{rs_file_name}_converted.yaml', mode='w', encoding='UTF-8') as scd_results:
+                            scd_results.write(f'payload:\n  # > {rs_file_name}\n')
+                            rs_dic_results = read_list(rs_url_list, src_mark_flag=False)
+                            for rs_key in rs_dic_results.keys():
+                                ex_flag = False
+                                for ex_list_entry in ex_list:
+                                    if ex_list_entry in rs_key:
+                                        ex_flag = True
+                                        break
+                                if not ex_flag:
+                                    if (rs_key.startswith('DOMAIN')
+                                            or rs_key.startswith('DOMAIN-KEYWORD')
+                                            or rs_key.startswith('USER-AGENT')
+                                            or rs_key.startswith('IP-CIDR')
+                                            or rs_key.startswith('HOST')
+                                            or rs_key.startswith('HOST-SUFFIX')
+                                            or rs_key.startswith('HOST-KEYWORD')
+                                            or rs_key.startswith('SRC-IP-CIDR')
+                                            or rs_key.startswith('GEOIP')
+                                            or rs_key.startswith('PROCESS-NAME')
+                                            or rs_key.startswith('DST-PORT')
+                                            or rs_key.startswith('SRC-PORT')
+                                            or rs_key.startswith('MATCH')):
+                                        rs_results.write(f'{rs_key}\n')
+                                        if (rs_key.startswith('DOMAIN')
+                                                or rs_key.startswith('DOMAIN-KEYWORD')
+                                                or rs_key.startswith('DOMAIN-SUFFIX')
+                                                or rs_key.startswith('IP-CIDR')
+                                                or rs_key.startswith('SRC-IP-CIDR')
+                                                or rs_key.startswith('GEOIP')
+                                                or rs_key.startswith('PROCESS-NAME')
+                                                or rs_key.startswith('DST-PORT')
+                                                or rs_key.startswith('SRC-PORT')
+                                                or rs_key.startswith('MATCH')):
+                                            scd_results.write(f'  - {rs_key}\n')
                             scd_results.flush()
-                        sc_results.flush()
+                        rs_results.flush()
 
 
 special_dir_switch = {
-    'QX_SPECIAL_RULE': read_qx_sr_list,
-    'SCRIPT_CONVERSION': read_sc_list,
+    'QX_SR': read_qx_sr_list,
+    'RULE_SET': read_rs_list,
+
 }
+
+
+def path_processor(src_path):
+    print(src_path)
+    if '/' in src_path:
+        return src_path[src_path.index('/'):src_path.__len__()]
+    if '\\' in src_path:
+        return src_path[src_path.index('\\'):src_path.__len__()].replace('\\', '/')
+    return ''
+
 
 if __name__ == '__main__':
     list_2b_dir_input = os.walk('list_2B')
+    print(list_2b_dir_input)
     if not os.path.exists('result'):
-        os.mkdir('result')
+        os.makedirs('result')
     for path, dir_list, file_list in list_2b_dir_input:
+        print(path, dir_list, file_list)
+        results_path = path_processor(path)
         for special_dir in dir_list:
-            special_dir_switch[special_dir](path, special_dir)
+            try:
+                special_dir_switch[special_dir](path, special_dir)
+            except Exception as dir_error:
+                continue
         for file_name in file_list:
             os.system(f'echo {file_name}')
             if file_name.endswith('_2B.url'):
@@ -168,9 +198,9 @@ if __name__ == '__main__':
                     for url_list_entry in file_content.readlines():
                         url_list.append(url_list_entry)
                     file_name_new = file_name[0:file_name.index('_2B.url')] + '_integrated.list'
-                    if not os.path.exists('result/qx'):
-                        os.mkdir('result/qx')
-                    with open(f'result/qx/{file_name_new}', mode='w', encoding='UTF-8') as results:
+                    if not os.path.exists(f'result{results_path}/qx'):
+                        os.makedirs(f'result{results_path}/qx')
+                    with open(f'result{results_path}/qx/{file_name_new}', mode='w', encoding='UTF-8') as results:
                         dic_results = read_list(url_list, file_name)
                         for key in dic_results.keys():
                             results.write(f'{key}\n')

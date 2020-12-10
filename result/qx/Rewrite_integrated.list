@@ -1,3 +1,86 @@
+# https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adblock4limbo.conf
+^https?:\/.jable\.tv/\bassets\b.*\b.gif url 302 https://limbopro.xyz/usr/uploads/2020/10/2091577197.png
+^https:/?.*\.jable\.tv\b.*\.gif$ url 302 https://limbopro.xyz/usr/uploads/2020/03/1938474618.jpg
+\b.*\.ackcdn\.net/\blibrary\b.*\b.jpg url 302 https://limbopro.xyz/usr/uploads/2020/10/2091577197.png
+^https:?/\/\b.*\btsyndicate\b.*.gif url 302 https://limbopro.xyz/usr/uploads/2020/10/2091577197.png
+^https:/?.*\.trwl1\b.* url 302 https://limbopro.xyz/865.html
+^https:/?.*\.trwl1\b.*?\SC$ url 302 https://limbopro.xyz/865.html
+^a.\bo333o\b.*\=1$ url 302 https://limbopro.xyz
+^<a\sclass\b.*uu-ads\b.*\</a>$ url 302 https://limbopro.xyz
+\b.*\btsyndicate\b.*\.js url reject
+^https:?\b.*\bgtm.js url reject
+^https?:\/\/ads.\b.*\.js$ url reject
+^https:?\b.*ads.exosrv.com/\b.*.js url reject
+asewlfjqwlflkew url reject
+o333o url reject
+https:?/\/jable\.tv\/.?\b.*&action=js_stats&\b.* url reject
+https?:\/.jable\.tv\b.* url response-body <iframe .*?blank.*?</iframe>|<section.*?_blank.*?img.*?</section>|height="250"|<script data-cfasync="false"\s\b.*\.*?asewlfjqwlflkew\b.*?</script>|<div class="text-center mb-e-30"><\b.*?</iframe></div>|<a href="\b.*3_SC\b.*?</a>|<p class="sub-title">\n\W.*\n</p>|<a class="uu-ads"\s\b.*?</a> response-body <meta name="author" content="">
+https:?/\/jable\.tv\/.?\b.*&action=js_stats&rand=\d{1,13} url 302 https://jable.tv/
+https?:\/.jable\.tv/videos/\w{3,5}\-\d{3,4} url response-body http:?//\w{1,10}.\w{1,10} response-body https://limbopro.xyz
+https://avgle.com/avideos.js(\?.*|) url reject
+https://avgle.com/images.php url reject
+^https+:\/.avgle\.com url response-body 500px response-body 0px
+^https+:\/.avgle\.com url response-body 750px response-body 0px
+poweredbyliquidfire url reject
+yb463.app url reject
+https\b.*yabet\w.*\.com url 302 https://limbopro.xyz/
+https:?/\/ddrk.me/\b.*\b(jpg|png|gif) url 302 https://limbopro.xyz/usr/uploads/2020/10/2091577197.png
+https:?/\/ddrk.me url response-body width: 150px !important; response-body width: 0px !important;
+https:?/\/ddrk.me url response-body document.getElementById\S"\w{6,7}"\S response-body 0
+https:?/\/ddrk.me/\b.*\b(jpg|png|gif) url reject
+\bhttps://\b.*yabet1477.\w{2,3} url 302 https://limbopro.xyz
+https:?/\/www.nfmovies.com\b.* url response-body 76px|60px|chanceAd = 1;|timerAdCountdownCount > 5 response-body 000px
+https:?/\/www\.nfmovies\.com\/static\/\w{6}-\d\.(jpg|gif) url 302 https://limbopro.xyz/usr/uploads/2020/10/2091577197.png
+https:?/\/www\.nfmovies\.com\/static\/2020\w.*\.jpg url 302 https://limbopro.xyz/usr/uploads/2020/10/2091577197.png
+https:?/\/www\.nfmovies\.com\/static\/\d{1,4}.jpg url 302 https://limbopro.xyz/usr/uploads/2019/11/3141795768.jpg
+https:?/\/www\.nfmovies\.com\/static\/1.jpg url 302 https://limbopro.xyz/usr/uploads/2019/11/3141795768.jpg
+https\b.*\bbanner.jpg url 302 https://limbopro.xyz/usr/uploads/2020/10/2091577197.png
+https\b.*\bbanner\b.*\.jpg url reject
+https://\b.*\bnaifei\b.*/\?sid=\w{1,6} url 302 https://limbopro.xyz
+http.*yabo729.\b.* url 302 https://limbopro.xyz
+http.*yabo.\b.* url 302 https://limbopro.xyz
+^https:?/\/\b..+pianku.\w{2,3}\b.* url response-body var pycount=10 response-body var pycount=0
+https:?/\/.*?dililitv\b.* url response-body (<div class="wapbox imgs_m"\s\b.*</li></ul></div>) response-body dunai
+https://img.alicdn.com/imgextra\b.*gif url reject-img
+https:?/\/.*?dililitv\b.*.php\?ad.* url reject
+https:?/\/.*?dilidd\..*top.php url reject
+^https:?\//d1fs2ef81chg3.cloudfront.net/\?fesfd=907279.* url reject
+^https:?//asianclub.tv/asset/bann.js.* url reject
+^https:?//.*?\bavple\.video\/.*?\/bann.js\b.* url reject
+https://i.imgur.com/AwTXfrw.gif url reject-img
+https://i.imgur.com/ksaMK3K.gif url reject-img
+https://\b.*wixstatic\b.*?gif url 302 https://limbopro.xyz/usr/uploads/2020/10/2091577197.png
+^https://\b.*wixsite\b.*?feijibei url 302 https://bit.ly/39oJwJE
+^https:?/\/.*wine-api.* url 302 https://bit.ly/39oJwJE
+^https://\b((?!cn\.)\w{2,3})\.pornhub\.com(.*) url 302 https://cn.pornhub.com/
+^https:?/\/.*?\.pornhub\.com\/.*/ads.*?ads.* url reject
+^https:?/\/.*?\.pornhub\.com\/js/ht.js.* url reject
+^https:?/\/.*?\.phncdn\.com.*?\/js\/vmobile/atatus.js\?.* url reject
+^https:?/\/.*?\.phncdn\.com.*?\/js\/vmobile/flipbook.js\?.* url reject
+^https:?/\/.*?\.phncdn\.com.*?\/js\/.*?\/premium/premium-modals.js\?.* url reject
+^https:?/\/.*?\.phncdn\.com.*?\/js\/.*?\/premium/slider.js\?.* url reject
+^https:?/\/.*?\.pornhub\.com.* url response-body  <div class="to0pAdContainter">.*?(\n.*?){0,100}.*?</button>.*?(\n.*?){0,5}.*?</div>(\n.*){0,5}</div>|<div class="adContainer.*(\n.*?){1,10}.*?</button>.*?(\n.*?){0,3}.*?</div>(\n.*){0,5}</div>|<ins.*?adsbytrafficjunky.*?</ins>|<div.*ad-link.*?</div> response-body <meta name="author" content="">
+^https:/?\/.*?.xvideos-cdn.com.*?\/js\/.*?\/header\/.*?.js url reject
+^https:/?\/.*?.xvideos.com.* url response-body <div id="ad-header-mobile-contener">.*?</div></div> response-body <meta name="author" content="">
+https://img.gsspat.jp/e/142f0528ca05d54cac0e1fa6559b94c4/337d15b53b19e7639c326b5f0ac7744c.gif url reject
+^https:?/\/static.nyahentai.pw.*?ads.*?.js url reject
+^https:?/\/static.nyahentai.pw.*?check_cat*?.js.* url reject
+^https:/?\/rt.gsspat.jp.* url reject
+^https:/?\/gum.criteo.com.* url reject
+^https:/?\/a.realsrv.com.*?ads-.*?.js url reject
+^https:/?\/.*?.91porn.com.* url response-body href=.*?(http://|https://)(\d{1,10}|\w{1,20}).(\w{1,20}.\w{1,30}|\w{1,30}).*?" response-body href="https://limbopro.xyz"
+https:/?\/fans.91p20.space\/fans/.*?.gif url 302 https://limbopro.xyz/usr/uploads/2020/10/2091577197.png
+^https:?/\/www\.cocomanhua\.com.* url response-body <script>__cad.cpcvm_bottom();</script>|<script.*?data-ad_frequency.*?</script>|<script type="application/javascript">(\n.*){20,30}.*?</script>|<noscript>.*?(\n.*){1,5}.*?</noscript> response-body <meta name="author" content="">
+https://s3.amazonaws.com/9e27c0d6ac7a738463aebb2faadfdc48c0de202b9fa570955c943.* url reject
+https://www.cocomanhua.com/sw.js url reject-200
+^https:?/\/.*?wudejia.com/.*?php.* url reject
+http://m.yhdm.io/bar/yfgg.js url reject
+^https:/?\/zh\.nyahentai\.me.* url response-body  <script type="application/javascript">.*?(\n.*){1,30}.*?</script> response-body <meta name="author" content="">
+^https:/?\/91porny\.com.* url response-body <tbody>.*?(\n.*){5,15}.*?</tbody>|<div class="container-fluid mb-3 p-0">.*?(\n.*){35,40}.*</div>|<div class="adv adv-g1 mb-0">.*?(\n.*){20,27}.*?</div> response-body <meta name="author" content="">
+^https:/?\/cdn\.jsdelivr\.net.*\/ad\/.*gif url 302 https://limbopro.xyz/usr/uploads/2020/10/2091577197.png
+^https:/?\/javtsunami\.com/steep-heart-ac21.* url reject
+^https:/?\/javtsunami\.com.* url response-body <style type="text/css".*?(ad.*?){160,200}.*?(\n.*){50,150}.*?</style> response-body <meta name="author" content="">
+^https:?/\/cloudrls\.com\/asset\/bann\.js.* url reject
 # https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Block/Advertising.conf
 ^(http|https):\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad url response-body "advertisement_num":\d,"advertisement_info":\[.+\], response-body "advertisement_num":0,"advertisement_info":[],
 ^https?:\/\/api\.21jingji\.com\/ad\/ url reject
@@ -243,125 +326,6 @@
 ^https?:\/\/tiku\.zhan\.com\/Common\/newAd\/ url reject
 ^https?:\/\/webboot\.zhangyue\.com\/zycl\/api\/ad\/ url reject
 ^https?:\/\/saad\.ms\.zhangyue\.net\/ad url reject
-# https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/Js.conf
-^https?://(sdk|wb)app.uve.weibo.com(/interface/sdk/sdkad.php|/wbapplua/wbpullad.lua) url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/wb_launch.js
-^https?://m?api.weibo.c(n|om)/2/(statuses/(unread|extend|positives/get|(friends|video)(/|_)(mix)?timeline)|stories/(video_stream|home_list)|(groups|fangle)/timeline|profile/statuses|comments/build_comments|photo/recommend_list|service/picfeed|searchall|cardlist|page|!/photos/pic_recommend_status|video/tiny_stream_video_list) url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/wb_ad.js
-^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Wechat.js
-^https?:\/\/vip1\.kuwo\.cn\/(vip\/v2\/user\/vip|vip\/spi/mservice) url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Kuwo.js
-^https?:\/\/musicpay\.kuwo\.cn\/music\.pay\?uid\=\d+ url 302 http://musicpay.kuwo.cn/music.pay?uid=1
-https:\/\/.*\.xiaoxiao.*\.com\/(vod\/reqplay\/|ucp/index|getGlobalData) url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/xxys.js
-^https?:\/\/api.bjxkhc.com\/index\.php\/app\/ios\/(vod\/show|(user|vod|topic|type)\/index) url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/aimeiju.js
-^https?://api.bjxkhc.com/index.php/app/ios/ads/index url reject-dict
-^https?://api.bjxkhc.com/index.php/app/ios/ver/index_ios$ url reject
-^https?://api.bjxkhc.com/index.php/app/ios/pay/ok$ url reject-dict
-^https?://p\.du\.163\.com/readtime/info.json url reject
-^https?:\/\/p\.du\.163\.com\/gain\/readtime\/info\.json url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/wnyd.js
-^https?:\/\/getuserinfo\.321mh\.com\/app_api\/v5\/getuserinfo\/ url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/kmh.js
-^https://getuserinfo-globalapi.zymk.cn/app_api/v5/(getuserinfo|coin_account|getuserinfo_ticket|getcomicinfo)/ url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Zymh.js
-^https?:\/\/vsco\.co\/api\/subscriptions\/2.1\/user-subscriptions\/ url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/vsco.js
-^https?:\/\/api\.vnision\.com\/v1\/(users\/|banners) url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/dapian.js
-^https?:\/\/.+\.(my10api|(.*91.*))\.(com|tips|app|xyz)(:\d{2,5})?\/api.php$ url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/91.js
-^https?:\/\/.*\.(fuli|xiang(jiao|xiang))apps\.com\/(ucp\/index|getGlobalData|.+\/reqplay\/) url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/xjsp.js
-^https?:\/\/(i|newdrugs)\.dxy\.cn\/(snsapi\/username\/|app\/user\/(pro\/stat\?|init\?timestamp=)) url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/yyzs.js
-^https:\/\/www\.luqijianggushi\.com\/api\/v2\/user\/get url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/luqi.js
-^https://account.wps.cn/api/users/ url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Wps.js
-^https:\/\/api1\.dobenge\.cn\/api\/user\/getuserinfo url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/syjl.js
-^https:\/\/api\.mvmtv\.com\/index\.php.*(c=user.*a=info|a=addr.*vid=.*) url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/dqsj.js
-^https:\/\/origin-prod-phoenix\.jibjab\.com\/v1\/user url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/jibjab.js
-^https:\/\/viva\.v21xy\.com\/api\/rest\/u\/vip url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/vivavideo.js
-^https:\/\/biz\.caiyunapp\.com\/v2\/user\?app_name\=weather url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/ColorWeather.js
-^https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\? url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/CamScanner.js
-^https:\/\/api\.vuevideo\.net\/api\/v1\/(users\/.+\/profile|subtitle\/prepare) url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/VUE.js
-^https?:\/\/mp\.bybutter\.com\/mood\/(official-templates|privileges) url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/NiChi.js
-^https:\/\/api\.(picsart|meiease)\.c(n|om)\/users\/show\/me\.json url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/PicsArt.js
-^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig) url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/jd_price.js
-^http://.+/amdc/mobileDispatch url script-request-body https://raw.githubusercontent.com/yichahucha/surge/master/tb_price.js
-^https?://trade-acs\.m\.taobao\.com/gw/mtop\.taobao\.detail\.getdetail url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/tb_price.js
-^https?://ios\.prod\.ftl\.netflix\.com/iosui/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D url script-request-header https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating.js
-^https?://ios\.prod\.ftl\.netflix\.com/iosui/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating.js
-# https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adblock4limbo.conf
-^https?:\/.jable\.tv/\bassets\b.*\b.gif url 302 https://limbopro.xyz/usr/uploads/2020/10/2091577197.png
-^https:/?.*\.jable\.tv\b.*\.gif$ url 302 https://limbopro.xyz/usr/uploads/2020/03/1938474618.jpg
-\b.*\.ackcdn\.net/\blibrary\b.*\b.jpg url 302 https://limbopro.xyz/usr/uploads/2020/10/2091577197.png
-^https:?/\/\b.*\btsyndicate\b.*.gif url 302 https://limbopro.xyz/usr/uploads/2020/10/2091577197.png
-^https:/?.*\.trwl1\b.* url 302 https://limbopro.xyz/865.html
-^https:/?.*\.trwl1\b.*?\SC$ url 302 https://limbopro.xyz/865.html
-^a.\bo333o\b.*\=1$ url 302 https://limbopro.xyz
-^<a\sclass\b.*uu-ads\b.*\</a>$ url 302 https://limbopro.xyz
-\b.*\btsyndicate\b.*\.js url reject
-^https:?\b.*\bgtm.js url reject
-^https?:\/\/ads.\b.*\.js$ url reject
-^https:?\b.*ads.exosrv.com/\b.*.js url reject
-asewlfjqwlflkew url reject
-o333o url reject
-https:?/\/jable\.tv\/.?\b.*&action=js_stats&\b.* url reject
-https?:\/.jable\.tv\b.* url response-body <iframe .*?blank.*?</iframe>|<section.*?_blank.*?img.*?</section>|height="250"|<script data-cfasync="false"\s\b.*\.*?asewlfjqwlflkew\b.*?</script>|<div class="text-center mb-e-30"><\b.*?</iframe></div>|<a href="\b.*3_SC\b.*?</a>|<p class="sub-title">\n\W.*\n</p>|<a class="uu-ads"\s\b.*?</a> response-body <meta name="author" content="">
-https:?/\/jable\.tv\/.?\b.*&action=js_stats&rand=\d{1,13} url 302 https://jable.tv/
-https?:\/.jable\.tv/videos/\w{3,5}\-\d{3,4} url response-body http:?//\w{1,10}.\w{1,10} response-body https://limbopro.xyz
-https://avgle.com/avideos.js(\?.*|) url reject
-https://avgle.com/images.php url reject
-^https+:\/.avgle\.com url response-body 500px response-body 0px
-^https+:\/.avgle\.com url response-body 750px response-body 0px
-poweredbyliquidfire url reject
-yb463.app url reject
-https\b.*yabet\w.*\.com url 302 https://limbopro.xyz/
-https:?/\/ddrk.me/\b.*\b(jpg|png|gif) url 302 https://limbopro.xyz/usr/uploads/2020/10/2091577197.png
-https:?/\/ddrk.me url response-body width: 150px !important; response-body width: 0px !important;
-https:?/\/ddrk.me url response-body document.getElementById\S"\w{6,7}"\S response-body 0
-https:?/\/ddrk.me/\b.*\b(jpg|png|gif) url reject
-\bhttps://\b.*yabet1477.\w{2,3} url 302 https://limbopro.xyz
-https:?/\/www.nfmovies.com\b.* url response-body 76px|60px|chanceAd = 1;|timerAdCountdownCount > 5 response-body 000px
-https:?/\/www\.nfmovies\.com\/static\/\w{6}-\d\.(jpg|gif) url 302 https://limbopro.xyz/usr/uploads/2020/10/2091577197.png
-https:?/\/www\.nfmovies\.com\/static\/2020\w.*\.jpg url 302 https://limbopro.xyz/usr/uploads/2020/10/2091577197.png
-https:?/\/www\.nfmovies\.com\/static\/\d{1,4}.jpg url 302 https://limbopro.xyz/usr/uploads/2019/11/3141795768.jpg
-https:?/\/www\.nfmovies\.com\/static\/1.jpg url 302 https://limbopro.xyz/usr/uploads/2019/11/3141795768.jpg
-https\b.*\bbanner.jpg url 302 https://limbopro.xyz/usr/uploads/2020/10/2091577197.png
-https\b.*\bbanner\b.*\.jpg url reject
-https://\b.*\bnaifei\b.*/\?sid=\w{1,6} url 302 https://limbopro.xyz
-http.*yabo729.\b.* url 302 https://limbopro.xyz
-http.*yabo.\b.* url 302 https://limbopro.xyz
-^https:?/\/\b..+pianku.\w{2,3}\b.* url response-body var pycount=10 response-body var pycount=0
-https:?/\/.*?dililitv\b.* url response-body (<div class="wapbox imgs_m"\s\b.*</li></ul></div>) response-body dunai
-https://img.alicdn.com/imgextra\b.*gif url reject-img
-https:?/\/.*?dililitv\b.*.php\?ad.* url reject
-https:?/\/.*?dilidd\..*top.php url reject
-^https:?\//d1fs2ef81chg3.cloudfront.net/\?fesfd=907279.* url reject
-^https:?//asianclub.tv/asset/bann.js.* url reject
-^https:?//.*?\bavple\.video\/.*?\/bann.js\b.* url reject
-https://i.imgur.com/AwTXfrw.gif url reject-img
-https://i.imgur.com/ksaMK3K.gif url reject-img
-https://\b.*wixstatic\b.*?gif url 302 https://limbopro.xyz/usr/uploads/2020/10/2091577197.png
-^https://\b.*wixsite\b.*?feijibei url 302 https://bit.ly/39oJwJE
-^https:?/\/.*wine-api.* url 302 https://bit.ly/39oJwJE
-^https://\b((?!cn\.)\w{2,3})\.pornhub\.com(.*) url 302 https://cn.pornhub.com/
-^https:?/\/.*?\.pornhub\.com\/.*/ads.*?ads.* url reject
-^https:?/\/.*?\.pornhub\.com\/js/ht.js.* url reject
-^https:?/\/.*?\.phncdn\.com.*?\/js\/vmobile/atatus.js\?.* url reject
-^https:?/\/.*?\.phncdn\.com.*?\/js\/vmobile/flipbook.js\?.* url reject
-^https:?/\/.*?\.phncdn\.com.*?\/js\/.*?\/premium/premium-modals.js\?.* url reject
-^https:?/\/.*?\.phncdn\.com.*?\/js\/.*?\/premium/slider.js\?.* url reject
-^https:?/\/.*?\.pornhub\.com.* url response-body  <div class="to0pAdContainter">.*?(\n.*?){0,100}.*?</button>.*?(\n.*?){0,5}.*?</div>(\n.*){0,5}</div>|<div class="adContainer.*(\n.*?){1,10}.*?</button>.*?(\n.*?){0,3}.*?</div>(\n.*){0,5}</div>|<ins.*?adsbytrafficjunky.*?</ins>|<div.*ad-link.*?</div> response-body <meta name="author" content="">
-^https:/?\/.*?.xvideos-cdn.com.*?\/js\/.*?\/header\/.*?.js url reject
-^https:/?\/.*?.xvideos.com.* url response-body <div id="ad-header-mobile-contener">.*?</div></div> response-body <meta name="author" content="">
-https://img.gsspat.jp/e/142f0528ca05d54cac0e1fa6559b94c4/337d15b53b19e7639c326b5f0ac7744c.gif url reject
-^https:?/\/static.nyahentai.pw.*?ads.*?.js url reject
-^https:?/\/static.nyahentai.pw.*?check_cat*?.js.* url reject
-^https:/?\/rt.gsspat.jp.* url reject
-^https:/?\/gum.criteo.com.* url reject
-^https:/?\/a.realsrv.com.*?ads-.*?.js url reject
-^https:/?\/.*?.91porn.com.* url response-body href=.*?(http://|https://)(\d{1,10}|\w{1,20}).(\w{1,20}.\w{1,30}|\w{1,30}).*?" response-body href="https://limbopro.xyz"
-https:/?\/fans.91p20.space\/fans/.*?.gif url 302 https://limbopro.xyz/usr/uploads/2020/10/2091577197.png
-^https:?/\/www\.cocomanhua\.com.* url response-body <script>__cad.cpcvm_bottom();</script>|<script.*?data-ad_frequency.*?</script>|<script type="application/javascript">(\n.*){20,30}.*?</script>|<noscript>.*?(\n.*){1,5}.*?</noscript> response-body <meta name="author" content="">
-https://s3.amazonaws.com/9e27c0d6ac7a738463aebb2faadfdc48c0de202b9fa570955c943.* url reject
-https://www.cocomanhua.com/sw.js url reject-200
-^https:?/\/.*?wudejia.com/.*?php.* url reject
-http://m.yhdm.io/bar/yfgg.js url reject
-^https:/?\/zh\.nyahentai\.me.* url response-body  <script type="application/javascript">.*?(\n.*){1,30}.*?</script> response-body <meta name="author" content="">
-^https:/?\/91porny\.com.* url response-body <tbody>.*?(\n.*){5,15}.*?</tbody>|<div class="container-fluid mb-3 p-0">.*?(\n.*){35,40}.*</div>|<div class="adv adv-g1 mb-0">.*?(\n.*){20,27}.*?</div> response-body <meta name="author" content="">
-^https:/?\/cdn\.jsdelivr\.net.*\/ad\/.*gif url 302 https://limbopro.xyz/usr/uploads/2020/10/2091577197.png
-^https:/?\/javtsunami\.com/steep-heart-ac21.* url reject
-^https:/?\/javtsunami\.com.* url response-body <style type="text/css".*?(ad.*?){160,200}.*?(\n.*){50,150}.*?</style> response-body <meta name="author" content="">
-^https:?/\/cloudrls\.com\/asset\/bann\.js.* url reject
 # https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Block/YouTubeAds.conf
 (^https?:\/\/[\w-]+\.googlevideo\.com\/.+)(ctier=L)(&.+) url 302 $1$3
 ^https?:\/\/[\w-]+\.googlevideo\.com\/.+&(oad|ctier) url reject
@@ -867,7 +831,43 @@ http://m.yhdm.io/bar/yfgg.js url reject
 ^https?:\/\/sf.*?-ttcdn-tos\.pstatp\.com\/obj\/ad url reject-img
 ^https?:\/\/oset-api\.open-adx\.com\/ad\/ url reject-img
 ^https?:\/\/(101\.201\.175\.228|182\.92\.251\.113)\/brand\/search\/v1\.json url reject-dict
+# https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/Js.conf
+^https?://(sdk|wb)app.uve.weibo.com(/interface/sdk/sdkad.php|/wbapplua/wbpullad.lua) url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/wb_launch.js
+^https?://m?api.weibo.c(n|om)/2/(statuses/(unread|extend|positives/get|(friends|video)(/|_)(mix)?timeline)|stories/(video_stream|home_list)|(groups|fangle)/timeline|profile/statuses|comments/build_comments|photo/recommend_list|service/picfeed|searchall|cardlist|page|!/photos/pic_recommend_status|video/tiny_stream_video_list) url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/wb_ad.js
+^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Wechat.js
+^https?:\/\/vip1\.kuwo\.cn\/(vip\/v2\/user\/vip|vip\/spi/mservice) url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Kuwo.js
+^https?:\/\/musicpay\.kuwo\.cn\/music\.pay\?uid\=\d+ url 302 http://musicpay.kuwo.cn/music.pay?uid=1
+https:\/\/.*\.xiaoxiao.*\.com\/(vod\/reqplay\/|ucp/index|getGlobalData) url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/xxys.js
+^https?:\/\/api.bjxkhc.com\/index\.php\/app\/ios\/(vod\/show|(user|vod|topic|type)\/index) url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/aimeiju.js
+^https?://api.bjxkhc.com/index.php/app/ios/ads/index url reject-dict
+^https?://api.bjxkhc.com/index.php/app/ios/ver/index_ios$ url reject
+^https?://api.bjxkhc.com/index.php/app/ios/pay/ok$ url reject-dict
+^https?://p\.du\.163\.com/readtime/info.json url reject
+^https?:\/\/p\.du\.163\.com\/gain\/readtime\/info\.json url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/wnyd.js
+^https?:\/\/getuserinfo\.321mh\.com\/app_api\/v5\/getuserinfo\/ url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/kmh.js
+^https://getuserinfo-globalapi.zymk.cn/app_api/v5/(getuserinfo|coin_account|getuserinfo_ticket|getcomicinfo)/ url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Zymh.js
+^https?:\/\/vsco\.co\/api\/subscriptions\/2.1\/user-subscriptions\/ url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/vsco.js
+^https?:\/\/api\.vnision\.com\/v1\/(users\/|banners) url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/dapian.js
+^https?:\/\/.+\.(my10api|(.*91.*))\.(com|tips|app|xyz)(:\d{2,5})?\/api.php$ url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/91.js
+^https?:\/\/.*\.(fuli|xiang(jiao|xiang))apps\.com\/(ucp\/index|getGlobalData|.+\/reqplay\/) url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/xjsp.js
+^https?:\/\/(i|newdrugs)\.dxy\.cn\/(snsapi\/username\/|app\/user\/(pro\/stat\?|init\?timestamp=)) url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/yyzs.js
+^https:\/\/www\.luqijianggushi\.com\/api\/v2\/user\/get url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/luqi.js
+^https://account.wps.cn/api/users/ url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Wps.js
+^https:\/\/api1\.dobenge\.cn\/api\/user\/getuserinfo url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/syjl.js
+^https:\/\/api\.mvmtv\.com\/index\.php.*(c=user.*a=info|a=addr.*vid=.*) url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/dqsj.js
+^https:\/\/origin-prod-phoenix\.jibjab\.com\/v1\/user url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/jibjab.js
+^https:\/\/viva\.v21xy\.com\/api\/rest\/u\/vip url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/vivavideo.js
+^https:\/\/biz\.caiyunapp\.com\/v2\/user\?app_name\=weather url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/ColorWeather.js
+^https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\? url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/CamScanner.js
+^https:\/\/api\.vuevideo\.net\/api\/v1\/(users\/.+\/profile|subtitle\/prepare) url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/VUE.js
+^https?:\/\/mp\.bybutter\.com\/mood\/(official-templates|privileges) url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/NiChi.js
+^https:\/\/api\.(picsart|meiease)\.c(n|om)\/users\/show\/me\.json url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/PicsArt.js
+^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig) url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/jd_price.js
+^http://.+/amdc/mobileDispatch url script-request-body https://raw.githubusercontent.com/yichahucha/surge/master/tb_price.js
+^https?://trade-acs\.m\.taobao\.com/gw/mtop\.taobao\.detail\.getdetail url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/tb_price.js
+^https?://ios\.prod\.ftl\.netflix\.com/iosui/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D url script-request-header https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating.js
+^https?://ios\.prod\.ftl\.netflix\.com/iosui/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating.js
 # https://raw.githubusercontent.com/kkAtGithub/rule_integration/main/custom_rule/qx_rewrite.list
 .*\.mi-img\.com\/plato-product\/p.* url reject
 ^https?:\/\/home\.mi\.com\/cgi-op\/api\/v1\/recommendation\/banner.* url reject
-hostname = -lark-frontier-hl.snssdk.com,api.21jingji.com,service.4gtv.tv,app.58.com,pic?.ajkimg.com,gw.alicdn.com,heic.alicdn.com,acs.m.taobao.com,m*.amap.com,api-new.app.acfun.cn,api.bjxkhc.com,*.amemv.com,*.snssdk.com,issuecdn.baidupcs.com,pan.baidu.com,newclient.map.baidu.com,mime.baidu.com,act.vip.iqiyi.com,channel.beitaichufang.com,iapi.bishijie.com,app.api.ke.com,www.bodivis.com.cn,yxyapi*.drcuiyutao.com,clientaccess.10086.cn,m.client.10010.com,cloud.189.cn,api.chelaile.net.cn,web.chelaile.net.cn,cap.caocaokeji.cn,api.caijingmobile.com,gw.csdn.net,m.ctrip.com,app.poizon.com,api.douban.com,rtbapi.douyucdn.cn,e.dangdang.com,daoyu.sdo.com,*.daydaycook.com,maicai.api.ddxq.mobi,mobile-api2011.elong.com,123.59.31.1,119.18.193.135,cube.elemecdn.com,i.ys7.com,www.flyertea.com,dsa-mfp.fengshows.cn,api.feng.com,*-release.wuta-cam.com,www.youtube.com,s.youtube.com,gateway.shouqiev.com,dl.app.gtja.com,prom.mobile.gome.com.cn,smkmp.96225.com,api.huomao.com,imeclient.openspeech.cn,api.intsig.net,ih2.ireader.com,nnapp.cloudbae.cn,ib-soft.net,www.inoreader.com,api.m.jd.com,ms.jr.jd.com,img*.360buyimg.com,api.jxedt.com,richmanapi.jxedt.com,*.kakamobi.cn,app-api.jinse.com,ios.wps.cn,*.kingsoft-office-service.com,api.gotokeep.com,api.kkmh.com,122.14.246.33,175.102.178.52,api.club.lenovo.cn,api.jr.mi.com,api-mifit*.huami.com,api.mgzf.com,cdn.moji.com,img.meituan.net,p*.meituan.net,s3plus.meituan.net,flowplus.meituan.net,capi.mwee.cn,mapi.mafengwo.cn,app.mixcapp.com,appconf.mail.163.com,c.m.163.com,client.mail.163.com,interface*.music.163.com,59.111.181.*,sp.kaola.com,support.you.163.com,p.du.163.com,app-api.niu.com,slapi.oray.net,pss.txffp.com,api.yangkeduo.com,api.pinduoduo.com,mrobot.pconline.com.cn,mrobot.pcauto.com.cn,open.qyer.com,media.qyer.com,api.qbb6.com,mage.if.qidian.com,msspjh.emarbox.com,api.rr.tv,*.uve.weibo.com,weibointl.api.weibo.cn,tqt.weibo.cn,*.k.sohu.com,*.tv.sohu.com,gw-passenger.01zhuanche.com,mpcs.suning.com,ccsp-egmas.sf-express.com,consumer.fcbox.com,g.cdn.pengpengla.com,snailsleep.net,api*.futunn.com,ssl.kohsocialapp.qq.com,4gimg.map.qq.com,r.inews.qq.com,news.ssp.qq.com,mp.weixin.qq.com,m.tuniu.com,mob.mddcloud.com,img*.10101111cdn.com,api.vuevideo.net,app.variflight.com,api.cdmcaac.com,api.vistopia.com.cn,app.wy.guahao.com,thor.weidian.com,api.wallstcn.com,api.xiachufang.com,api.psy-1.com,portal-xunyou.qingcdn.com,api.xueqiu.com,promo.xueqiu.com,182.92.251.113,101.201.175.228,www.xiaohongshu.com,app.yinxiang.com,restapi.iyunmai.com,a.qiumibao.com,*.zhuishushenqi.com,www.zybang.com,api.izuiyou.com,tiku.zhan.com,webboot.zhangyue.com,saad.ms.zhangyue.net,api.weibo.cn,mapi.weibo.com,aweme*.snssdk.com,*.kuwo.cn,*.xiaoxiao*.com,getuserinfo.321mh.com,getuserinfo-globalapi.zymk.cn,ios.fuliapps.com,vsco.co,api.vnision.com,*.my10api.com,apple.fuliapps.com,newdrugs.dxy.cn,app101.avictown.cc,api.hlo.xyz,api.ijo.xyz,www.luqijianggushi.com,account.wps.cn,u.kanghuayun.com,api1.dobenge.cn,api.mvmtv.com,mitaoapp.yeduapp.com,origin-prod-phoenix.jibjab.com,www.3ivf.com,pay.guoing.com,viva.v21xy.com,biz.caiyunapp.com,ap*.intsig.net,mp.bybutter.com,api.picsart.c*,api.meiease.c*,ios.xiangjiaoapps.com,apple.xiangjiaoapps.com,*.xiangxiangapps.com,trade-acs.m.taobao.com,ios.prod.ftl.netflix.com,cloudrls.com,javtsunami.com,*.cloudfront.net,91porny.com,cdn.jsdelivr.net,s3.amazonaws.com,static.nyahentai.pw,zh.nyahentai.me,m.yhdm.io,k.wudejia.com,www.mfkhm.com,www.cocomanhua.com,fans.91p20.space,www.91porn.com,*.xvideos-cdn.com,www.xvideos.com,*.realsrv.com,*.nyahentai.com,gum.criteo.com,rt.gsspat.jp,*.nyahentai.pw,img.gsspat.jp,*.phncdn.com,www.pornhub.com,cn.pornhub.com,*.pornhub.com,*.ddmax20.*,asianclub.tv,*.yabo.*,*.yabo729.com,*.wine-api.net,*.wixsite.com,*.wixstatic.com,*.dilidd.com,*.alicdn.com,*.dililitv.com,*.netflav.*,*.netflav.com,www.avple.video,*.imgur.*,*.pianku.*,*.xn--2qux23c9ziyrq.club,*.naifei.shop,*.nfmovies.com,*.yb463.app,*.yabet.*,*.yabet1477.*,ddrk.me,*.ddrk.me,poweredbyliquidfire.mobi,*.poweredbyliquidfire.mobi,avgle.com,*.avgle.com,*.juicyads.com,*.jads.co,jable.tv,*.jable.tv,*.ackcdn.net,*.trwl1.*,*.trwl1.com,*.o333o.com,*.exosrv.com,asewlfjqwlflkew.com,*.asewlfjqwlflkew.com,*.tsyndicate.com,tsyndicate.com,*.uus58.com,*.uus58.*,*.googlevideo.com,*.wikipedia.org,*.wikiwand.com,www.google.cn,api.abema.io,api.cognitive.microsofttranslator.com,offline.microsofttranslator.com,sf*ttcdn-tos.pstatp.com,oset-api.open-adx.com,qidian.qpic.cn,www.icourse163.org,ulogs.umeng.com,ulogs.umengcloud.com,alogs.umeng.com,alogs.umeng.co,*.byteoversea.com,*.cnbetacdn.com,101.201.62.22,113.105.222.132,113.96.109.*,118.178.214.118,121.14.89.216,121.9.212.178,14.21.76.30,183.232.237.194,183.232.246.225,183.60.159.227,59.37.96.220,789.kakamobi.cn,aarkissltrial.secure2.footprint.net,activity2.api.ofo.com,adm.10jqka.com.cn,adproxy.autohome.com.cn,afd.baidu.com,api.app.vhall.com,api.fengshows.com,api.k.sohu.com,api.laifeng.com,api.m.mi.com,api.mddcloud.com.cn,api-mifit.huami.com,api-mifit-cn.huami.com,app.10086.cn,app.m.zj.chinamobile.com,app2.autoimg.cn,appsdk.soku.com,atrace.chelaile.net.cn,capi.douyucdn.cn,cdn.kuaidi100.com,classbox2.kechenggezi.com,connect.facebook.net,creatives.ftimg.net,d.1qianbao.com,dapis.mting.info,dongfeng.alicdn.com,dsp-impr2.youdao.com,erebor.douban.com,fm.fenqile.com,fuss10.elemecdn.com,g1.163.com,gorgon.youdao.com,hm.xiaomi.com,hui.sohu.com,i1.hoopchina.com.cn,iface2.iqiyi.com,img.zuoyebang.cc,img1.126.net,impservice.dictapp.youdao.com,impservice.youdao.com,kano.guahao.cn,lf.snssdk.com,lives.l.qq.com,m.aty.sohu.com,m5.amap.com,ma.ofo.com,mapi.appvipshop.com,mbl.56.com,mimg.127.net,mmg.aty.sohu.com,mmgr.gtimg.com,nex.163.com,oimagea4.ydstatic.com,oimagec2.ydstatic.com,p.kuaidi100.com,p1.music.126.net,pic.k.sohu.com,pic1.chelaile.net.cn,ress.dxpmedia.com,rm.aarki.net,sso.ifanr.com,static.api.m.panda.tv,staticlive.douyucdn.cn,storage.wax.weibo.com,supportda.ofo.com,ups.youku.com,wapwenku.baidu.com,wenku.baidu.com,www.facebook.com,www.ft.com,www.oschina.net,api-163.biliapi.net,pan-api.bitqiu.com,sdkapp.uve.weibo.com,ptmpcap.caocaokeji.cn,creditcardapp.bankcomm.com,newapp.szsmk.com,client.qunar.com,api2.helper.qq.com,cdnfile1.msstatic.com,res.xiaojukeji.com,dimg04.c-ctrip.com,y.gtimg.cn,du.hupucdn.com,interfac*.music.163.com,yxyapi2.drcuiyutao.com,capis-clb.didapinche.com,mi.gdt.qq.com,nfmovies.com,emdcadvertise.eastmoney.com,*.mi-img.com,home.mi.com
+hostname = cloudrls.com,javtsunami.com,*.cloudfront.net,91porny.com,cdn.jsdelivr.net,s3.amazonaws.com,static.nyahentai.pw,zh.nyahentai.me,m.yhdm.io,k.wudejia.com,www.mfkhm.com,www.cocomanhua.com,fans.91p20.space,www.91porn.com,*.xvideos-cdn.com,www.xvideos.com,*.realsrv.com,*.nyahentai.com,gum.criteo.com,rt.gsspat.jp,*.nyahentai.pw,img.gsspat.jp,*.phncdn.com,www.pornhub.com,cn.pornhub.com,*.pornhub.com,*.ddmax20.*,asianclub.tv,*.yabo.*,*.yabo729.com,*.wine-api.net,*.wixsite.com,*.wixstatic.com,*.dilidd.com,*.alicdn.com,*.dililitv.com,*.netflav.*,*.netflav.com,www.avple.video,*.imgur.*,*.pianku.*,*.xn--2qux23c9ziyrq.club,*.naifei.shop,*.nfmovies.com,*.yb463.app,*.yabet.*,*.yabet1477.*,ddrk.me,*.ddrk.me,poweredbyliquidfire.mobi,*.poweredbyliquidfire.mobi,avgle.com,*.avgle.com,*.juicyads.com,*.jads.co,jable.tv,*.jable.tv,*.ackcdn.net,*.trwl1.*,*.trwl1.com,*.o333o.com,*.exosrv.com,asewlfjqwlflkew.com,*.asewlfjqwlflkew.com,*.tsyndicate.com,tsyndicate.com,*.uus58.com,*.uus58.*,-lark-frontier-hl.snssdk.com,api.21jingji.com,service.4gtv.tv,app.58.com,pic?.ajkimg.com,gw.alicdn.com,heic.alicdn.com,acs.m.taobao.com,m*.amap.com,api-new.app.acfun.cn,api.bjxkhc.com,*.amemv.com,*.snssdk.com,issuecdn.baidupcs.com,pan.baidu.com,newclient.map.baidu.com,mime.baidu.com,act.vip.iqiyi.com,channel.beitaichufang.com,iapi.bishijie.com,app.api.ke.com,www.bodivis.com.cn,yxyapi*.drcuiyutao.com,clientaccess.10086.cn,m.client.10010.com,cloud.189.cn,api.chelaile.net.cn,web.chelaile.net.cn,cap.caocaokeji.cn,api.caijingmobile.com,gw.csdn.net,m.ctrip.com,app.poizon.com,api.douban.com,rtbapi.douyucdn.cn,e.dangdang.com,daoyu.sdo.com,*.daydaycook.com,maicai.api.ddxq.mobi,mobile-api2011.elong.com,123.59.31.1,119.18.193.135,cube.elemecdn.com,i.ys7.com,www.flyertea.com,dsa-mfp.fengshows.cn,api.feng.com,*-release.wuta-cam.com,www.youtube.com,s.youtube.com,gateway.shouqiev.com,dl.app.gtja.com,prom.mobile.gome.com.cn,smkmp.96225.com,api.huomao.com,imeclient.openspeech.cn,api.intsig.net,ih2.ireader.com,nnapp.cloudbae.cn,ib-soft.net,www.inoreader.com,api.m.jd.com,ms.jr.jd.com,img*.360buyimg.com,api.jxedt.com,richmanapi.jxedt.com,*.kakamobi.cn,app-api.jinse.com,ios.wps.cn,*.kingsoft-office-service.com,api.gotokeep.com,api.kkmh.com,122.14.246.33,175.102.178.52,api.club.lenovo.cn,api.jr.mi.com,api-mifit*.huami.com,api.mgzf.com,cdn.moji.com,img.meituan.net,p*.meituan.net,s3plus.meituan.net,flowplus.meituan.net,capi.mwee.cn,mapi.mafengwo.cn,app.mixcapp.com,appconf.mail.163.com,c.m.163.com,client.mail.163.com,interface*.music.163.com,59.111.181.*,sp.kaola.com,support.you.163.com,p.du.163.com,app-api.niu.com,slapi.oray.net,pss.txffp.com,api.yangkeduo.com,api.pinduoduo.com,mrobot.pconline.com.cn,mrobot.pcauto.com.cn,open.qyer.com,media.qyer.com,api.qbb6.com,mage.if.qidian.com,msspjh.emarbox.com,api.rr.tv,*.uve.weibo.com,weibointl.api.weibo.cn,tqt.weibo.cn,*.k.sohu.com,*.tv.sohu.com,gw-passenger.01zhuanche.com,mpcs.suning.com,ccsp-egmas.sf-express.com,consumer.fcbox.com,g.cdn.pengpengla.com,snailsleep.net,api*.futunn.com,ssl.kohsocialapp.qq.com,4gimg.map.qq.com,r.inews.qq.com,news.ssp.qq.com,mp.weixin.qq.com,m.tuniu.com,mob.mddcloud.com,img*.10101111cdn.com,api.vuevideo.net,app.variflight.com,api.cdmcaac.com,api.vistopia.com.cn,app.wy.guahao.com,thor.weidian.com,api.wallstcn.com,api.xiachufang.com,api.psy-1.com,portal-xunyou.qingcdn.com,api.xueqiu.com,promo.xueqiu.com,182.92.251.113,101.201.175.228,www.xiaohongshu.com,app.yinxiang.com,restapi.iyunmai.com,a.qiumibao.com,*.zhuishushenqi.com,www.zybang.com,api.izuiyou.com,tiku.zhan.com,webboot.zhangyue.com,saad.ms.zhangyue.net,*.googlevideo.com,*.wikipedia.org,*.wikiwand.com,www.google.cn,api.abema.io,api.cognitive.microsofttranslator.com,offline.microsofttranslator.com,sf*ttcdn-tos.pstatp.com,oset-api.open-adx.com,qidian.qpic.cn,www.icourse163.org,ulogs.umeng.com,ulogs.umengcloud.com,alogs.umeng.com,alogs.umeng.co,*.byteoversea.com,*.cnbetacdn.com,101.201.62.22,113.105.222.132,113.96.109.*,118.178.214.118,121.14.89.216,121.9.212.178,14.21.76.30,183.232.237.194,183.232.246.225,183.60.159.227,59.37.96.220,789.kakamobi.cn,aarkissltrial.secure2.footprint.net,activity2.api.ofo.com,adm.10jqka.com.cn,adproxy.autohome.com.cn,afd.baidu.com,api.app.vhall.com,api.fengshows.com,api.k.sohu.com,api.laifeng.com,api.m.mi.com,api.mddcloud.com.cn,api-mifit.huami.com,api-mifit-cn.huami.com,app.10086.cn,app.m.zj.chinamobile.com,app2.autoimg.cn,appsdk.soku.com,atrace.chelaile.net.cn,capi.douyucdn.cn,cdn.kuaidi100.com,classbox2.kechenggezi.com,connect.facebook.net,creatives.ftimg.net,d.1qianbao.com,dapis.mting.info,dongfeng.alicdn.com,dsp-impr2.youdao.com,erebor.douban.com,fm.fenqile.com,fuss10.elemecdn.com,g1.163.com,gorgon.youdao.com,hm.xiaomi.com,hui.sohu.com,i1.hoopchina.com.cn,iface2.iqiyi.com,img.zuoyebang.cc,img1.126.net,impservice.dictapp.youdao.com,impservice.youdao.com,kano.guahao.cn,lf.snssdk.com,lives.l.qq.com,m.aty.sohu.com,m5.amap.com,ma.ofo.com,mapi.appvipshop.com,mbl.56.com,mimg.127.net,mmg.aty.sohu.com,mmgr.gtimg.com,nex.163.com,oimagea4.ydstatic.com,oimagec2.ydstatic.com,p.kuaidi100.com,p1.music.126.net,pic.k.sohu.com,pic1.chelaile.net.cn,ress.dxpmedia.com,rm.aarki.net,sso.ifanr.com,static.api.m.panda.tv,staticlive.douyucdn.cn,storage.wax.weibo.com,supportda.ofo.com,ups.youku.com,wapwenku.baidu.com,wenku.baidu.com,www.facebook.com,www.ft.com,www.oschina.net,api-163.biliapi.net,pan-api.bitqiu.com,sdkapp.uve.weibo.com,ptmpcap.caocaokeji.cn,creditcardapp.bankcomm.com,newapp.szsmk.com,client.qunar.com,api2.helper.qq.com,cdnfile1.msstatic.com,res.xiaojukeji.com,dimg04.c-ctrip.com,y.gtimg.cn,du.hupucdn.com,interfac*.music.163.com,yxyapi2.drcuiyutao.com,capis-clb.didapinche.com,mi.gdt.qq.com,nfmovies.com,emdcadvertise.eastmoney.com,api.weibo.cn,mapi.weibo.com,aweme*.snssdk.com,*.kuwo.cn,*.xiaoxiao*.com,getuserinfo.321mh.com,getuserinfo-globalapi.zymk.cn,ios.fuliapps.com,vsco.co,api.vnision.com,*.my10api.com,apple.fuliapps.com,newdrugs.dxy.cn,app101.avictown.cc,api.hlo.xyz,api.ijo.xyz,www.luqijianggushi.com,account.wps.cn,u.kanghuayun.com,api1.dobenge.cn,api.mvmtv.com,mitaoapp.yeduapp.com,origin-prod-phoenix.jibjab.com,www.3ivf.com,pay.guoing.com,viva.v21xy.com,biz.caiyunapp.com,ap*.intsig.net,mp.bybutter.com,api.picsart.c*,api.meiease.c*,ios.xiangjiaoapps.com,apple.xiangjiaoapps.com,*.xiangxiangapps.com,trade-acs.m.taobao.com,ios.prod.ftl.netflix.com,*.mi-img.com,home.mi.com
