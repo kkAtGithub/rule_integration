@@ -64,6 +64,8 @@ def read_list(url_list_2b, file_name_2b='', src_mark_flag=True):
                                     continue
                                 else:
                                     FILTER_RESULT[line_list] = None
+                            else:
+                                continue
                         elif file_name_2b.endswith(REWRITE_FILE_NAME_SUFFIX):
                             if line_list.startswith('hostname = '):
                                 line_hostname = line_list[10:line_list.__len__()]
