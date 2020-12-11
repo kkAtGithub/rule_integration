@@ -88,20 +88,7 @@ def read_list(url_list_2b, file_name_2b='', src_mark_flag=True):
                             else:
                                 REWRITE_RESULT[line_list] = None
                         elif file_name_2b.endswith(RULE_SET_FILE_NAME_SUFFIX):
-                            if (line_list.startswith('DOMAIN')
-                                    or line_list.startswith('DOMAIN-KEYWORD')
-                                    or line_list.startswith('USER-AGENT')
-                                    or line_list.startswith('IP-CIDR')
-                                    or line_list.startswith('HOST')
-                                    or line_list.startswith('HOST-SUFFIX')
-                                    or line_list.startswith('HOST-KEYWORD')
-                                    or line_list.startswith('SRC-IP-CIDR')
-                                    or line_list.startswith('GEOIP')
-                                    or line_list.startswith('PROCESS-NAME')
-                                    or line_list.startswith('DST-PORT')
-                                    or line_list.startswith('SRC-PORT')
-                                    or line_list.startswith('MATCH')):
-                                line_list = rule_processor(line_list)
+                            line_list = rule_processor(line_list)
                         if qx_sr_flag:
                             continue
                         else:
