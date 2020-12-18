@@ -6,7 +6,7 @@ name: rule-integration
 on:
   workflow_dispatch:
   schedule:
-      - cron: '0 */6 * * *'
+      - cron: '0 */1 * * *'
 
 env:
   USER_EMAIL: ${{ secrets.USER_EMAIL }}
@@ -24,6 +24,8 @@ jobs:
         python-version: 3.8
     - name: Install dependencies
       run: |
+        apt update
+        apt install wget -y
         python -m pip install --upgrade pip
         pip install flake8 pytest
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
@@ -62,3 +64,13 @@ jobs:
         # tags: # optional
         # Directory to change to before pushing.
         # directory: # optional, default is .
+    - name: Purge jsdelivr
+      run: |
+        wget https://purge.jsdelivr.net/gh/kkAtGithub/rule_integration@main/results/clash/Advertising_RuleSet_Provider.yaml
+        wget https://purge.jsdelivr.net/gh/kkAtGithub/rule_integration@main/results/clash/Direct_RuleSet_Provider.yaml
+        wget https://purge.jsdelivr.net/gh/kkAtGithub/rule_integration@main/results/clash/ZOOM_RuleSet_Provider.yaml
+        wget https://purge.jsdelivr.net/gh/kkAtGithub/rule_integration@main/results/clash/BQTY_RuleSet_Provider.yaml
+        wget https://purge.jsdelivr.net/gh/kkAtGithub/rule_integration@main/results/clash/Steam_RuleSet_Provider.yaml
+        wget https://purge.jsdelivr.net/gh/kkAtGithub/rule_integration@main/results/clash/Microsoft_RuleSet_Provider.yaml
+        wget https://purge.jsdelivr.net/gh/kkAtGithub/rule_integration@main/results/clash/China_RuleSet_Provider.yaml
+        wget https://purge.jsdelivr.net/gh/kkAtGithub/rule_integration@main/results/clash/Apple_RuleSet_Provider.yaml
