@@ -24,8 +24,6 @@ jobs:
         python-version: 3.8
     - name: Install dependencies
       run: |
-        apt update
-        apt install wget -y
         python -m pip install --upgrade pip
         pip install flake8 pytest
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
