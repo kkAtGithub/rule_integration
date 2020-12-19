@@ -31,6 +31,11 @@ payload:
   - DOMAIN,safebrowsing.googleapis.com
   - DOMAIN-SUFFIX,dl.google.com
   - DOMAIN-SUFFIX,msftconnecttest.com
+  - DOMAIN-SUFFIX,windows.com
+  - DOMAIN-SUFFIX,windows.net
+  - DOMAIN-SUFFIX,windowsupdate.com
+  - DOMAIN-SUFFIX,xbox.com
+  - DOMAIN-SUFFIX,xboxlive.com
   - DOMAIN-SUFFIX,invoice.mugglepay.com
   - PROCESS-NAME,v2ray
   - PROCESS-NAME,ss-local
@@ -39,9 +44,6 @@ payload:
   - DOMAIN-SUFFIX,tesla.cn
   - DOMAIN-SUFFIX,tesla-cdn.thron.cn
   - PROCESS-NAME,UUBooster
-  - DOMAIN-SUFFIX,windows.com
-  - DOMAIN-SUFFIX,windows.net
-  - DOMAIN-SUFFIX,windowsupdate.com
   - DOMAIN-SUFFIX,xunlei.com
   - PROCESS-NAME,aria2c
   - PROCESS-NAME,fdm
