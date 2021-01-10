@@ -189,6 +189,7 @@ DOMAIN-SUFFIX,shuzilm.cn,REJECT
 DOMAIN-SUFFIX,smaato.net,REJECT
 DOMAIN-SUFFIX,smartadserver.com,REJECT
 DOMAIN-SUFFIX,smartnews-ads.com,REJECT
+DOMAIN-SUFFIX,socdm.com,REJECT
 DOMAIN-SUFFIX,supersonic.com,REJECT
 DOMAIN-SUFFIX,supersonicads.com,REJECT
 DOMAIN-SUFFIX,tagtic.cn,REJECT
@@ -236,7 +237,6 @@ DOMAIN-SUFFIX,zucks.net,REJECT
 DOMAIN-SUFFIX,zumobi.com,REJECT
 DOMAIN-SUFFIX,ad.cmvideo.cn,REJECT
 DOMAIN-SUFFIX,ad.daum.net,REJECT
-DOMAIN-SUFFIX,aiseet.atianqi.com,REJECT
 DOMAIN,abema-adx.ameba.jp,REJECT
 DOMAIN,ad.12306.cn,REJECT
 DOMAIN,ad.caiyunapp.com,REJECT
@@ -13989,7 +13989,6 @@ DOMAIN-SUFFIX,smpdth.cn,REJECT
 DOMAIN-SUFFIX,smsksx.com,REJECT
 DOMAIN-SUFFIX,smvip8.cn,REJECT
 DOMAIN-SUFFIX,soagrist.net,REJECT
-DOMAIN-SUFFIX,socdm.com,REJECT
 DOMAIN-SUFFIX,socket.streamable.com,REJECT
 DOMAIN-SUFFIX,softtest.vip,REJECT
 DOMAIN-SUFFIX,softxbutt.com,REJECT
@@ -17833,6 +17832,7 @@ DOMAIN-SUFFIX,wan.sohu.com,REJECT
 DOMAIN-SUFFIX,wl.hd.sohu.com,REJECT
 DOMAIN-SUFFIX,yule.sohu.com,REJECT
 DOMAIN-SUFFIX,aiseet.aa.atianqi.com,REJECT
+DOMAIN-SUFFIX,aiseet.atianqi.com,REJECT
 DOMAIN-SUFFIX,mcgi.v.qq.com,REJECT
 DOMAIN-SUFFIX,mdevstat.qqlive.qq.com,REJECT
 DOMAIN-SUFFIX,omgmta1.qq.com,REJECT
