@@ -72,3 +72,4 @@ jobs:
         wget https://purge.jsdelivr.net/gh/kkAtGithub/rule_integration@main/results/clash/Microsoft_RuleSet_Provider.yaml
         wget https://purge.jsdelivr.net/gh/kkAtGithub/rule_integration@main/results/clash/China_RuleSet_Provider.yaml
         wget https://purge.jsdelivr.net/gh/kkAtGithub/rule_integration@main/results/clash/Apple_RuleSet_Provider.yaml
+        wget https://purge.jsdelivr.net/gh/kkAtGithub/rule_integration@main/results/clash/Telegram_RuleSet_Provider.yaml
