@@ -82,3 +82,6 @@ DOMAIN-SUFFIX,tjupt.org
 DOMAIN-SUFFIX,totheglory.im
 DOMAIN-SUFFIX,smtp
 URL-REGEX,(Subject|HELO|SMTP)
+DOMAIN-SUFFIX,pypi.python.org
+DOMAIN-SUFFIX,pypi.org
+DOMAIN-SUFFIX,files.pythonhosted.org
