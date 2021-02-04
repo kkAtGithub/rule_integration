@@ -64,13 +64,4 @@ jobs:
         # directory: # optional, default is .
     - name: Purge jsdelivr
       run: |
-        wget https://purge.jsdelivr.net/gh/kkAtGithub/rule_integration@main/results/clash/Advertising_RuleSet_Provider.yaml
-        wget https://purge.jsdelivr.net/gh/kkAtGithub/rule_integration@main/results/clash/Direct_RuleSet_Provider.yaml
-        wget https://purge.jsdelivr.net/gh/kkAtGithub/rule_integration@main/results/clash/ZOOM_RuleSet_Provider.yaml
-        wget https://purge.jsdelivr.net/gh/kkAtGithub/rule_integration@main/results/clash/BQTY_RuleSet_Provider.yaml
-        wget https://purge.jsdelivr.net/gh/kkAtGithub/rule_integration@main/results/clash/Steam_RuleSet_Provider.yaml
-        wget https://purge.jsdelivr.net/gh/kkAtGithub/rule_integration@main/results/clash/Microsoft_RuleSet_Provider.yaml
-        wget https://purge.jsdelivr.net/gh/kkAtGithub/rule_integration@main/results/clash/China_RuleSet_Provider.yaml
-        wget https://purge.jsdelivr.net/gh/kkAtGithub/rule_integration@main/results/clash/Apple_RuleSet_Provider.yaml
-        wget https://purge.jsdelivr.net/gh/kkAtGithub/rule_integration@main/results/clash/Telegram_RuleSet_Provider.yaml
-        wget https://purge.jsdelivr.net/gh/kkAtGithub/rule_integration@main/results/clash/EVA-01_RuleSet_Provider.yaml
+        python3 purge_cache.py
