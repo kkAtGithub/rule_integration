@@ -3520,7 +3520,6 @@ payload:
   - DOMAIN-SUFFIX,g1.0573ren.com
   - DOMAIN-SUFFIX,g1.08160.cn
   - DOMAIN-SUFFIX,g1.163.com
-  - DOMAIN-SUFFIX,g1.tagtic.cn
   - DOMAIN-SUFFIX,g1.taijuba.com
   - DOMAIN-SUFFIX,g1c5.com
   - DOMAIN-SUFFIX,g1f5.com
@@ -7692,7 +7691,6 @@ payload:
   - DOMAIN-SUFFIX,wxmmh.net
   - DOMAIN-SUFFIX,wxsnsdy.tc.qq.com
   - DOMAIN-SUFFIX,wxsnsdy.video.qq.com
-  - DOMAIN-SUFFIX,wxsnsdy.wxs.qq.com
   - DOMAIN-SUFFIX,wxsnsdythumb.wxs.qq.com
   - DOMAIN-SUFFIX,wxtz.houmags.com
   - DOMAIN-SUFFIX,wxwm1.ikuailian.com
