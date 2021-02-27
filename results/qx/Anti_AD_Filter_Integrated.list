@@ -7057,7 +7057,6 @@ DOMAIN-SUFFIX,searchignited.com,REJECT
 DOMAIN-SUFFIX,searchswapper.com,REJECT
 DOMAIN-SUFFIX,seavideo-ak.espn.go.com,REJECT
 DOMAIN-SUFFIX,sebar.thand.info,REJECT
-DOMAIN-SUFFIX,sec.resource.xiaomi.net,REJECT
 DOMAIN-SUFFIX,secpay.wostore.cn,REJECT
 DOMAIN-SUFFIX,secretmedia.s3.amazonaws.com,REJECT
 DOMAIN-SUFFIX,secure.dsp.com,REJECT
@@ -44062,6 +44061,7 @@ DOMAIN-SUFFIX,pmir.3g.qq.com,REJECT
 DOMAIN-SUFFIX,promotion.aliyun.com,REJECT
 DOMAIN-SUFFIX,rovio-news-app.angrybirdsgame.com,REJECT
 DOMAIN-SUFFIX,s.baidu.com,REJECT
+DOMAIN-SUFFIX,sec.resource.xiaomi.net,REJECT
 DOMAIN-SUFFIX,shenyun.com,REJECT
 DOMAIN-SUFFIX,shenyunperformingarts.org,REJECT
 DOMAIN-SUFFIX,sod.onelink.me,REJECT
