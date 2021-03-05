@@ -363,7 +363,6 @@ https://meethanshi.com/.* url reject
 ^(http|https):\/\/you\.163\.com\/ url 302 https://you.163.com/
 ^(http|https):\/\/(www.)?suning\.com\/ url 302 https://suning.com/
 ^(http|https):\/\/(www.)?yhd\.com\/ url 302 https://yhd.com/
-^http:\/\/t\.cn url 302 https://sinaurl.cn
 ^(http|https):\/\/(www.)?ign\.xn--fiqs8s\/ url 302 http://cn.ign.com/ccpref/us
 ^(http|https):\/\/(www.)?abbyychina\.com\/ url 302 https://www.abbyy.cn/
 ^(http|https):\/\/(www.)?bartender\.cc\/ url 302 https://www.macbartender.com/
