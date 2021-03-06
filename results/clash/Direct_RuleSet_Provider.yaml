@@ -39,7 +39,6 @@ payload:
   - DOMAIN-SUFFIX,invoice.mugglepay.com
   - PROCESS-NAME,v2ray
   - PROCESS-NAME,ss-local
-  - DOMAIN-SUFFIX,ap.spotify.com
   - DOMAIN-SUFFIX,pinyuncloud.com
   - DOMAIN-SUFFIX,steamcontent.com
   - DOMAIN-SUFFIX,tesla.cn
