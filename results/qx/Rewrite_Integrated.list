@@ -964,6 +964,7 @@ https:\/\/.*\.xiaoxiao.*\.com\/(vod\/reqplay\/|ucp/index|getGlobalData) url scri
 ^https?:\/\/api\.gaoqingdianshi\.com\/api\/v2\/ad url reject
 ^https?:\/\/api\.haohaozhu\.cn\/index\.php\/home\/AppInit\/getStartPhoto url reject
 ^https?:\/\/api\.kkmh\.com\/.+?(ad|advertisement)\/ url reject-200
+^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start url reject-dict
 ^https?:\/\/api\.meipian\.me.+?advert url reject
 ^https?:\/\/api\.rr\.tv\/.*?(getAll|Version) url reject
 ^https?:\/\/api\.tv\.sohu\.com\/agg\/api\/app\/config\/bootstrap url reject
