@@ -239,7 +239,8 @@ if __name__ == '__main__':
             with open(f'{path}/EXCLUDE', mode='r', encoding='UTF-8') as ex_file_content:
                 for ex_url_list_entry in ex_file_content.readlines():
                     EXCLUDE_LIST.append(ex_url_list_entry)
-        for special_dir in dir_list[::-1]:
+        dir_list.sort(reverse=True)
+        for special_dir in dir_list:
             # noinspection PyBroadException
             try:
                 special_dir_switch[special_dir](path, special_dir)
