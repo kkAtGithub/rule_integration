@@ -215,7 +215,7 @@ def rule_processor(rule_line, action=''):
         else:
             rule_line_fragment.pop(2)
     elif action.__len__() > 0:
-        rule_line_fragment.insert(1, action)
+        rule_line_fragment.insert(2, action)
     rule_line_new = ''
     for fragment in rule_line_fragment:
         rule_line_new = f'{rule_line_new}{fragment.strip()},'
