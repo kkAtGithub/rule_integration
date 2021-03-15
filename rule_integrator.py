@@ -214,12 +214,12 @@ def rule_processor(rule_line, action=''):
             rule_line_fragment[2] = action
         else:
             rule_line_fragment.pop(2)
-        rule_line_new = ''
-        for fragment in rule_line_fragment:
-            rule_line_new = f'{rule_line_new}{fragment.strip()},'
-        return rule_line_new[0:rule_line_new.__len__() - 1]
-    else:
-        return rule_line
+    elif action.__len__() > 0:
+        rule_line_fragment.insert(1, action)
+    rule_line_new = ''
+    for fragment in rule_line_fragment:
+        rule_line_new = f'{rule_line_new}{fragment.strip()},'
+    return rule_line_new[0:rule_line_new.__len__() - 1]
 
 
 def path_processor(src_path):
