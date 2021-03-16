@@ -8798,6 +8798,28 @@ DOMAIN-SUFFIX,mindmanager.cn,REJECT
 DOMAIN-SUFFIX,photozoomchina.com,REJECT
 DOMAIN-SUFFIX,xitongqingli.com,REJECT
 # https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Guard/Privacy.list
+DOMAIN-SUFFIX,adjust.com,REJECT
+DOMAIN-SUFFIX,cpatrk.net,REJECT
+DOMAIN-SUFFIX,sumologic.com,REJECT
+DOMAIN-SUFFIX,survicate.com,REJECT
+DOMAIN-SUFFIX,tagcommander.com,REJECT
+DOMAIN-SUFFIX,tailtarget.com,REJECT
+DOMAIN-SUFFIX,talkingdata.net,REJECT
+DOMAIN-SUFFIX,tapad.com,REJECT
+DOMAIN-SUFFIX,tapfiliate.com,REJECT
+DOMAIN-SUFFIX,tapinfluence.com,REJECT
+DOMAIN-SUFFIX,tapstream.com,REJECT
+DOMAIN-SUFFIX,tealiumiq.com,REJECT
+DOMAIN-SUFFIX,tend.io,REJECT
+DOMAIN-SUFFIX,tpctrust.com,REJECT
+DOMAIN-SUFFIX,trackingio.com,REJECT
+DOMAIN-SUFFIX,woopra.com,REJECT
+DOMAIN-SUFFIX,wootric.com,REJECT
+DOMAIN-SUFFIX,wowanalytics.co.uk,REJECT
+DOMAIN-SUFFIX,zoomanalytics.co,REJECT
+DOMAIN,track.tenjin.com,REJECT
+DOMAIN,track.tenjin.io,REJECT
+DOMAIN,api.talkingdata.com,REJECT
 DOMAIN,track.tiara.daum.net,REJECT
 DOMAIN,track.tiara.kakao.com,REJECT
 DOMAIN,zgsdk.zhugeio.com,REJECT
@@ -8821,9 +8843,6 @@ DOMAIN,btrace.qq.com,REJECT
 DOMAIN,btrace.video.qq.com,REJECT
 DOMAIN,mtrace.qq.com,REJECT
 DOMAIN,safebrowsing.urlsec.qq.com,REJECT
-DOMAIN-KEYWORD,log.umeng.com,REJECT
-DOMAIN-KEYWORD,logs.umeng.com,REJECT
-DOMAIN-KEYWORD,logs.umengcloud.com,REJECT
 # https://raw.githubusercontent.com/NobyDa/ND-AD/master/QuantumultX/AD_Block.txt
 DOMAIN-SUFFIX,mcupdate.gstarcad.com,REJECT
 DOMAIN-SUFFIX,adx.open-adx.com,REJECT
@@ -8906,7 +8925,6 @@ DOMAIN-SUFFIX,strategy.beacon.qq.com,REJECT
 DOMAIN-SUFFIX,t.gdt.qq.com,REJECT
 DOMAIN-SUFFIX,tag.yoc-adserver.com,REJECT
 DOMAIN-SUFFIX,talkingdata.com,REJECT
-DOMAIN-SUFFIX,talkingdata.net,REJECT
 DOMAIN-SUFFIX,tdcv3.talkingdata.net,REJECT
 DOMAIN-SUFFIX,tips.logger.baofeng.com,REJECT
 DOMAIN-SUFFIX,tpc.googlesyndication.com,REJECT
@@ -8932,7 +8950,6 @@ DOMAIN-SUFFIX,log.tagtic.cn,REJECT
 DOMAIN-SUFFIX,ulogs.umeng.com,REJECT
 DOMAIN-SUFFIX,analytics.query.yahoo.com,REJECT
 DOMAIN-SUFFIX,42trck.com,REJECT
-DOMAIN-SUFFIX,adjust.com,REJECT
 DOMAIN-SUFFIX,adtarget.tech,REJECT
 DOMAIN-SUFFIX,analysys.cn,REJECT
 DOMAIN-SUFFIX,appadhoc.com,REJECT

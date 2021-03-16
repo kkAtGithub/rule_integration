@@ -8939,6 +8939,27 @@ payload:
   - DOMAIN-SUFFIX,mindmanager.cn
   - DOMAIN-SUFFIX,photozoomchina.com
   - DOMAIN-SUFFIX,xitongqingli.com
+  - DOMAIN-SUFFIX,adjust.com
+  - DOMAIN-SUFFIX,cpatrk.net
+  - DOMAIN-SUFFIX,sumologic.com
+  - DOMAIN-SUFFIX,survicate.com
+  - DOMAIN-SUFFIX,tagcommander.com
+  - DOMAIN-SUFFIX,tailtarget.com
+  - DOMAIN-SUFFIX,tapad.com
+  - DOMAIN-SUFFIX,tapfiliate.com
+  - DOMAIN-SUFFIX,tapinfluence.com
+  - DOMAIN-SUFFIX,tapstream.com
+  - DOMAIN-SUFFIX,tealiumiq.com
+  - DOMAIN-SUFFIX,tend.io
+  - DOMAIN-SUFFIX,tpctrust.com
+  - DOMAIN-SUFFIX,trackingio.com
+  - DOMAIN-SUFFIX,woopra.com
+  - DOMAIN-SUFFIX,wootric.com
+  - DOMAIN-SUFFIX,wowanalytics.co.uk
+  - DOMAIN-SUFFIX,zoomanalytics.co
+  - DOMAIN,track.tenjin.com
+  - DOMAIN,track.tenjin.io
+  - DOMAIN,api.talkingdata.com
   - DOMAIN,track.tiara.daum.net
   - DOMAIN,track.tiara.kakao.com
   - DOMAIN,zgsdk.zhugeio.com
@@ -8963,6 +8984,3 @@ payload:
   - DOMAIN,btrace.video.qq.com
   - DOMAIN,mtrace.qq.com
   - DOMAIN,safebrowsing.urlsec.qq.com
-  - DOMAIN-KEYWORD,log.umeng.com
-  - DOMAIN-KEYWORD,logs.umeng.com
-  - DOMAIN-KEYWORD,logs.umengcloud.com
