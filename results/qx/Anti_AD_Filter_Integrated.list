@@ -8756,9 +8756,10 @@ DOMAIN,ads.finance.yahoo.com,REJECT
 DOMAIN,ads.yahoo.com,REJECT
 DOMAIN,ads.yahoo.de,REJECT
 USER-AGENT,AVOS*,REJECT
-DOMAIN,appcloud2.zhihu.com,REJECT
 DOMAIN,appcloud2.in.zhihu.com,REJECT
+DOMAIN,118.89.204.198,REJECT
 IP-CIDR,118.89.204.198/32,REJECT
+IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,REJECT
 DOMAIN,apppv.zol.com.cn,REJECT
 DOMAIN,pvnapp.zol.com.cn,REJECT
 # https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Guard/Hijacking.list
@@ -43688,6 +43689,7 @@ DOMAIN,pv.zhiding.cn,REJECT
 DOMAIN,zhifinwgpwakue.com,REJECT
 DOMAIN,zhihrotpyphycy.com,REJECT
 DOMAIN,lc-push.zhihu.com,REJECT
+DOMAIN,appcloud2.zhihu.com,REJECT
 DOMAIN,event.zhihu.com,REJECT
 DOMAIN,zhinanw.cc,REJECT
 DOMAIN,m.zhipianwu.com,REJECT

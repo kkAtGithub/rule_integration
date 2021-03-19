@@ -8893,9 +8893,10 @@ payload:
   - DOMAIN,ads.finance.yahoo.com
   - DOMAIN,ads.yahoo.com
   - DOMAIN,ads.yahoo.de
-  - DOMAIN,appcloud2.zhihu.com
   - DOMAIN,appcloud2.in.zhihu.com
+  - DOMAIN,118.89.204.198
   - IP-CIDR,118.89.204.198/32
+  - IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128
   - DOMAIN,apppv.zol.com.cn
   - DOMAIN,pvnapp.zol.com.cn
   - DOMAIN-SUFFIX,186078.com
