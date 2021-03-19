@@ -1061,6 +1061,7 @@ https:\/\/.*\.xiaoxiao.*\.com\/(vod\/reqplay\/|ucp/index|getGlobalData) url scri
 ^https?:\/\/learn\.chaoxing\.com\/apis\/service\/appConfig\? url reject
 ^https?:\/\/log.+?baidu\.com url reject
 ^https?:\/\/m5\.amap\.com\/ws\/valueadded\/ url reject
+^https?:\/\/m\.client\.10010\.com\/mobileService\/customer\/getclientconfig\.htm url reject-dict
 ^https?:\/\/m\.creditcard\.ecitic\.com\/citiccard\/mbk\/.+?\/appStartAdv url reject-200
 ^https?:\/\/m\.creditcard\.ecitic\.com\/citiccard\/mbk\/appspace-getway\/getWay\/appspace-system-web\/cr\/v5\/appStartAdv url reject
 ^https?:\/\/m\.ibuscloud.com\/v2\/app\/getStartPage url reject
