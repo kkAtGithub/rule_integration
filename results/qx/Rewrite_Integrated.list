@@ -110,6 +110,7 @@ https://meethanshi.com/.* url reject
 ^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alimusic\.common\.mobileservice\.startinit\/ url reject
 ^https?:\/\/m\d\.amap\.com\/ws\/valueadded\/alimama\/splash_screen\/ url reject
 ^https?:\/\/[\w-.]+\.ott\.cibntv\.net\/[\w\/-]+.mp4\?sid= url reject
+^https?:\/\/[\w-.]+\.ott\.cibntv\.net\/[\w\/-]+.mp4\?ccode=02010101 url reject
 ^https?:\/\/api-new\.app\.acfun\.cn\/rest\/app\/flash\/screen\/ url reject
 ^https?:\/\/api\.bjxkhc\.com\/index\.php\/app\/ios\/ads\/ url reject
 ^https?:\/\/[\w-]+\.(amemv|musical|snssdk|tiktokv)\.(com|ly)\/(api|motor)\/ad\/ url reject
@@ -124,6 +125,7 @@ https://meethanshi.com/.* url reject
 ^https?:\/\/c\.tieba\.baidu\.com\/c\/f\/forum\/getAdInfo url reject
 ^https?:\/\/c\.tieba\.baidu\.com\/\w+\/\w+\/(sync|newRnSync|mlog) url reject
 ^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/\w+\/\w+\/(sync|newRnSync|mlog) url reject
+^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/c\/s\/splashSchedule url reject
 ^https?:\/\/newclient\.map\.baidu\.com\/client\/phpui2\/\?qt=ads url reject
 ^https?:\/\/mime\.baidu\.com\/v\d\/IosStart\/getStartInfo$ url reject
 ^https?:\/\/mime\.baidu\.com\/v\d\/activity\/advertisement url reject
@@ -153,7 +155,7 @@ https://meethanshi.com/.* url reject
 ^https?:\/\/m\.ctrip\.com\/restapi\/soa2\/\d+\/json\/getAdsList url reject
 ^https?:\/\/app\.poizon\.com\/api\/v\d\/app\/advertisement\/ url reject
 ^https?:\/\/api\.douban\.com\/v\d\/app_ads\/ url reject
-^https?:\/\/rtbapi\.douyucdn\.cn\/japi\/sign\/app\/getinfo\?uid=&mdid=iphone&client_sys=ios$ url reject
+^https?:\/\/rtbapi\.douyucdn\.cn\/japi\/sign\/app\/getinfo url reject
 ^https?:\/\/mapi\.dangdang\.com\/index\.php\?action=init url reject
 ^https?:\/\/e\.dangdang\.com\/media\/api\d\.go\?action=getDeviceStartPage url reject
 ^https?:\/\/daoyu\.sdo\.com\/api\/userCommon\/getAppStartAd url reject
@@ -188,7 +190,7 @@ https://meethanshi.com/.* url reject
 ^https?:\/\/smkmp\.96225.com\/smkcenter\/ad/ url reject
 ^https?:\/\/api\.huomao\.com\/channels\/loginAd url reject
 ^https?:\/\/api\.hanju\.koudaibaobao\.com\/api\/carp\/kp\? url reject
-^https?:\/\/business\.msstatic\.com\/advertiser\/ - reject
+^https?:\/\/business\.msstatic\.com\/advertiser\/ url reject
 ^https?:\/\/imeclient\.openspeech\.cn\/adservice\/ url reject
 ^https?:\/\/api\.intsig\.net\/user\/cs\/operating\/app\/get_startpic\/ url reject
 ^https?:\/\/ih2\.ireader\.com\/zyapi\/bookstore\/ad\/ url reject
@@ -991,7 +993,6 @@ https:\/\/.*\.xiaoxiao.*\.com\/(vod\/reqplay\/|ucp/index|getGlobalData) url scri
 ^https?:\/\/bdsp-x\.jd\.com\/adx\/ url reject
 ^https?:\/\/btrace\.qq\.com url reject-200
 ^https?:\/\/business-cdn\.shouji\.sogou\.com\/wapdl\/hole\/.+?\.jpg url reject
-^https?:\/\/business\.msstatic\.com\/advertiser\/ url reject
 ^https?:\/\/c\.tieba\.baidu\.com\/\w+\/\w+\/(sync|newRnSync|newlog|mlog) url reject
 ^https?:\/\/capis(-?\w*)?\.didapinche\.com\/ad\/boot\? url reject
 ^https?:\/\/capis(-?\w*)?\.didapinche\.com\/ad\/event? url reject-dict
@@ -1103,6 +1104,7 @@ https:\/\/.*\.xiaoxiao.*\.com\/(vod\/reqplay\/|ucp/index|getGlobalData) url scri
 ^https?:\/\/res\.xiaojukeji\.com\/resapi\/activity\/get(Ruled|Preload|PasMultiNotices) url reject
 ^https?:\/\/res\.xiaojukeji\.com\/resapi\/activity\/mget url reject
 ^https?:\/\/rtbapi.douyucdn.cn\/japi\/sign\/app\/getinfo url reject
+^https?:\/\/rtbapi\.douyucdn\.cn\/japi\/sign\/app\/getinfo\?uid=&mdid=iphone&client_sys=ios$ url reject
 ^https?:\/\/s3plus\.meituan\.net\/.+?\/linglong\/ url reject
 ^https?:\/\/s\.go\.sohu\.com\/adgtr\/\?gbcode=(ps|sv|offnavi|newvector|ulog\.imap|newloc)(\.map)?\.(baidu|n\.shifen)\.com url reject
 ^https?:\/\/sa\d.tuisong.baidu.com url reject
