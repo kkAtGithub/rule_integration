@@ -67,7 +67,7 @@ def read_list(url_list_2b, file_name_2b='', src_mark_flag=True):
                             else:
                                 continue
                         elif file_name_2b.endswith(REWRITE_FILE_NAME_SUFFIX):
-                            if line_list.startswith('hostname = '):
+                            if line_list.startswith('hostname ='):
                                 line_hostname = line_list[10:line_list.__len__()]
                                 line_hostname_list = line_hostname.split(',')
                                 for entry_hostname in line_hostname_list:
@@ -83,10 +83,12 @@ def read_list(url_list_2b, file_name_2b='', src_mark_flag=True):
                                 if (not (special_rule in list_url)) and (special_rule in line_list):
                                     qx_sr_flag = True
                                     break
-                            if line_list in REWRITE_RESULT:
-                                continue
-                            else:
-                                REWRITE_RESULT[line_list] = None
+                            snippet = line_list.split(maxsplit=1)
+                            if snippet[0] in REWRITE_RESULT:
+                                if snippet[1].__len__() < REWRITE_RESULT[snippet[0]].__len__():
+                                    continue
+                                print(line_list)
+                            REWRITE_RESULT[snippet[0]] = snippet[1]
                         elif file_name_2b.endswith(RULE_SET_FILE_NAME_SUFFIX):
                             line_list = rule_processor(line_list)
                         if qx_sr_flag:
