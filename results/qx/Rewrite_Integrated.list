@@ -890,7 +890,6 @@ https:\/\/.*\.xiaoxiao.*\.com\/(vod\/reqplay\/|ucp/index|getGlobalData) url scri
 ^https?:\/\/fmapp\.chinafamilymart\.com\.cn\/api\/app\/market\/start\/ad url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/famijia/famijia_checkin.js
 ^https?:\/\/wmapi\.meituan\.com\/api\/v\d+\/loadInfo? url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.js
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/QuantumultX/Redirect/Redirect.conf
-^http:\/\/t\.cn url 302 http://sinaurl.cn
 ^http?:\/\/(www.)?jd\.com\/ url 302 https://www.jd.com/
 ^http?:\/\/(www.)?yhd\.com\/ url 302 https://yhd.com/
 ^https?:\/\/(ditu|maps).google\.cn url 302 https://maps.google.com
