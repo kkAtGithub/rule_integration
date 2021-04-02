@@ -7119,6 +7119,7 @@ payload:
   - DOMAIN-SUFFIX,tradeccl.com
   - DOMAIN-SUFFIX,trafficfactory.biz
   - DOMAIN-SUFFIX,trafficjam.cn
+  - DOMAIN-SUFFIX,trafficjunky.com
   - DOMAIN-SUFFIX,trafficjunky.net
   - DOMAIN-SUFFIX,trafficmp.com
   - DOMAIN-SUFFIX,tralog.ganji.com
@@ -8199,6 +8200,8 @@ payload:
   - DOMAIN,yt-adp.nosdn.127.net
   - DOMAIN,mqtt.zhihu.com
   - DOMAIN,sugar.zhihu.com
+  - DOMAIN,zhihu-analytics.zhihu.com
+  - DOMAIN,zhihu-web-analytics.zhihu.com
   - DOMAIN-SUFFIX,xdrig.com
   - IP-CIDR,39.107.15.115/32,no-resolve
   - IP-CIDR,47.89.59.182/32,no-resolve
@@ -8391,7 +8394,6 @@ payload:
   - DOMAIN-SUFFIX,stickyadstv.com
   - DOMAIN-SUFFIX,supersonic.com
   - DOMAIN-SUFFIX,taboola.com
-  - DOMAIN-SUFFIX,trafficjunky.com
   - DOMAIN-SUFFIX,tribalfusion.com
   - DOMAIN-SUFFIX,uberads.com
   - DOMAIN-SUFFIX,vidoomy.com

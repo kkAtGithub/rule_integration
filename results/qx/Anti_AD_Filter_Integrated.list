@@ -7118,6 +7118,7 @@ DOMAIN-SUFFIX,tradeadexchange.com,REJECT
 DOMAIN-SUFFIX,tradeccl.com,REJECT
 DOMAIN-SUFFIX,trafficfactory.biz,REJECT
 DOMAIN-SUFFIX,trafficjam.cn,REJECT
+DOMAIN-SUFFIX,trafficjunky.com,REJECT
 DOMAIN-SUFFIX,trafficjunky.net,REJECT
 DOMAIN-SUFFIX,trafficmp.com,REJECT
 DOMAIN-SUFFIX,tralog.ganji.com,REJECT
@@ -8198,6 +8199,8 @@ DOMAIN,wr.da.netease.com,REJECT
 DOMAIN,yt-adp.nosdn.127.net,REJECT
 DOMAIN,mqtt.zhihu.com,REJECT
 DOMAIN,sugar.zhihu.com,REJECT
+DOMAIN,zhihu-analytics.zhihu.com,REJECT
+DOMAIN,zhihu-web-analytics.zhihu.com,REJECT
 DOMAIN-SUFFIX,xdrig.com,REJECT
 IP-CIDR,39.107.15.115/32,REJECT,no-resolve
 IP-CIDR,47.89.59.182/32,REJECT,no-resolve
@@ -10249,7 +10252,6 @@ DOMAIN-SUFFIX,owneriq.net,REJECT
 DOMAIN-SUFFIX,powerlinks.com,REJECT
 DOMAIN-SUFFIX,sharethis.com,REJECT
 DOMAIN-SUFFIX,smaato.com,REJECT
-DOMAIN-SUFFIX,trafficjunky.com,REJECT
 DOMAIN-SUFFIX,tribalfusion.com,REJECT
 DOMAIN-SUFFIX,11h5.com,REJECT
 DOMAIN-SUFFIX,26zsd.cn,REJECT
