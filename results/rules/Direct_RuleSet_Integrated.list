@@ -1,5 +1,4 @@
 DOMAIN-SUFFIX,local
-DOMAIN-SUFFIX,120tb.com
 IP-CIDR,192.168.0.0/16
 IP-CIDR,10.0.0.0/8
 IP-CIDR,172.16.0.0/12
@@ -9,6 +8,9 @@ IP-CIDR6,::1/128
 IP-CIDR6,fc00::/7
 IP-CIDR6,fe80::/10
 IP-CIDR6,fd00::/8
+DOMAIN-SUFFIX,120tb.com
+DOMAIN-SUFFIX,buyvm.com
+DOMAIN-SUFFIX,frantech.ca
 PROCESS-NAME,storedownloadd
 USER-AGENT,com.apple.appstored*
 DOMAIN,aod.itunes.apple.com
