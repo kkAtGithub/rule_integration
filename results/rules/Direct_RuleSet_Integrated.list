@@ -11,6 +11,7 @@ IP-CIDR6,fd00::/8
 DOMAIN-SUFFIX,120tb.com
 DOMAIN-SUFFIX,buyvm.com
 DOMAIN-SUFFIX,frantech.ca
+DOMAIN-SUFFIX,gubo.org
 PROCESS-NAME,storedownloadd
 USER-AGENT,com.apple.appstored*
 DOMAIN,aod.itunes.apple.com
