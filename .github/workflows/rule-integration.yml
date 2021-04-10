@@ -65,3 +65,8 @@ jobs:
     - name: Purge jsdelivr
       run: |
         python3 purge_cache.py
+    - name: Delete workflow runs
+      uses: GitRML/delete-workflow-runs@main
+      with:
+        retain_days: 1
+        keep_minimum_runs: 1
