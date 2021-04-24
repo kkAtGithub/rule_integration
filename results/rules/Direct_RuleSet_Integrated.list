@@ -13,6 +13,7 @@ DOMAIN-SUFFIX,buyvm.com
 DOMAIN-SUFFIX,frantech.ca
 DOMAIN-SUFFIX,gubo.org
 DOMAIN-SUFFIX,contabo.com
+DOMAIN-SUFFIX,scaleway.com
 PROCESS-NAME,storedownloadd
 USER-AGENT,com.apple.appstored*
 DOMAIN,aod.itunes.apple.com
