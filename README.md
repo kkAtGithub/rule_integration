@@ -1,5 +1,6 @@
 # rule_integration
 规则整合 For Quantumult X
+Rule integration For Quantumult X
 
 
 ## 包含以下大佬的分流&重写&规则集
