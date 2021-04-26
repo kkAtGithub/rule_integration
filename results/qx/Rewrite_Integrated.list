@@ -1,7 +1,7 @@
 # https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adblock4limbo.conf
 ^https?:\/.jable\.tv/\bassets\b.*\b.gif url 302 https://limbopro.xyz/usr/uploads/2020/10/2091577197.png
 ^https:/?.*\.jable\.tv\b.*\.gif$ url 302 https://limbopro.xyz/usr/uploads/2021/01/18107147.jpg
-\b.*\.ackcdn\.net/\blibrary\b.*\b.jpg url 302 https://limbopro.xyz/usr/uploads/2020/10/2091577197.png
+ackcdn url reject
 ^https:?/\/\b.*\btsyndicate\b.*.gif url 302 https://limbopro.xyz/usr/uploads/2020/10/2091577197.png
 ^https:/?.*\.trwl1\b.* url 302 https://limbopro.xyz/865.html
 ^https:/?.*\.trwl1\b.*?\SC$ url 302 https://limbopro.xyz/865.html
@@ -54,19 +54,12 @@ http://m.yhdm.io/bar/yfgg.js url reject
 ^https:/?\/zh\.nyahentai\.me.* url response-body  <script type="application/javascript">.*?(\n.*){1,30}.*?</script> response-body <meta name="author" content="">
 ^https:/?\/91porny\.com.* url response-body <tbody>.*?(\n.*){5,15}.*?</tbody>|<div class="container-fluid mb-3 p-0">.*?(\n.*){35,40}.*</div>|<div class="adv adv-g1 mb-0">.*?(\n.*){20,27}.*?</div> response-body <meta name="author" content="">
 ^https:/?\/cdn\.jsdelivr\.net.*\/ad\/.*gif url 302 https://limbopro.xyz/usr/uploads/2020/10/2091577197.png
-^https:/?\/javtsunami\.com/steep-heart-ac21.* url reject
-^https:/?\/javtsunami\.com.* url response-body <style type="text/css".*?(ad.*?){160,200}.*?(\n.*){50,150}.*?</style> response-body <meta name="author" content="">
-^https:?/\/cloudrls\.com\/asset\/bann\.js.* url reject
+^https:?/\/javtsunami\.com(?!.*?(png|css|webp|jpg|js|php)).* url response-body <head> response-body <head><link rel="stylesheet" href="https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/CSS/javtsunami.css" type="text/css"><script type="text/javascript" src="//raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/javtsunami.js"></script>
 https://ads\.bullionyield\.com/.*?slider\.min\.js url reject
 ^https:?/\/www\.porntrex\.com.* url response-body <script>.*?(\n.*){15,20}.*?</script>|<iframe.*?150.*?ad.*?</iframe>|<div style.*?(\n.*){2,4}.*?250.*?(\n.*){2,4}.*?</div> response-body <meta name="author" content="">
 https://urtirepor\.com/.*?/.*?/sc/scssx/.*?/lib\.js url reject
 https://cluster\.awmserve\.com/incstage/min_exec_pt.js.* url reject
-^https:/?\/www\.zhenbuka\.com.* url response-body <div class="stui-pannel stui-pannel-bg clearfix" style="margin-bottom: 0">.*?<ul><li>.*?www.zhenbuka1.com.*?</li></ul></div></div></div>|<a href="https://www.ybvip1879.vip.*?</a>|<a id="ad.*?\.*?</a> response-body <meta name="author" content="balabala">
-https://pic.caihong52.com/img/upload/gg/gg20201229.gif url 302 https://limbopro.xyz/usr/uploads/2020/10/2091577197.png
-https://alime-customer-upload-cn-hangzhou.oss-cn-hangzhou.aliyuncs.com/customer-upload/1612281603650_2v32nlvhji9h.gif url 302 https://limbopro.xyz/usr/uploads/2020/10/2091577197.png
-https:/?\/www\.zhenbuka\.com.*logger.js.*?.js url reject
-https://lib.baomitu.com/layer/3.1.1/layer.js url reject
-https://meethanshi.com/.* url reject
+^https:?/\/www\.zhenbuka\.com(?!.*?(png|css|webp|jpg|js|php)).* url response-body <head> response-body <head><link rel="stylesheet" href="https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/CSS/zhenbuka.css" type="text/css"><script type="text/javascript" nonce="7575a050f63648a69e15f9694a7" src="//raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/zhenbuka.js"></script></body>
 ^https://www\.javbus\.com url response-body <div class="col-xs-12 col-md-4 text-center ptb10">|<div class="ad-list"> response-body <div style="display:none;">
 ^https://www.hptoon.com.* url response-body <head> response-body <head><script type="text/javascript" nonce="7575a050f63648a69e15f9694a7" src="//raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/hptoon.js"></script><script type="text/javascript" nonce="7575a050f63648a69e15f9694a7" src="//raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/user-script.js"></script>
 bde4 url response-body <head> response-body <head></script><script type="text/javascript" nonce="7575a050f63648a69e15f9694a7" src="//raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/bde4.js"></script><script type="text/javascript" nonce="7575a050f63648a69e15f9694a7" src="//raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/user-script.js"></script><base target="_self">
