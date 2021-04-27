@@ -336,8 +336,8 @@ javfan url response-body </body> response-body <link rel="stylesheet" href="http
 ^https?:\/\/webboot\.zhangyue\.com\/zycl\/api\/ad\/ url reject
 ^https?:\/\/saad\.ms\.zhangyue\.net\/ad url reject
 # https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Block/YouTubeAds.conf
-(^https?:\/\/[\w-]+\.googlevideo\.com\/.+)(ctier=L)(&.+) url 302 $1$3
-^https?:\/\/[\w-]+\.googlevideo\.com\/.+&(oad|ctier) url reject
+(^https?:\/\/(?!redirector)[\w-]+\.googlevideo\.com\/((?!dclk_video_ads).)+)(ctier=L)(&.+) url 302 $1$3
+^https?:\/\/[\w-]+\.googlevideo\.com\/((?!dclk_video_ads).)+&(oad|ctier) url reject
 # https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Wikiwand.conf
 ^https://zh.(m.)?wikipedia.org/zh(-\w*)?(?=/) url 302 https://www.wikiwand.com/zh$2
 ^https://(\w*).(m.)?wikipedia.org/wiki url 302 https://www.wikiwand.com/$1
