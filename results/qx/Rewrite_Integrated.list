@@ -213,6 +213,7 @@ javfan url response-body </body> response-body <link rel="stylesheet" href="http
 ^https?:\/\/api\.kkmh\.com\/v\d+\/(ad|advertisement)\/ url reject
 ^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/MobileAdServer\/ url reject
 ^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/EcomResourceServer/AdPlayPage/adinfo url reject
+^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/g\.real\?aid=text_ad url reject
 ^https?:\/\/api\.laifeng\.com\/v\d\/start\/ads url reject
 ^https?:\/\/api\.club\.lenovo\.cn\/common\/open_ad url reject
 ^https?:\/\/api\.m\.mi\.com\/v\d\/app\/start url reject
