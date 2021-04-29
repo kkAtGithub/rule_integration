@@ -80,7 +80,7 @@ biquge url response-body <head> response-body <head><link rel="stylesheet" href=
 biquge.*?\.js url reject
 gimy url response-body </body> response-body <link rel="stylesheet" href="https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/CSS/gimy.css" type="text/css"><script type="text/javascript" src="//raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/gimy.js"></script></body>
 javfan url response-body </body> response-body <link rel="stylesheet" href="https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/CSS/javfan.css" type="text/css"><script type="text/javascript" src="//raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/javfan.js"></script></body>
-https://hpjav.tv/asset/css/style2.css.* url 302 https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/CSS/hpjav.style.css
+https://hpjav.tv/asset/css/style2.css.* url 302 https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/CSS/hpjav.style2.css
 https://hpjav.tv/asset/js/mainze\.js.* url 302 https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/hpjav.mainze.js
 https://ninjastream\.to/js/app\.js.* url 302 https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/hpjav.app.js
 vidoza.*?\.(html|js) url reject
