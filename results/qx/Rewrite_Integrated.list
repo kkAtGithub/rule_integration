@@ -83,7 +83,7 @@ gimy url response-body </body> response-body <link rel="stylesheet" href="https:
 javfan url response-body </body> response-body <link rel="stylesheet" href="https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/CSS/javfan.css" type="text/css"><script type="text/javascript" src="//raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/javfan.js"></script></body>
 https://hpjav.tv/asset/css/style2.css.* url 302 https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/CSS/hpjav.style2.css
 https://hpjav.tv/asset/js/mainze\.js.* url 302 https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/hpjav.mainze.js
-https://ninjastream\.to/js/app\.js.* url 302 https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/hpjav.app.js
+https://ninjastream\.to/js/app\.js.* url reject
 vidoza.*?\.(html|js) url reject
 pornbest url response-body <head> response-body <head><script type="text/javascript"  src="//raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/pornbest.js"></script><link rel="stylesheet" href="https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/CSS/pornbest.css" type="text/css">
 # https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Block/Advertising.conf
