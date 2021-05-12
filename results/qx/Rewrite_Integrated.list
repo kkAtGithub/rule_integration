@@ -888,7 +888,7 @@ https:\/\/.*\.xiaoxiao.*\.com\/(vod\/reqplay\/|ucp/index|getGlobalData) url scri
 .*\.mi-img\.com\/plato-product\/p.* url reject
 ^https?:\/\/home\.mi\.com\/cgi-op\/api\/v1\/recommendation\/banner.* url reject
 ^https?:\/\/translate\.google\.cn\/ url 302 https://translate.google.com/
-http://gslbali.ximalaya.com/linkeye-cloud/checkIP?ip=101.33.11.45&domain=search.ximalaya.com url reject
+http://gslbali.ximalaya.com/linkeye-cloud/checkIP?.* url reject
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/QuantumultX/AdvertisingScript/AdvertisingScript.conf
 ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.js
 ^https?:\/\/capis(-?\w*)?\.didapinche\.com\/ad\/cx\/startup\? url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.js
