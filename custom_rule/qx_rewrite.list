@@ -3,4 +3,4 @@ hostname = *.mi-img.com, home.mi.com, translate.google.cn, gslbali.ximalaya.com
 ^https?:\/\/home\.mi\.com\/cgi-op\/api\/v1\/recommendation\/banner.* url reject
 #^https?:\/\/(www\.)?google.co(m)?\.[a-z]{2}\/ url 302 https:\/\/www.google.com\/
 ^https?:\/\/translate\.google\.cn\/ url 302 https://translate.google.com/
-http://gslbali.ximalaya.com/linkeye-cloud/checkIP?ip=101.33.11.45&domain=search.ximalaya.com url reject
+http://gslbali.ximalaya.com/linkeye-cloud/checkIP?.* url reject
