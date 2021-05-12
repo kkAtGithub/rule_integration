@@ -6,4 +6,6 @@ hostname = *.mi-img.com, home.mi.com, translate.google.cn, *.ximalaya.com
 ^http:\/\/gslbali\.ximalaya\.com\/linkeye-cloud\/checkIP.* url reject
 ^http:\/\/gslbtx\.ximalaya\.com\/linkeye-cloud\/checkIP.* url reject
 ^https?:\/\/mobwsa\.ximalaya\.com\/mobile-playpage\/playpage\/tabs\/.* url reject
+^https?:\/\/mobile\.ximalaya\.com\/mobile-playpage\/playpage\/tabs\/.* url reject
 ^https?:\/\/mobwsa\.ximalaya\.com\/mobile\/track\/v2\/baseInfo\/ts.* url reject
+^https?:\/\/mobile\.ximalaya\.com\/mobile\/track\/v2\/baseInfo\/ts.* url reject
