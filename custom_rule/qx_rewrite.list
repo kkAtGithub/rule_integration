@@ -1,4 +1,4 @@
-hostname = *.mi-img.com, home.mi.com, translate.google.cn, gslbali.ximalaya.com, mobwsa.ximalaya.com
+hostname = *.mi-img.com, home.mi.com, translate.google.cn, *.ximalaya.com
 .*\.mi-img\.com\/plato-product\/p.* url reject
 ^https?:\/\/home\.mi\.com\/cgi-op\/api\/v1\/recommendation\/banner.* url reject
 #^https?:\/\/(www\.)?google.co(m)?\.[a-z]{2}\/ url 302 https:\/\/www.google.com\/
