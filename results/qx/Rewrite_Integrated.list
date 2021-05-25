@@ -2,6 +2,7 @@
 ^https?:\/.jable\.tv/\bassets\b.*\b.gif url 302 https://limbopro.xyz/usr/uploads/2020/10/2091577197.png
 ^https:/?.*\.jable\.tv\b.*\.gif$ url 302 https://limbopro.xyz/usr/uploads/2021/01/18107147.jpg
 ackcdn url reject
+tsyndicate.*?\.push\.js url reject
 ^https:?/\/\b.*\btsyndicate\b.*.gif url 302 https://limbopro.xyz/usr/uploads/2021/01/18107147.jpg
 ^https:/?.*\.trwl1\b.* url 302 https://limbopro.xyz/865.html
 ^https:/?.*\.trwl1\b.*?\SC$ url 302 https://limbopro.xyz/865.html
