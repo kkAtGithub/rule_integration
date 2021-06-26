@@ -8538,6 +8538,7 @@ DOMAIN,ad.hzyoka.com,REJECT
 DOMAIN,ad.jiemian.com,REJECT
 DOMAIN,ad.wappalyzer.com,REJECT
 DOMAIN,ad-cn.jovcloud.com,REJECT
+DOMAIN,ad-mediation.tuanguwen.com,REJECT
 DOMAIN,ads.chinadaily.com.cn,REJECT
 DOMAIN,ads.daydaycook.com.cn,REJECT
 DOMAIN,ads.flurry.com,REJECT
@@ -8551,6 +8552,7 @@ DOMAIN,adservice.tohsoft.com,REJECT
 DOMAIN,adshow.58.com,REJECT
 DOMAIN,adui.tg.meitu.com,REJECT
 DOMAIN,adv.bandi.so,REJECT
+DOMAIN,adv.ettoday.net,REJECT
 DOMAIN,api.ad.xiaomi.com,REJECT
 DOMAIN,api.adnet.mob.com,REJECT
 DOMAIN,api-ad.kajicam.com,REJECT
@@ -8625,7 +8627,9 @@ DOMAIN,admarket.21cn.com,REJECT
 DOMAIN,adshows.21cn.com,REJECT
 DOMAIN,atrace.chelaile.net.cn,REJECT
 DOMAIN,logs.chelaile.net.cn,REJECT
+DOMAIN,dispatcher.360in.com,REJECT
 DOMAIN,ad.360in.com,REJECT
+DOMAIN,exp.360in.com,REJECT
 DOMAIN-SUFFIX,doubleclick.net,REJECT
 DOMAIN-SUFFIX,googleadservices.com,REJECT
 DOMAIN-SUFFIX,googleadsserving.cn,REJECT
@@ -8741,6 +8745,9 @@ DOMAIN,adxlog.vivo.com.cn,REJECT
 DOMAIN,vcardsdkservice.vivo.com.cn,REJECT
 DOMAIN-KEYWORD,stsdk.vivo.com.cn,REJECT
 DOMAIN-KEYWORD,stsdk.vivoglobal.com,REJECT
+DOMAIN,ads.viber.com,REJECT
+DOMAIN,ads-d.viber.com,REJECT
+DOMAIN,ads.aws.viber.com,REJECT
 DOMAIN,ad.ximalaya.com,REJECT
 DOMAIN,adbs.ximalaya.com,REJECT
 DOMAIN,adse.ximalaya.com,REJECT
@@ -8755,6 +8762,8 @@ DOMAIN,t-ads.xiaohongshu.com,REJECT
 DOMAIN-SUFFIX,adserver.yahoo.com,REJECT
 DOMAIN-SUFFIX,adspecs.yahoo.com,REJECT
 DOMAIN-SUFFIX,advertising.yahoo.com,REJECT
+DOMAIN,admarketing.yahoo.net,REJECT
+DOMAIN,ads.auctions.yahoo.com,REJECT
 DOMAIN,ads.finance.yahoo.com,REJECT
 DOMAIN,ads.yahoo.com,REJECT
 DOMAIN,ads.yahoo.de,REJECT
@@ -8876,6 +8885,8 @@ DOMAIN,mc.51.la,REJECT
 DOMAIN,wc.51.la,REJECT
 DOMAIN,track.58.com,REJECT
 DOMAIN,tracklog.58.com,REJECT
+DOMAIN,log.byteoversea.com,REJECT
+DOMAIN,log.tiktokv.com,REJECT
 DOMAIN,log-hl-ipv6.snssdk.com,REJECT
 DOMAIN,log-lq.snssdk.com,REJECT
 DOMAIN,log-va.tiktokv.com,REJECT
