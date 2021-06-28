@@ -1,5 +1,11 @@
-hostname = *.mi-img.com, home.mi.com, translate.google.cn
+hostname = *.mi-img.com, home.mi.com, translate.google.cn, *.ximalaya.com
 .*\.mi-img\.com\/plato-product\/p.* url reject
 ^https?:\/\/home\.mi\.com\/cgi-op\/api\/v1\/recommendation\/banner.* url reject
 #^https?:\/\/(www\.)?google.co(m)?\.[a-z]{2}\/ url 302 https:\/\/www.google.com\/
 ^https?:\/\/translate\.google\.cn\/ url 302 https://translate.google.com/
+#^http:\/\/gslbali\.ximalaya\.com\/linkeye-cloud\/checkIP.* url reject
+#^http:\/\/gslbtx\.ximalaya\.com\/linkeye-cloud\/checkIP.* url reject
+#^https?:\/\/mobwsa\.ximalaya\.com\/mobile-playpage\/playpage\/tabs\/.* url reject
+#^https?:\/\/mobile\.ximalaya\.com\/mobile-playpage\/playpage\/tabs\/.* url reject
+#^https?:\/\/mobwsa\.ximalaya\.com\/mobile\/track\/v2\/baseInfo\/ts.* url reject
+#^https?:\/\/mobile\.ximalaya\.com\/mobile\/track\/v2\/baseInfo\/ts.* url reject
