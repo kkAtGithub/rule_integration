@@ -137,6 +137,7 @@ javgg url response-body <head> response-body <head><link rel="stylesheet" href="
 ^https?:\/\/act\.vip\.iqiyi\.com\/interact\/api\/v\d\/show url reject
 ^https?:\/\/intl\.iqiyi\.com\/ad_external\/ url reject
 ^https?:\/\/intl\.iqiyi\.com\/video\/advertise url reject
+^https?:\/\/u\d\.iqiyipic\.com\/image\/[\w\/]+\/oad_ url reject
 ^https?:\/\/channel\.beitaichufang\.com\/channel\/api\/v\d\/promote\/ios\/start\/page url reject
 ^https?:\/\/iapi\.bishijie\.com\/actopen\/v\d\/advertising\/ url reject
 ^https?:\/\/app\.api\.ke\.com\/config\/config\/bootpage url reject
