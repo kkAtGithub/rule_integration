@@ -12,7 +12,6 @@ DOMAIN-SUFFIX,news.l.qq.com
 DOMAIN-SUFFIX,unidesk.alicdn.com
 DOMAIN-SUFFIX,idealads.net
 DOMAIN-SUFFIX,ironsrc.com
-DOMAIN-SUFFIX,apoll.m.taobao.com
 DOMAIN-SUFFIX,comet.yahoo.com
 DOMAIN-SUFFIX,gemini.yahoo.com
 DOMAIN-SUFFIX,a.ckm.iqiyi.com
@@ -1259,7 +1258,6 @@ DOMAIN-SUFFIX,agenda.complex.com
 DOMAIN-SUFFIX,ag-gb.marketgid.com
 DOMAIN-SUFFIX,agn.aty.cp45.ott.cibntv.net
 DOMAIN-SUFFIX,agn.aty.snmsohu.aisee.tv
-DOMAIN-SUFFIX,agoodm.m.taobao.com
 DOMAIN-SUFFIX,agr.voiceads.cn
 DOMAIN-SUFFIX,agrant.cn
 DOMAIN-SUFFIX,agrantsem.com
@@ -1267,8 +1265,6 @@ DOMAIN-SUFFIX,ahhuazhen.com
 DOMAIN-SUFFIX,ahyau.com
 DOMAIN-SUFFIX,ahyuns.com
 DOMAIN-SUFFIX,ai.bioon.com
-DOMAIN-SUFFIX,ai.m.taobao.com
-DOMAIN-SUFFIX,ai.taobao.com
 DOMAIN-SUFFIX,ai.xinju.cc
 DOMAIN-SUFFIX,ai.yimg.jp
 DOMAIN-SUFFIX,aibangzs.com
@@ -1408,7 +1404,6 @@ DOMAIN-SUFFIX,api.union.vip.com
 DOMAIN-SUFFIX,api.uniplayad.com
 DOMAIN-SUFFIX,api.userstyles.org
 DOMAIN-SUFFIX,api.viglink.com
-DOMAIN-SUFFIX,api.waptest.taobao.com
 DOMAIN-SUFFIX,api.xk.miui.com
 DOMAIN-SUFFIX,api.y.igexin.com
 DOMAIN-SUFFIX,api.youxiaoad.com
@@ -2819,7 +2814,6 @@ DOMAIN-SUFFIX,dsp.com
 DOMAIN-SUFFIX,dsp.hypers.com.cn
 DOMAIN-SUFFIX,dsp.pro.cn
 DOMAIN-SUFFIX,dsp.send.microad-cn.com
-DOMAIN-SUFFIX,dsp.simba.taobao.com
 DOMAIN-SUFFIX,dsp.toutiao.com
 DOMAIN-SUFFIX,dsp.youdao.com
 DOMAIN-SUFFIX,ds-pc.admsger.com
@@ -3254,7 +3248,6 @@ DOMAIN-SUFFIX,fastclick.net
 DOMAIN-SUFFIX,fastly.bench.cedexis.com
 DOMAIN-SUFFIX,fastpopunder.com
 DOMAIN-SUFFIX,fathionmall.com
-DOMAIN-SUFFIX,fav.simba.taobao.com
 DOMAIN-SUFFIX,fb.xk.miui.com
 DOMAIN-SUFFIX,fbc.ffychb.com
 DOMAIN-SUFFIX,fccxgjg.com
@@ -4919,7 +4912,6 @@ DOMAIN-SUFFIX,m.sbenx.com
 DOMAIN-SUFFIX,m.sbinx.com
 DOMAIN-SUFFIX,m.sewxi.com
 DOMAIN-SUFFIX,m.shenyunkeji.com
-DOMAIN-SUFFIX,m.simba.taobao.com
 DOMAIN-SUFFIX,m.sjaidu.com
 DOMAIN-SUFFIX,m.sjuqc.com
 DOMAIN-SUFFIX,m.sjzhushou.com
@@ -5085,7 +5077,6 @@ DOMAIN-SUFFIX,mbrowser.news.so.com
 DOMAIN-SUFFIX,mbs.weathercn.com
 DOMAIN-SUFFIX,mc.hujiang.com
 DOMAIN-SUFFIX,mc.yandex.ru
-DOMAIN-SUFFIX,mclick.simba.taobao.com
 DOMAIN-SUFFIX,mcore.vcgame.cn
 DOMAIN-SUFFIX,md.1drj.com
 DOMAIN-SUFFIX,md.he9630.com
@@ -6035,8 +6026,6 @@ DOMAIN-SUFFIX,rd.e.sogou.com
 DOMAIN-SUFFIX,rdiqt.cn
 DOMAIN-SUFFIX,rdtuijian.com
 DOMAIN-SUFFIX,rdx.autohome.com.cn
-DOMAIN-SUFFIX,re.m.taobao.com
-DOMAIN-SUFFIX,re.taobao.com
 DOMAIN-SUFFIX,re.taotaosou.com
 DOMAIN-SUFFIX,reachmax.cn
 DOMAIN-SUFFIX,reader.browser.miui.com
@@ -6050,7 +6039,6 @@ DOMAIN-SUFFIX,recv-vd.gridsumdissector.cn
 DOMAIN-SUFFIX,recv-vd.gridsumdissector.com
 DOMAIN-SUFFIX,recv-wd.gridsumdissector.com
 DOMAIN-SUFFIX,red.bayimg.net
-DOMAIN-SUFFIX,redirect.simba.taobao.com
 DOMAIN-SUFFIX,redpaper-10006092.cos.myqcloud.com
 DOMAIN-SUFFIX,redvase.bravenet.com
 DOMAIN-SUFFIX,referrer.disqus.com
@@ -6454,7 +6442,6 @@ DOMAIN-SUFFIX,si9377.com
 DOMAIN-SUFFIX,sicentlife.com
 DOMAIN-SUFFIX,sigbusa.com
 DOMAIN-SUFFIX,sigo99.com
-DOMAIN-SUFFIX,simba.m.taobao.com
 DOMAIN-SUFFIX,sina.wrating.com
 DOMAIN-SUFFIX,sina.yinstar.org
 DOMAIN-SUFFIX,sinaalicdn.com
@@ -6548,7 +6535,6 @@ DOMAIN-SUFFIX,squarespace.evyy.net
 DOMAIN-SUFFIX,src.duanxin520.com
 DOMAIN-SUFFIX,src.leju.com
 DOMAIN-SUFFIX,src.zf313.com
-DOMAIN-SUFFIX,srd.simba.taobao.com
 DOMAIN-SUFFIX,srhuafeng.com
 DOMAIN-SUFFIX,srv.carbonads.net
 DOMAIN-SUFFIX,srv.revdepo.com
@@ -6654,7 +6640,6 @@ DOMAIN-SUFFIX,stream.heavenmedia.net
 DOMAIN-SUFFIX,stream.shuzilm.cn
 DOMAIN-SUFFIX,streaming.rtbiddingplatform.com
 DOMAIN-SUFFIX,strip.alicdn.com
-DOMAIN-SUFFIX,strip.taobaocdn.com
 DOMAIN-SUFFIX,su.8881919.cc
 DOMAIN-SUFFIX,su.bdimg.com
 DOMAIN-SUFFIX,su.bdstatic.com
@@ -6799,8 +6784,6 @@ DOMAIN-SUFFIX,tanwanyx.com
 DOMAIN-SUFFIX,tanxlog.istreamsche.com
 DOMAIN-SUFFIX,tanzanite.infomine.com
 DOMAIN-SUFFIX,taobaly.cn
-DOMAIN-SUFFIX,taobaoaliyun.cn
-DOMAIN-SUFFIX,taobaobo5.com
 DOMAIN-SUFFIX,taobayun.cn
 DOMAIN-SUFFIX,taohanpai.com
 DOMAIN-SUFFIX,taomato.com
@@ -6833,14 +6816,12 @@ DOMAIN-SUFFIX,t-e.flyme.cn
 DOMAIN-SUFFIX,teen.77rog.com
 DOMAIN-SUFFIX,telstra.imrworldwide.com
 DOMAIN-SUFFIX,temai.snssdk.com
-DOMAIN-SUFFIX,temai.taobao.com
 DOMAIN-SUFFIX,temp.163.com
 DOMAIN-SUFFIX,tencentmind.com
 DOMAIN-SUFFIX,tenddata.com
 DOMAIN-SUFFIX,test.api.xlmc.sandai.net
 DOMAIN-SUFFIX,test.eduancm.com
 DOMAIN-SUFFIX,test.surepush.cn
-DOMAIN-SUFFIX,textlink.simba.taobao.com
 DOMAIN-SUFFIX,tf.caohua.com
 DOMAIN-SUFFIX,tf.hdfdm.com
 DOMAIN-SUFFIX,tf.hftaili.com
@@ -7083,7 +7064,6 @@ DOMAIN-SUFFIX,unionsy.com
 DOMAIN-SUFFIX,union-wifi.com
 DOMAIN-SUFFIX,unipaydl.wostore.cn
 DOMAIN-SUFFIX,unipayupg.wostore.cn
-DOMAIN-SUFFIX,unitacs.m.taobao.com
 DOMAIN-SUFFIX,unjs.jfcdns.com
 DOMAIN-SUFFIX,unlitui.com
 DOMAIN-SUFFIX,uns.soarfi.cn
@@ -7249,7 +7229,6 @@ DOMAIN-SUFFIX,w.cube3d.cn
 DOMAIN-SUFFIX,w.gdown.baidu.com
 DOMAIN-SUFFIX,w.homes.yahoo.net
 DOMAIN-SUFFIX,w.jscsd.cn
-DOMAIN-SUFFIX,w.m.taobao.com
 DOMAIN-SUFFIX,w.punchbox.org
 DOMAIN-SUFFIX,w.sharethis.com
 DOMAIN-SUFFIX,w.waacorp.com
@@ -8062,15 +8041,8 @@ DOMAIN-SUFFIX,iadsdk.apple.com
 DOMAIN-SUFFIX,ads.internal.unity3d.com
 DOMAIN-SUFFIX,ads.prd.ie.internal.unity3d.com
 DOMAIN-SUFFIX,unityads.unity3d.com
-DOMAIN-SUFFIX,acs4baichuan.m.taobao.com
 DOMAIN-SUFFIX,adash.man.aliyuncs.com
-DOMAIN-SUFFIX,adashbc.ut.taobao.com
-DOMAIN-SUFFIX,adash-c.ut.taobao.com
-DOMAIN-SUFFIX,adashxgc.ut.taobao.com
-DOMAIN-SUFFIX,adashx4yt.m.taobao.com
-DOMAIN-SUFFIX,h-adashx.ut.taobao.com
 DOMAIN-SUFFIX,nbsdk-baichuan.alicdn.com
-DOMAIN-SUFFIX,tunion-api.m.taobao.com
 DOMAIN-SUFFIX,adproxy.autohome.com.cn
 DOMAIN-SUFFIX,rd.autohome.com.cn
 DOMAIN-SUFFIX,ad.k.21cn.com
@@ -8348,12 +8320,6 @@ DOMAIN-SUFFIX,www.google-analytics.com
 DOMAIN-SUFFIX,fusion.qq.com
 DOMAIN-SUFFIX,ios.bugly.qq.com
 DOMAIN-SUFFIX,wup.imtt.qq.com
-DOMAIN-SUFFIX,tns.simba.taobao.com
-DOMAIN-SUFFIX,click.mz.simba.taobao.com
-DOMAIN-SUFFIX,click.simba.taobao.com
-DOMAIN-SUFFIX,click.tz.simba.taobao.com
-DOMAIN-SUFFIX,stat.simba.taobao.com
-DOMAIN-SUFFIX,m-adash.m.taobao.com
 DOMAIN-SUFFIX,applovin.com
 DOMAIN-SUFFIX,applvn.com
 DOMAIN-SUFFIX,inner-active.mobi
@@ -8666,15 +8632,6 @@ DOMAIN-SUFFIX,wax.weibo.com
 DOMAIN-SUFFIX,wbapp.uve.weibo.com
 DOMAIN-SUFFIX,widget.weibo.com
 DOMAIN-SUFFIX,zc.biz.weibo.com
-DOMAIN-SUFFIX,adashx.m.taobao.com
-DOMAIN-SUFFIX,ip.taobao.com
-DOMAIN-SUFFIX,nbsdk-baichuan.taobao.com
-DOMAIN-SUFFIX,pics.taobaocdn.com
-DOMAIN-SUFFIX,pindao.huoban.taobao.com
-DOMAIN-SUFFIX,rj.m.taobao.com
-DOMAIN-SUFFIX,sdkinit.taobao.com
-DOMAIN-SUFFIX,show.re.taobao.com
-DOMAIN-SUFFIX,simaba.taobao.com
 DOMAIN-SUFFIX,a.alimama.cn
 DOMAIN-SUFFIX,bm.alimama.cn
 DOMAIN-SUFFIX,bmvip.alimama.cn
@@ -9457,7 +9414,6 @@ DOMAIN-SUFFIX,sss.bxmns.com
 DOMAIN-SUFFIX,extlog.snssdk.com
 DOMAIN-SUFFIX,dcps.nuomi.com
 DOMAIN-SUFFIX,focusbaiduafp.allyes.com
-DOMAIN-SUFFIX,m.simaba.taobao.com
 DOMAIN-SUFFIX,ltsdl.qq.com
 DOMAIN-SUFFIX,yhzbjz.com
 DOMAIN-SUFFIX,ordidc.com
@@ -9800,7 +9756,6 @@ DOMAIN-SUFFIX,365syt.cn
 DOMAIN-SUFFIX,365yigou.cn
 DOMAIN-SUFFIX,36c6ce350b32.com
 DOMAIN-SUFFIX,36ia2.cn
-DOMAIN-SUFFIX,38taobao.com
 DOMAIN-SUFFIX,38ursg.cn
 DOMAIN-SUFFIX,394b8b41ac5305d.com
 DOMAIN-SUFFIX,39jz.com
@@ -11078,7 +11033,6 @@ DOMAIN-SUFFIX,dm.66qw.net
 DOMAIN-SUFFIX,dm.cnbanbao.com
 DOMAIN-SUFFIX,dm.gucheng.com
 DOMAIN-SUFFIX,dm.huochepiao.com
-DOMAIN-SUFFIX,dm.taobaojuhuasuan.cn
 DOMAIN-SUFFIX,dm.wenshenxiu.com
 DOMAIN-SUFFIX,dm.zuowenku.net
 DOMAIN-SUFFIX,dm1.zjydt.com
@@ -13714,7 +13668,6 @@ DOMAIN-SUFFIX,taifouwo.com
 DOMAIN-SUFFIX,tamechangekn.info
 DOMAIN-SUFFIX,tangeb.com
 DOMAIN-SUFFIX,tantella.com
-DOMAIN-SUFFIX,taobaojx.com
 DOMAIN-SUFFIX,taodropship.com
 DOMAIN-SUFFIX,taoguanda.com
 DOMAIN-SUFFIX,taoguohe.com
@@ -15294,7 +15247,6 @@ DOMAIN-SUFFIX,count.paycounter.com
 DOMAIN-SUFFIX,count.prx.org
 DOMAIN-SUFFIX,count.rin.ru
 DOMAIN-SUFFIX,count.rtl.de
-DOMAIN-SUFFIX,count.taobao.com
 DOMAIN-SUFFIX,count.upc.rakuten.co.jp
 DOMAIN-SUFFIX,count.vrs.sohu.com
 DOMAIN-SUFFIX,count.yandeg.ru
@@ -16237,7 +16189,6 @@ DOMAIN-SUFFIX,res.rbl.ms
 DOMAIN-SUFFIX,responder.wt.heise.de
 DOMAIN-SUFFIX,response.pure360.com
 DOMAIN-SUFFIX,retargeting.vistaprint.com
-DOMAIN-SUFFIX,retcode.taobao.com
 DOMAIN-SUFFIX,retrack.q-divisioncdn.de
 DOMAIN-SUFFIX,revsci.tvguide.com
 DOMAIN-SUFFIX,rich-agent.s3.amazonaws.com
@@ -16733,7 +16684,6 @@ DOMAIN-SUFFIX,target.smi2.ru
 DOMAIN-SUFFIX,target.ukr.net
 DOMAIN-SUFFIX,targeting.perso.aws.arc.pub
 DOMAIN-SUFFIX,tbe.tom.ru
-DOMAIN-SUFFIX,tbskip.taobao.com
 DOMAIN-SUFFIX,tc.airfrance.com
 DOMAIN-SUFFIX,tc.hometogo.net
 DOMAIN-SUFFIX,tce.alicdn.com
@@ -17243,11 +17193,8 @@ DOMAIN-SUFFIX,s.so.360.cn
 DOMAIN-SUFFIX,shouji.360.cn
 DOMAIN-SUFFIX,wan.360.cn
 DOMAIN-SUFFIX,stat.xgo.com.cn
-DOMAIN-SUFFIX,g.click.taobao.com
 DOMAIN-SUFFIX,g.tbcdn.cn
 DOMAIN-SUFFIX,gtmsdd.alicdn.com
-DOMAIN-SUFFIX,simaba.m.taobao.com
-DOMAIN-SUFFIX,tyh.taobao.com
 DOMAIN-SUFFIX,adserver.unityads.unity3d.com
 DOMAIN-SUFFIX,alert.autohome.com.cn
 DOMAIN-SUFFIX,a.baidu.cn
@@ -21489,7 +21436,6 @@ DOMAIN,bagbeam.com
 DOMAIN,bahnjhnrcdwi.com
 DOMAIN,baichuanbi.wang
 DOMAIN,baicoath.net
-DOMAIN,baidu-taobao-av.com
 DOMAIN,ada.baidu.com
 DOMAIN,aod-image.baidu.com
 DOMAIN,as1.wenku.baidu.com
@@ -38670,18 +38616,6 @@ DOMAIN,tannelssepara.info
 DOMAIN,tantoporno.com
 DOMAIN,img2.tanv.com
 DOMAIN,tanzhen.info
-DOMAIN,advertisement.taobao.com
-DOMAIN,amdcopen.m.taobao.com
-DOMAIN,bcfeedback.taobao.com
-DOMAIN,detail.taobao.com
-DOMAIN,eco.taobao.com
-DOMAIN,top.taobao.com
-DOMAIN,umengacs.m.taobao.com
-DOMAIN,fourier.taobao.com
-DOMAIN,accscdn.m.taobao.com
-DOMAIN,acs.wapa.taobao.com
-DOMAIN,openjmacs.m.taobao.com
-DOMAIN,www.taobaobo5.com
 DOMAIN,taogou.site
 DOMAIN,taojingu.cn
 DOMAIN,j.taokeweizhan.com

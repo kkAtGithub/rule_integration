@@ -16,7 +16,6 @@ payload:
   - DOMAIN-SUFFIX,gubo.org
   - DOMAIN-SUFFIX,contabo.com
   - DOMAIN-SUFFIX,scaleway.com
-  - DOMAIN-SUFFIX,dler.cloud
   - PROCESS-NAME,storedownloadd
   - DOMAIN,aod.itunes.apple.com
   - DOMAIN,api.smoot.apple.cn

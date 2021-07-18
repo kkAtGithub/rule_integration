@@ -1013,7 +1013,6 @@ payload:
   - DOMAIN-SUFFIX,adap.tv
   - DOMAIN-SUFFIX,adapi.lenovogame.com
   - DOMAIN-SUFFIX,adasad.myweb.hinet.net
-  - DOMAIN-SUFFIX,adash.m.taobao.com
   - DOMAIN-SUFFIX,adbana.com
   - DOMAIN-SUFFIX,ad-beta.flipboard.com
   - DOMAIN-SUFFIX,adbot.tw
@@ -1331,7 +1330,6 @@ payload:
   - DOMAIN-SUFFIX,ag-gb.marketgid.com
   - DOMAIN-SUFFIX,agn.aty.cp45.ott.cibntv.net
   - DOMAIN-SUFFIX,agn.aty.snmsohu.aisee.tv
-  - DOMAIN-SUFFIX,agoodm.m.taobao.com
   - DOMAIN-SUFFIX,agr.voiceads.cn
   - DOMAIN-SUFFIX,agrant.cn
   - DOMAIN-SUFFIX,agrantsem.com
@@ -1339,8 +1337,6 @@ payload:
   - DOMAIN-SUFFIX,ahyau.com
   - DOMAIN-SUFFIX,ahyuns.com
   - DOMAIN-SUFFIX,ai.bioon.com
-  - DOMAIN-SUFFIX,ai.m.taobao.com
-  - DOMAIN-SUFFIX,ai.taobao.com
   - DOMAIN-SUFFIX,ai.xinju.cc
   - DOMAIN-SUFFIX,ai.yimg.jp
   - DOMAIN-SUFFIX,aibangzs.com
@@ -1396,7 +1392,6 @@ payload:
   - DOMAIN-SUFFIX,am.zdnet.com.cn
   - DOMAIN-SUFFIX,am15.net
   - DOMAIN-SUFFIX,amazingmagics.com
-  - DOMAIN-SUFFIX,amdc.m.taobao.com
   - DOMAIN-SUFFIX,amfi.gou.sogou.com
   - DOMAIN-SUFFIX,amiok.org
   - DOMAIN-SUFFIX,amps.yoyi.com.cn
@@ -1486,7 +1481,6 @@ payload:
   - DOMAIN-SUFFIX,api.uniplayad.com
   - DOMAIN-SUFFIX,api.userstyles.org
   - DOMAIN-SUFFIX,api.viglink.com
-  - DOMAIN-SUFFIX,api.waptest.taobao.com
   - DOMAIN-SUFFIX,api.whizzone.com
   - DOMAIN-SUFFIX,api.xk.miui.com
   - DOMAIN-SUFFIX,api.y.igexin.com
@@ -1506,7 +1500,6 @@ payload:
   - DOMAIN-SUFFIX,apklog.cp11.ott.cibntv.net
   - DOMAIN-SUFFIX,apnmedia.ask.com
   - DOMAIN-SUFFIX,apns.ios.ijinshan.com
-  - DOMAIN-SUFFIX,apoll.m.taobao.com
   - DOMAIN-SUFFIX,apollo.caixin.com
   - DOMAIN-SUFFIX,app.3987.com
   - DOMAIN-SUFFIX,app.9yyg.cn
@@ -2065,7 +2058,6 @@ payload:
   - DOMAIN-SUFFIX,cachesit.com
   - DOMAIN-SUFFIX,cache-ssl.celtra.com
   - DOMAIN-SUFFIX,cad.chosun.com
-  - DOMAIN-SUFFIX,c-adash.m.taobao.com
   - DOMAIN-SUFFIX,cadvv.heraldm.com
   - DOMAIN-SUFFIX,cadvv.koreaherald.com
   - DOMAIN-SUFFIX,caiyifz.com
@@ -2919,7 +2911,6 @@ payload:
   - DOMAIN-SUFFIX,dsp.hypers.com.cn
   - DOMAIN-SUFFIX,dsp.pro.cn
   - DOMAIN-SUFFIX,dsp.send.microad-cn.com
-  - DOMAIN-SUFFIX,dsp.simba.taobao.com
   - DOMAIN-SUFFIX,dsp.toutiao.com
   - DOMAIN-SUFFIX,dsp.youdao.com
   - DOMAIN-SUFFIX,ds-pc.admsger.com
@@ -3359,7 +3350,6 @@ payload:
   - DOMAIN-SUFFIX,fastly.bench.cedexis.com
   - DOMAIN-SUFFIX,fastpopunder.com
   - DOMAIN-SUFFIX,fathionmall.com
-  - DOMAIN-SUFFIX,fav.simba.taobao.com
   - DOMAIN-SUFFIX,fb.xk.miui.com
   - DOMAIN-SUFFIX,fbc.ffychb.com
   - DOMAIN-SUFFIX,fccxgjg.com
@@ -5064,7 +5054,6 @@ payload:
   - DOMAIN-SUFFIX,m.sbinx.com
   - DOMAIN-SUFFIX,m.sewxi.com
   - DOMAIN-SUFFIX,m.shenyunkeji.com
-  - DOMAIN-SUFFIX,m.simba.taobao.com
   - DOMAIN-SUFFIX,m.sjaidu.com
   - DOMAIN-SUFFIX,m.sjuqc.com
   - DOMAIN-SUFFIX,m.sjzhushou.com
@@ -5176,7 +5165,6 @@ payload:
   - DOMAIN-SUFFIX,macplatform.wondershare.com
   - DOMAIN-SUFFIX,mad.kuuad.com
   - DOMAIN-SUFFIX,mad.m.maxthon.cn
-  - DOMAIN-SUFFIX,m-adash.m.taobao.com
   - DOMAIN-SUFFIX,madhouse.cn
   - DOMAIN-SUFFIX,madmini.com
   - DOMAIN-SUFFIX,mads.amazon.com
@@ -5240,7 +5228,6 @@ payload:
   - DOMAIN-SUFFIX,mbs.weathercn.com
   - DOMAIN-SUFFIX,mc.hujiang.com
   - DOMAIN-SUFFIX,mc.yandex.ru
-  - DOMAIN-SUFFIX,mclick.simba.taobao.com
   - DOMAIN-SUFFIX,mcore.vcgame.cn
   - DOMAIN-SUFFIX,md.1drj.com
   - DOMAIN-SUFFIX,md.he9630.com
@@ -6218,8 +6205,6 @@ payload:
   - DOMAIN-SUFFIX,rdiqt.cn
   - DOMAIN-SUFFIX,rdtuijian.com
   - DOMAIN-SUFFIX,rdx.autohome.com.cn
-  - DOMAIN-SUFFIX,re.m.taobao.com
-  - DOMAIN-SUFFIX,re.taobao.com
   - DOMAIN-SUFFIX,re.taotaosou.com
   - DOMAIN-SUFFIX,reachmax.cn
   - DOMAIN-SUFFIX,reader.browser.miui.com
@@ -6233,7 +6218,6 @@ payload:
   - DOMAIN-SUFFIX,recv-vd.gridsumdissector.com
   - DOMAIN-SUFFIX,recv-wd.gridsumdissector.com
   - DOMAIN-SUFFIX,red.bayimg.net
-  - DOMAIN-SUFFIX,redirect.simba.taobao.com
   - DOMAIN-SUFFIX,redpaper-10006092.cos.myqcloud.com
   - DOMAIN-SUFFIX,redvase.bravenet.com
   - DOMAIN-SUFFIX,referrer.disqus.com
@@ -6656,7 +6640,6 @@ payload:
   - DOMAIN-SUFFIX,sifuka.cn
   - DOMAIN-SUFFIX,sigbusa.com
   - DOMAIN-SUFFIX,sigo99.com
-  - DOMAIN-SUFFIX,simba.m.taobao.com
   - DOMAIN-SUFFIX,sina.wrating.com
   - DOMAIN-SUFFIX,sina.yinstar.org
   - DOMAIN-SUFFIX,sinaalicdn.com
@@ -6752,7 +6735,6 @@ payload:
   - DOMAIN-SUFFIX,src.duanxin520.com
   - DOMAIN-SUFFIX,src.leju.com
   - DOMAIN-SUFFIX,src.zf313.com
-  - DOMAIN-SUFFIX,srd.simba.taobao.com
   - DOMAIN-SUFFIX,srhuafeng.com
   - DOMAIN-SUFFIX,srv.carbonads.net
   - DOMAIN-SUFFIX,srv.revdepo.com
@@ -6857,7 +6839,6 @@ payload:
   - DOMAIN-SUFFIX,stream.shuzilm.cn
   - DOMAIN-SUFFIX,streaming.rtbiddingplatform.com
   - DOMAIN-SUFFIX,strip.alicdn.com
-  - DOMAIN-SUFFIX,strip.taobaocdn.com
   - DOMAIN-SUFFIX,su.8881919.cc
   - DOMAIN-SUFFIX,su.bdimg.com
   - DOMAIN-SUFFIX,su.bdstatic.com
@@ -7000,8 +6981,6 @@ payload:
   - DOMAIN-SUFFIX,tanxlog.istreamsche.com
   - DOMAIN-SUFFIX,tanzanite.infomine.com
   - DOMAIN-SUFFIX,taobaly.cn
-  - DOMAIN-SUFFIX,taobaoaliyun.cn
-  - DOMAIN-SUFFIX,taobaobo5.com
   - DOMAIN-SUFFIX,taobayun.cn
   - DOMAIN-SUFFIX,taoggou.com
   - DOMAIN-SUFFIX,taohanpai.com
@@ -7035,14 +7014,12 @@ payload:
   - DOMAIN-SUFFIX,teen.77rog.com
   - DOMAIN-SUFFIX,telstra.imrworldwide.com
   - DOMAIN-SUFFIX,temai.snssdk.com
-  - DOMAIN-SUFFIX,temai.taobao.com
   - DOMAIN-SUFFIX,temp.163.com
   - DOMAIN-SUFFIX,tencentmind.com
   - DOMAIN-SUFFIX,tenddata.com
   - DOMAIN-SUFFIX,test.api.xlmc.sandai.net
   - DOMAIN-SUFFIX,test.eduancm.com
   - DOMAIN-SUFFIX,test.surepush.cn
-  - DOMAIN-SUFFIX,textlink.simba.taobao.com
   - DOMAIN-SUFFIX,tf.caohua.com
   - DOMAIN-SUFFIX,tf.hdfdm.com
   - DOMAIN-SUFFIX,tf.hftaili.com
@@ -7170,7 +7147,6 @@ payload:
   - DOMAIN-SUFFIX,tukj.net
   - DOMAIN-SUFFIX,tumblrprobes.cedexis.com
   - DOMAIN-SUFFIX,tumblrreports.cedexis.com
-  - DOMAIN-SUFFIX,tunion-api.m.taobao.com
   - DOMAIN-SUFFIX,turn.com
   - DOMAIN-SUFFIX,tv.code.jjyx.com
   - DOMAIN-SUFFIX,tw.adon.vpon.com
@@ -7292,7 +7268,6 @@ payload:
   - DOMAIN-SUFFIX,union-wifi.com
   - DOMAIN-SUFFIX,unipaydl.wostore.cn
   - DOMAIN-SUFFIX,unipayupg.wostore.cn
-  - DOMAIN-SUFFIX,unitacs.m.taobao.com
   - DOMAIN-SUFFIX,unjs.jfcdns.com
   - DOMAIN-SUFFIX,unlitui.com
   - DOMAIN-SUFFIX,uns.soarfi.cn
@@ -7457,7 +7432,6 @@ payload:
   - DOMAIN-SUFFIX,w.gdown.baidu.com
   - DOMAIN-SUFFIX,w.homes.yahoo.net
   - DOMAIN-SUFFIX,w.jscsd.cn
-  - DOMAIN-SUFFIX,w.m.taobao.com
   - DOMAIN-SUFFIX,w.punchbox.org
   - DOMAIN-SUFFIX,w.sharethis.com
   - DOMAIN-SUFFIX,w.waacorp.com
@@ -8706,7 +8680,6 @@ payload:
   - DOMAIN-SUFFIX,ads.internal.unity3d.com
   - DOMAIN-SUFFIX,ads.prd.ie.internal.unity3d.com
   - DOMAIN-SUFFIX,unityads.unity3d.com
-  - DOMAIN,tunion-api.m.taobao.com
   - DOMAIN-SUFFIX,atm.youku.com
   - DOMAIN,ad.mobile.youku.com
   - DOMAIN,iyes.youku.com

@@ -87,7 +87,6 @@ def read_list(url_list_2b, file_name_2b='', src_mark_flag=True):
                             if snippet[0] in REWRITE_RESULT:
                                 if snippet[1].__len__() < REWRITE_RESULT[snippet[0]].__len__():
                                     continue
-                                print(line_list)
                             REWRITE_RESULT[snippet[0]] = snippet[1]
                         elif file_name_2b.endswith(RULE_SET_FILE_NAME_SUFFIX):
                             line_list = rule_processor(line_list)
@@ -240,7 +239,7 @@ if __name__ == '__main__':
         if os.path.exists(f'{path}/EXCLUDE'):
             with open(f'{path}/EXCLUDE', mode='r', encoding='UTF-8') as ex_file_content:
                 for ex_url_list_entry in ex_file_content.readlines():
-                    EXCLUDE_LIST.append(ex_url_list_entry)
+                    EXCLUDE_LIST.append(ex_url_list_entry.strip())
         dir_list.sort(reverse=True)
         for special_dir in dir_list:
             # noinspection PyBroadException

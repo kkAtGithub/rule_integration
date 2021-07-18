@@ -1012,7 +1012,6 @@ DOMAIN-SUFFIX,ad-android.51wnl.com,REJECT
 DOMAIN-SUFFIX,adap.tv,REJECT
 DOMAIN-SUFFIX,adapi.lenovogame.com,REJECT
 DOMAIN-SUFFIX,adasad.myweb.hinet.net,REJECT
-DOMAIN-SUFFIX,adash.m.taobao.com,REJECT
 DOMAIN-SUFFIX,adbana.com,REJECT
 DOMAIN-SUFFIX,ad-beta.flipboard.com,REJECT
 DOMAIN-SUFFIX,adbot.tw,REJECT
@@ -1330,7 +1329,6 @@ DOMAIN-SUFFIX,agenda.complex.com,REJECT
 DOMAIN-SUFFIX,ag-gb.marketgid.com,REJECT
 DOMAIN-SUFFIX,agn.aty.cp45.ott.cibntv.net,REJECT
 DOMAIN-SUFFIX,agn.aty.snmsohu.aisee.tv,REJECT
-DOMAIN-SUFFIX,agoodm.m.taobao.com,REJECT
 DOMAIN-SUFFIX,agr.voiceads.cn,REJECT
 DOMAIN-SUFFIX,agrant.cn,REJECT
 DOMAIN-SUFFIX,agrantsem.com,REJECT
@@ -1338,8 +1336,6 @@ DOMAIN-SUFFIX,ahhuazhen.com,REJECT
 DOMAIN-SUFFIX,ahyau.com,REJECT
 DOMAIN-SUFFIX,ahyuns.com,REJECT
 DOMAIN-SUFFIX,ai.bioon.com,REJECT
-DOMAIN-SUFFIX,ai.m.taobao.com,REJECT
-DOMAIN-SUFFIX,ai.taobao.com,REJECT
 DOMAIN-SUFFIX,ai.xinju.cc,REJECT
 DOMAIN-SUFFIX,ai.yimg.jp,REJECT
 DOMAIN-SUFFIX,aibangzs.com,REJECT
@@ -1395,7 +1391,6 @@ DOMAIN-SUFFIX,am.szhome.com,REJECT
 DOMAIN-SUFFIX,am.zdnet.com.cn,REJECT
 DOMAIN-SUFFIX,am15.net,REJECT
 DOMAIN-SUFFIX,amazingmagics.com,REJECT
-DOMAIN-SUFFIX,amdc.m.taobao.com,REJECT
 DOMAIN-SUFFIX,amfi.gou.sogou.com,REJECT
 DOMAIN-SUFFIX,amiok.org,REJECT
 DOMAIN-SUFFIX,amps.yoyi.com.cn,REJECT
@@ -1485,7 +1480,6 @@ DOMAIN-SUFFIX,api.union.vip.com,REJECT
 DOMAIN-SUFFIX,api.uniplayad.com,REJECT
 DOMAIN-SUFFIX,api.userstyles.org,REJECT
 DOMAIN-SUFFIX,api.viglink.com,REJECT
-DOMAIN-SUFFIX,api.waptest.taobao.com,REJECT
 DOMAIN-SUFFIX,api.whizzone.com,REJECT
 DOMAIN-SUFFIX,api.xk.miui.com,REJECT
 DOMAIN-SUFFIX,api.y.igexin.com,REJECT
@@ -1505,7 +1499,6 @@ DOMAIN-SUFFIX,apkinfo.voole.com,REJECT
 DOMAIN-SUFFIX,apklog.cp11.ott.cibntv.net,REJECT
 DOMAIN-SUFFIX,apnmedia.ask.com,REJECT
 DOMAIN-SUFFIX,apns.ios.ijinshan.com,REJECT
-DOMAIN-SUFFIX,apoll.m.taobao.com,REJECT
 DOMAIN-SUFFIX,apollo.caixin.com,REJECT
 DOMAIN-SUFFIX,app.3987.com,REJECT
 DOMAIN-SUFFIX,app.9yyg.cn,REJECT
@@ -2064,7 +2057,6 @@ DOMAIN-SUFFIX,cachenotice.cp11.ott.cibntv.net,REJECT
 DOMAIN-SUFFIX,cachesit.com,REJECT
 DOMAIN-SUFFIX,cache-ssl.celtra.com,REJECT
 DOMAIN-SUFFIX,cad.chosun.com,REJECT
-DOMAIN-SUFFIX,c-adash.m.taobao.com,REJECT
 DOMAIN-SUFFIX,cadvv.heraldm.com,REJECT
 DOMAIN-SUFFIX,cadvv.koreaherald.com,REJECT
 DOMAIN-SUFFIX,caiyifz.com,REJECT
@@ -2918,7 +2910,6 @@ DOMAIN-SUFFIX,dsp.com,REJECT
 DOMAIN-SUFFIX,dsp.hypers.com.cn,REJECT
 DOMAIN-SUFFIX,dsp.pro.cn,REJECT
 DOMAIN-SUFFIX,dsp.send.microad-cn.com,REJECT
-DOMAIN-SUFFIX,dsp.simba.taobao.com,REJECT
 DOMAIN-SUFFIX,dsp.toutiao.com,REJECT
 DOMAIN-SUFFIX,dsp.youdao.com,REJECT
 DOMAIN-SUFFIX,ds-pc.admsger.com,REJECT
@@ -3358,7 +3349,6 @@ DOMAIN-SUFFIX,fastclick.net,REJECT
 DOMAIN-SUFFIX,fastly.bench.cedexis.com,REJECT
 DOMAIN-SUFFIX,fastpopunder.com,REJECT
 DOMAIN-SUFFIX,fathionmall.com,REJECT
-DOMAIN-SUFFIX,fav.simba.taobao.com,REJECT
 DOMAIN-SUFFIX,fb.xk.miui.com,REJECT
 DOMAIN-SUFFIX,fbc.ffychb.com,REJECT
 DOMAIN-SUFFIX,fccxgjg.com,REJECT
@@ -5063,7 +5053,6 @@ DOMAIN-SUFFIX,m.sbenx.com,REJECT
 DOMAIN-SUFFIX,m.sbinx.com,REJECT
 DOMAIN-SUFFIX,m.sewxi.com,REJECT
 DOMAIN-SUFFIX,m.shenyunkeji.com,REJECT
-DOMAIN-SUFFIX,m.simba.taobao.com,REJECT
 DOMAIN-SUFFIX,m.sjaidu.com,REJECT
 DOMAIN-SUFFIX,m.sjuqc.com,REJECT
 DOMAIN-SUFFIX,m.sjzhushou.com,REJECT
@@ -5175,7 +5164,6 @@ DOMAIN-SUFFIX,mackeeper.com,REJECT
 DOMAIN-SUFFIX,macplatform.wondershare.com,REJECT
 DOMAIN-SUFFIX,mad.kuuad.com,REJECT
 DOMAIN-SUFFIX,mad.m.maxthon.cn,REJECT
-DOMAIN-SUFFIX,m-adash.m.taobao.com,REJECT
 DOMAIN-SUFFIX,madhouse.cn,REJECT
 DOMAIN-SUFFIX,madmini.com,REJECT
 DOMAIN-SUFFIX,mads.amazon.com,REJECT
@@ -5239,7 +5227,6 @@ DOMAIN-SUFFIX,mbrowser.news.so.com,REJECT
 DOMAIN-SUFFIX,mbs.weathercn.com,REJECT
 DOMAIN-SUFFIX,mc.hujiang.com,REJECT
 DOMAIN-SUFFIX,mc.yandex.ru,REJECT
-DOMAIN-SUFFIX,mclick.simba.taobao.com,REJECT
 DOMAIN-SUFFIX,mcore.vcgame.cn,REJECT
 DOMAIN-SUFFIX,md.1drj.com,REJECT
 DOMAIN-SUFFIX,md.he9630.com,REJECT
@@ -6217,8 +6204,6 @@ DOMAIN-SUFFIX,rd.e.sogou.com,REJECT
 DOMAIN-SUFFIX,rdiqt.cn,REJECT
 DOMAIN-SUFFIX,rdtuijian.com,REJECT
 DOMAIN-SUFFIX,rdx.autohome.com.cn,REJECT
-DOMAIN-SUFFIX,re.m.taobao.com,REJECT
-DOMAIN-SUFFIX,re.taobao.com,REJECT
 DOMAIN-SUFFIX,re.taotaosou.com,REJECT
 DOMAIN-SUFFIX,reachmax.cn,REJECT
 DOMAIN-SUFFIX,reader.browser.miui.com,REJECT
@@ -6232,7 +6217,6 @@ DOMAIN-SUFFIX,recv-vd.gridsumdissector.cn,REJECT
 DOMAIN-SUFFIX,recv-vd.gridsumdissector.com,REJECT
 DOMAIN-SUFFIX,recv-wd.gridsumdissector.com,REJECT
 DOMAIN-SUFFIX,red.bayimg.net,REJECT
-DOMAIN-SUFFIX,redirect.simba.taobao.com,REJECT
 DOMAIN-SUFFIX,redpaper-10006092.cos.myqcloud.com,REJECT
 DOMAIN-SUFFIX,redvase.bravenet.com,REJECT
 DOMAIN-SUFFIX,referrer.disqus.com,REJECT
@@ -6655,7 +6639,6 @@ DOMAIN-SUFFIX,sifuji.cn,REJECT
 DOMAIN-SUFFIX,sifuka.cn,REJECT
 DOMAIN-SUFFIX,sigbusa.com,REJECT
 DOMAIN-SUFFIX,sigo99.com,REJECT
-DOMAIN-SUFFIX,simba.m.taobao.com,REJECT
 DOMAIN-SUFFIX,sina.wrating.com,REJECT
 DOMAIN-SUFFIX,sina.yinstar.org,REJECT
 DOMAIN-SUFFIX,sinaalicdn.com,REJECT
@@ -6751,7 +6734,6 @@ DOMAIN-SUFFIX,squarespace.evyy.net,REJECT
 DOMAIN-SUFFIX,src.duanxin520.com,REJECT
 DOMAIN-SUFFIX,src.leju.com,REJECT
 DOMAIN-SUFFIX,src.zf313.com,REJECT
-DOMAIN-SUFFIX,srd.simba.taobao.com,REJECT
 DOMAIN-SUFFIX,srhuafeng.com,REJECT
 DOMAIN-SUFFIX,srv.carbonads.net,REJECT
 DOMAIN-SUFFIX,srv.revdepo.com,REJECT
@@ -6856,7 +6838,6 @@ DOMAIN-SUFFIX,stream.heavenmedia.net,REJECT
 DOMAIN-SUFFIX,stream.shuzilm.cn,REJECT
 DOMAIN-SUFFIX,streaming.rtbiddingplatform.com,REJECT
 DOMAIN-SUFFIX,strip.alicdn.com,REJECT
-DOMAIN-SUFFIX,strip.taobaocdn.com,REJECT
 DOMAIN-SUFFIX,su.8881919.cc,REJECT
 DOMAIN-SUFFIX,su.bdimg.com,REJECT
 DOMAIN-SUFFIX,su.bdstatic.com,REJECT
@@ -6999,8 +6980,6 @@ DOMAIN-SUFFIX,tanx.com,REJECT
 DOMAIN-SUFFIX,tanxlog.istreamsche.com,REJECT
 DOMAIN-SUFFIX,tanzanite.infomine.com,REJECT
 DOMAIN-SUFFIX,taobaly.cn,REJECT
-DOMAIN-SUFFIX,taobaoaliyun.cn,REJECT
-DOMAIN-SUFFIX,taobaobo5.com,REJECT
 DOMAIN-SUFFIX,taobayun.cn,REJECT
 DOMAIN-SUFFIX,taoggou.com,REJECT
 DOMAIN-SUFFIX,taohanpai.com,REJECT
@@ -7034,14 +7013,12 @@ DOMAIN-SUFFIX,t-e.flyme.cn,REJECT
 DOMAIN-SUFFIX,teen.77rog.com,REJECT
 DOMAIN-SUFFIX,telstra.imrworldwide.com,REJECT
 DOMAIN-SUFFIX,temai.snssdk.com,REJECT
-DOMAIN-SUFFIX,temai.taobao.com,REJECT
 DOMAIN-SUFFIX,temp.163.com,REJECT
 DOMAIN-SUFFIX,tencentmind.com,REJECT
 DOMAIN-SUFFIX,tenddata.com,REJECT
 DOMAIN-SUFFIX,test.api.xlmc.sandai.net,REJECT
 DOMAIN-SUFFIX,test.eduancm.com,REJECT
 DOMAIN-SUFFIX,test.surepush.cn,REJECT
-DOMAIN-SUFFIX,textlink.simba.taobao.com,REJECT
 DOMAIN-SUFFIX,tf.caohua.com,REJECT
 DOMAIN-SUFFIX,tf.hdfdm.com,REJECT
 DOMAIN-SUFFIX,tf.hftaili.com,REJECT
@@ -7169,7 +7146,6 @@ DOMAIN-SUFFIX,tukexiu.com,REJECT
 DOMAIN-SUFFIX,tukj.net,REJECT
 DOMAIN-SUFFIX,tumblrprobes.cedexis.com,REJECT
 DOMAIN-SUFFIX,tumblrreports.cedexis.com,REJECT
-DOMAIN-SUFFIX,tunion-api.m.taobao.com,REJECT
 DOMAIN-SUFFIX,turn.com,REJECT
 DOMAIN-SUFFIX,tv.code.jjyx.com,REJECT
 DOMAIN-SUFFIX,tw.adon.vpon.com,REJECT
@@ -7291,7 +7267,6 @@ DOMAIN-SUFFIX,unionsy.com,REJECT
 DOMAIN-SUFFIX,union-wifi.com,REJECT
 DOMAIN-SUFFIX,unipaydl.wostore.cn,REJECT
 DOMAIN-SUFFIX,unipayupg.wostore.cn,REJECT
-DOMAIN-SUFFIX,unitacs.m.taobao.com,REJECT
 DOMAIN-SUFFIX,unjs.jfcdns.com,REJECT
 DOMAIN-SUFFIX,unlitui.com,REJECT
 DOMAIN-SUFFIX,uns.soarfi.cn,REJECT
@@ -7456,7 +7431,6 @@ DOMAIN-SUFFIX,w.cube3d.cn,REJECT
 DOMAIN-SUFFIX,w.gdown.baidu.com,REJECT
 DOMAIN-SUFFIX,w.homes.yahoo.net,REJECT
 DOMAIN-SUFFIX,w.jscsd.cn,REJECT
-DOMAIN-SUFFIX,w.m.taobao.com,REJECT
 DOMAIN-SUFFIX,w.punchbox.org,REJECT
 DOMAIN-SUFFIX,w.sharethis.com,REJECT
 DOMAIN-SUFFIX,w.waacorp.com,REJECT
@@ -8538,6 +8512,7 @@ DOMAIN,ad.hzyoka.com,REJECT
 DOMAIN,ad.jiemian.com,REJECT
 DOMAIN,ad.wappalyzer.com,REJECT
 DOMAIN,ad-cn.jovcloud.com,REJECT
+DOMAIN,ad-mediation.tuanguwen.com,REJECT
 DOMAIN,ads.chinadaily.com.cn,REJECT
 DOMAIN,ads.daydaycook.com.cn,REJECT
 DOMAIN,ads.flurry.com,REJECT
@@ -8551,6 +8526,7 @@ DOMAIN,adservice.tohsoft.com,REJECT
 DOMAIN,adshow.58.com,REJECT
 DOMAIN,adui.tg.meitu.com,REJECT
 DOMAIN,adv.bandi.so,REJECT
+DOMAIN,adv.ettoday.net,REJECT
 DOMAIN,api.ad.xiaomi.com,REJECT
 DOMAIN,api.adnet.mob.com,REJECT
 DOMAIN,api-ad.kajicam.com,REJECT
@@ -8574,7 +8550,6 @@ DOMAIN,r.51wnl-cq.com,REJECT
 DOMAIN-SUFFIX,ads.internal.unity3d.com,REJECT
 DOMAIN-SUFFIX,ads.prd.ie.internal.unity3d.com,REJECT
 DOMAIN-SUFFIX,unityads.unity3d.com,REJECT
-DOMAIN,tunion-api.m.taobao.com,REJECT
 DOMAIN-SUFFIX,atm.youku.com,REJECT
 DOMAIN,ad.mobile.youku.com,REJECT
 DOMAIN,iyes.youku.com,REJECT
@@ -8625,7 +8600,9 @@ DOMAIN,admarket.21cn.com,REJECT
 DOMAIN,adshows.21cn.com,REJECT
 DOMAIN,atrace.chelaile.net.cn,REJECT
 DOMAIN,logs.chelaile.net.cn,REJECT
+DOMAIN,dispatcher.360in.com,REJECT
 DOMAIN,ad.360in.com,REJECT
+DOMAIN,exp.360in.com,REJECT
 DOMAIN-SUFFIX,doubleclick.net,REJECT
 DOMAIN-SUFFIX,googleadservices.com,REJECT
 DOMAIN-SUFFIX,googleadsserving.cn,REJECT
@@ -8741,6 +8718,9 @@ DOMAIN,adxlog.vivo.com.cn,REJECT
 DOMAIN,vcardsdkservice.vivo.com.cn,REJECT
 DOMAIN-KEYWORD,stsdk.vivo.com.cn,REJECT
 DOMAIN-KEYWORD,stsdk.vivoglobal.com,REJECT
+DOMAIN,ads.viber.com,REJECT
+DOMAIN,ads-d.viber.com,REJECT
+DOMAIN,ads.aws.viber.com,REJECT
 DOMAIN,ad.ximalaya.com,REJECT
 DOMAIN,adbs.ximalaya.com,REJECT
 DOMAIN,adse.ximalaya.com,REJECT
@@ -8755,6 +8735,8 @@ DOMAIN,t-ads.xiaohongshu.com,REJECT
 DOMAIN-SUFFIX,adserver.yahoo.com,REJECT
 DOMAIN-SUFFIX,adspecs.yahoo.com,REJECT
 DOMAIN-SUFFIX,advertising.yahoo.com,REJECT
+DOMAIN,admarketing.yahoo.net,REJECT
+DOMAIN,ads.auctions.yahoo.com,REJECT
 DOMAIN,ads.finance.yahoo.com,REJECT
 DOMAIN,ads.yahoo.com,REJECT
 DOMAIN,ads.yahoo.de,REJECT
@@ -8876,6 +8858,8 @@ DOMAIN,mc.51.la,REJECT
 DOMAIN,wc.51.la,REJECT
 DOMAIN,track.58.com,REJECT
 DOMAIN,tracklog.58.com,REJECT
+DOMAIN,log.byteoversea.com,REJECT
+DOMAIN,log.tiktokv.com,REJECT
 DOMAIN,log-hl-ipv6.snssdk.com,REJECT
 DOMAIN,log-lq.snssdk.com,REJECT
 DOMAIN,log-va.tiktokv.com,REJECT
@@ -9033,13 +9017,7 @@ DOMAIN-SUFFIX,traffic.mogujie.com,REJECT
 DOMAIN-SUFFIX,wmlog.meituan.com,REJECT
 DOMAIN-SUFFIX,track.58.com,REJECT
 DOMAIN-SUFFIX,tracklog.58.com,REJECT
-DOMAIN-SUFFIX,acs4baichuan.m.taobao.com,REJECT
 DOMAIN-SUFFIX,adash.man.aliyuncs.com,REJECT
-DOMAIN-SUFFIX,adashbc.ut.taobao.com,REJECT
-DOMAIN-SUFFIX,adash-c.ut.taobao.com,REJECT
-DOMAIN-SUFFIX,adashxgc.ut.taobao.com,REJECT
-DOMAIN-SUFFIX,adashx4yt.m.taobao.com,REJECT
-DOMAIN-SUFFIX,h-adashx.ut.taobao.com,REJECT
 DOMAIN-SUFFIX,nbsdk-baichuan.alicdn.com,REJECT
 DOMAIN-SUFFIX,adproxy.autohome.com.cn,REJECT
 DOMAIN-SUFFIX,ad.k.21cn.com,REJECT
@@ -9131,11 +9109,6 @@ DOMAIN-SUFFIX,mob.com,REJECT
 DOMAIN-SUFFIX,www.googleadservices.com,REJECT
 DOMAIN-SUFFIX,www.google-analytics.com,REJECT
 DOMAIN-SUFFIX,wup.imtt.qq.com,REJECT
-DOMAIN-SUFFIX,tns.simba.taobao.com,REJECT
-DOMAIN-SUFFIX,click.mz.simba.taobao.com,REJECT
-DOMAIN-SUFFIX,click.simba.taobao.com,REJECT
-DOMAIN-SUFFIX,click.tz.simba.taobao.com,REJECT
-DOMAIN-SUFFIX,stat.simba.taobao.com,REJECT
 DOMAIN-SUFFIX,gs.getui.com,REJECT
 DOMAIN-SUFFIX,log.b612kaji.com,REJECT
 DOMAIN-SUFFIX,beacon.qq.com,REJECT
@@ -9377,15 +9350,6 @@ DOMAIN-SUFFIX,wax.weibo.com,REJECT
 DOMAIN-SUFFIX,wbapp.uve.weibo.com,REJECT
 DOMAIN-SUFFIX,widget.weibo.com,REJECT
 DOMAIN-SUFFIX,zc.biz.weibo.com,REJECT
-DOMAIN-SUFFIX,adashx.m.taobao.com,REJECT
-DOMAIN-SUFFIX,ip.taobao.com,REJECT
-DOMAIN-SUFFIX,nbsdk-baichuan.taobao.com,REJECT
-DOMAIN-SUFFIX,pics.taobaocdn.com,REJECT
-DOMAIN-SUFFIX,pindao.huoban.taobao.com,REJECT
-DOMAIN-SUFFIX,rj.m.taobao.com,REJECT
-DOMAIN-SUFFIX,sdkinit.taobao.com,REJECT
-DOMAIN-SUFFIX,show.re.taobao.com,REJECT
-DOMAIN-SUFFIX,simaba.taobao.com,REJECT
 DOMAIN-SUFFIX,a.alimama.cn,REJECT
 DOMAIN-SUFFIX,bm.alimama.cn,REJECT
 DOMAIN-SUFFIX,bmvip.alimama.cn,REJECT
@@ -10148,7 +10112,6 @@ DOMAIN-SUFFIX,sss.bxmns.com,REJECT
 DOMAIN-SUFFIX,extlog.snssdk.com,REJECT
 DOMAIN-SUFFIX,dcps.nuomi.com,REJECT
 DOMAIN-SUFFIX,focusbaiduafp.allyes.com,REJECT
-DOMAIN-SUFFIX,m.simaba.taobao.com,REJECT
 DOMAIN-SUFFIX,ltsdl.qq.com,REJECT
 DOMAIN-SUFFIX,yhzbjz.com,REJECT
 DOMAIN-SUFFIX,ordidc.com,REJECT
@@ -10485,7 +10448,6 @@ DOMAIN-SUFFIX,365syt.cn,REJECT
 DOMAIN-SUFFIX,365yigou.cn,REJECT
 DOMAIN-SUFFIX,36c6ce350b32.com,REJECT
 DOMAIN-SUFFIX,36ia2.cn,REJECT
-DOMAIN-SUFFIX,38taobao.com,REJECT
 DOMAIN-SUFFIX,38ursg.cn,REJECT
 DOMAIN-SUFFIX,394b8b41ac5305d.com,REJECT
 DOMAIN-SUFFIX,39jz.com,REJECT
@@ -11762,7 +11724,6 @@ DOMAIN-SUFFIX,dm.66qw.net,REJECT
 DOMAIN-SUFFIX,dm.cnbanbao.com,REJECT
 DOMAIN-SUFFIX,dm.gucheng.com,REJECT
 DOMAIN-SUFFIX,dm.huochepiao.com,REJECT
-DOMAIN-SUFFIX,dm.taobaojuhuasuan.cn,REJECT
 DOMAIN-SUFFIX,dm.wenshenxiu.com,REJECT
 DOMAIN-SUFFIX,dm.zuowenku.net,REJECT
 DOMAIN-SUFFIX,dm1.zjydt.com,REJECT
@@ -14391,7 +14352,6 @@ DOMAIN-SUFFIX,taifouwo.com,REJECT
 DOMAIN-SUFFIX,tamechangekn.info,REJECT
 DOMAIN-SUFFIX,tangeb.com,REJECT
 DOMAIN-SUFFIX,tantella.com,REJECT
-DOMAIN-SUFFIX,taobaojx.com,REJECT
 DOMAIN-SUFFIX,taodropship.com,REJECT
 DOMAIN-SUFFIX,taoguanda.com,REJECT
 DOMAIN-SUFFIX,taoguohe.com,REJECT
@@ -15968,7 +15928,6 @@ DOMAIN-SUFFIX,count.paycounter.com,REJECT
 DOMAIN-SUFFIX,count.prx.org,REJECT
 DOMAIN-SUFFIX,count.rin.ru,REJECT
 DOMAIN-SUFFIX,count.rtl.de,REJECT
-DOMAIN-SUFFIX,count.taobao.com,REJECT
 DOMAIN-SUFFIX,count.upc.rakuten.co.jp,REJECT
 DOMAIN-SUFFIX,count.vrs.sohu.com,REJECT
 DOMAIN-SUFFIX,count.yandeg.ru,REJECT
@@ -16911,7 +16870,6 @@ DOMAIN-SUFFIX,res.rbl.ms,REJECT
 DOMAIN-SUFFIX,responder.wt.heise.de,REJECT
 DOMAIN-SUFFIX,response.pure360.com,REJECT
 DOMAIN-SUFFIX,retargeting.vistaprint.com,REJECT
-DOMAIN-SUFFIX,retcode.taobao.com,REJECT
 DOMAIN-SUFFIX,retrack.q-divisioncdn.de,REJECT
 DOMAIN-SUFFIX,revsci.tvguide.com,REJECT
 DOMAIN-SUFFIX,rich-agent.s3.amazonaws.com,REJECT
@@ -17407,7 +17365,6 @@ DOMAIN-SUFFIX,target.smi2.ru,REJECT
 DOMAIN-SUFFIX,target.ukr.net,REJECT
 DOMAIN-SUFFIX,targeting.perso.aws.arc.pub,REJECT
 DOMAIN-SUFFIX,tbe.tom.ru,REJECT
-DOMAIN-SUFFIX,tbskip.taobao.com,REJECT
 DOMAIN-SUFFIX,tc.airfrance.com,REJECT
 DOMAIN-SUFFIX,tc.hometogo.net,REJECT
 DOMAIN-SUFFIX,tce.alicdn.com,REJECT
@@ -17916,11 +17873,8 @@ DOMAIN-SUFFIX,s.so.360.cn,REJECT
 DOMAIN-SUFFIX,shouji.360.cn,REJECT
 DOMAIN-SUFFIX,wan.360.cn,REJECT
 DOMAIN-SUFFIX,stat.xgo.com.cn,REJECT
-DOMAIN-SUFFIX,g.click.taobao.com,REJECT
 DOMAIN-SUFFIX,g.tbcdn.cn,REJECT
 DOMAIN-SUFFIX,gtmsdd.alicdn.com,REJECT
-DOMAIN-SUFFIX,simaba.m.taobao.com,REJECT
-DOMAIN-SUFFIX,tyh.taobao.com,REJECT
 DOMAIN-SUFFIX,adserver.unityads.unity3d.com,REJECT
 DOMAIN-SUFFIX,alert.autohome.com.cn,REJECT
 DOMAIN-SUFFIX,a.baidu.cn,REJECT
@@ -22161,7 +22115,6 @@ DOMAIN,bagbeam.com,REJECT
 DOMAIN,bahnjhnrcdwi.com,REJECT
 DOMAIN,baichuanbi.wang,REJECT
 DOMAIN,baicoath.net,REJECT
-DOMAIN,baidu-taobao-av.com,REJECT
 DOMAIN,ada.baidu.com,REJECT
 DOMAIN,aod-image.baidu.com,REJECT
 DOMAIN,as1.wenku.baidu.com,REJECT
@@ -39336,18 +39289,6 @@ DOMAIN,tannelssepara.info,REJECT
 DOMAIN,tantoporno.com,REJECT
 DOMAIN,img2.tanv.com,REJECT
 DOMAIN,tanzhen.info,REJECT
-DOMAIN,advertisement.taobao.com,REJECT
-DOMAIN,amdcopen.m.taobao.com,REJECT
-DOMAIN,bcfeedback.taobao.com,REJECT
-DOMAIN,detail.taobao.com,REJECT
-DOMAIN,eco.taobao.com,REJECT
-DOMAIN,top.taobao.com,REJECT
-DOMAIN,umengacs.m.taobao.com,REJECT
-DOMAIN,fourier.taobao.com,REJECT
-DOMAIN,accscdn.m.taobao.com,REJECT
-DOMAIN,acs.wapa.taobao.com,REJECT
-DOMAIN,openjmacs.m.taobao.com,REJECT
-DOMAIN,www.taobaobo5.com,REJECT
 DOMAIN,taogou.site,REJECT
 DOMAIN,taojingu.cn,REJECT
 DOMAIN,j.taokeweizhan.com,REJECT
